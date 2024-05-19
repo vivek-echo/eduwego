@@ -114,7 +114,7 @@
 
             <div class="herobannerarea__slider__wrap swiper-wrapper">
 
-                <div class="swiper-slide herobannerarea__single__slider" style="background: url(img/herobanner/bg-1.jpg')}});">
+                <div class="swiper-slide herobannerarea__single__slider" style="background: url(assets/img/herobanner/bg-1.jpg);">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 col-12" data-aos="fade-up">
@@ -144,7 +144,7 @@
                     </div>
                 </div>
 
-                <div class="swiper-slide herobannerarea__single__slider" style="background: url(img/herobanner/bg-2.jpg')}});">
+                <div class="swiper-slide herobannerarea__single__slider" style="background: url(assets/img/herobanner/bg-2.jpg);">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 col-12" data-aos="fade-up">
@@ -172,7 +172,7 @@
                     </div>
                 </div>
 
-                <div class="swiper-slide herobannerarea__single__slider" style="background: url(img/herobanner/bg-3.jpg')}});">
+                <div class="swiper-slide herobannerarea__single__slider" style="background: url(assets/img/herobanner/bg-3.jpg);">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 col-12" data-aos="fade-up">
