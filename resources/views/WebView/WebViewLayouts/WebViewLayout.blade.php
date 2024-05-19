@@ -104,7 +104,7 @@
                             <div class="headerarea__left">
                                 <div class="headerarea__left__logo">
 
-                                    <a href="index.html"><img loading="lazy" src="{{asset('assets/img/logo/enlight-group-logo.png')}}" alt="logo" class="main-logo"></a>
+                                    <a href="/"><img loading="lazy" src="{{asset('assets/img/logo/enlight-group-logo.png')}}" alt="logo" class="main-logo"></a>
                                 </div>
 
                             </div>
@@ -168,7 +168,7 @@
                                                 <li><a href="javascript:void(0);">Hostel</a>
                                                 </li>
                                                 <li><a href="javascript:void(0);">Sports</a></li>
-                                                <li><a href="gallery.html">Gallery</a></li>
+                                                <li><a href="/gallery">Gallery</a></li>
                                             </ul>
                                         </li>
 
