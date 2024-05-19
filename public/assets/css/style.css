@@ -65,7 +65,8 @@
   --headingColor: #222222;
   --contentColor: #5F6C76;
   --contentColor2: #5C727D;
-  --primaryColor: #5F2DED;
+  --primaryColor: #4b38e7;
+  --primaryColorLight: #726ca3;
   --secondaryColor: #F2277E;
   --secondaryColor2: #FF275A;
   --secondaryColor3: #FF2828;
@@ -244,6 +245,10 @@ li {
   display: inline-block;
 }
 
+.text-primary {
+  color: var(--primaryColor) !important;
+}
+
 .container,
 .container-fluid,
 .container-lg,
@@ -326,7 +331,7 @@ li {
 }
 
 .sp_top_100 {
-  padding-top: 100px;
+  padding-top: 100px !important;
 }
 
 .sp_top_90 {
@@ -370,7 +375,7 @@ li {
 }
 
 .sp_bottom_100 {
-  padding-bottom: 100px;
+  padding-bottom: 100px !important;
 }
 
 .sp_bottom_90 {
@@ -851,12 +856,12 @@ li {
 }
 
 .back__loader_logo img {
-  width: 40px;
+  width: 110px;
 }
 
 #back__circle_loader {
-  width: 100px;
-  height: 100px;
+  width: 170px;
+  height: 170px;
   border-style: solid;
   border-width: 5px;
   border-top-color: #465fe9;
@@ -955,7 +960,7 @@ Header Area
   }
 }
 .headerarea__main__menu {
-  text-align: center;
+  text-align: right;
 }
 .headerarea__main__menu nav ul > li {
   position: relative;
@@ -1570,7 +1575,7 @@ Mobile Menu
 }
 
 .mobile-logo img {
-  max-width: 150px;
+  max-height: 70px;
 }
 
 .mobile-off-canvas .mobile-aside-button:hover {
@@ -1990,10 +1995,6 @@ Mobile Menu
 .mobile-off-canvas .mobile-aside-button {
   color: var(--darkdeep1);
   font-size: 30px;
-}
-
-.mobile-logo img {
-  max-width: 150px;
 }
 
 .mobile-off-canvas .mobile-aside-button:hover {
@@ -3045,6 +3046,10 @@ Hero Banner Area
     padding-top: 70px;
     padding-bottom: 120px;
   }
+
+  .herobannerarea.herobannerarea__university .herobannerarea__single__slider {
+    height: 700px;
+  }
 }
 @media (max-width: 767px) {
   .herobannerarea.herobannerarea__ecomarece {
@@ -3080,6 +3085,8 @@ Hero Banner Area
 }
 .herobannerarea.herobannerarea__university .herobannerarea__single__slider {
   padding: 140px 0 170px;
+  background-position-y: center !important;
+  background-size: cover !important;
 }
 @media (min-width: 992px) and (max-width: 1365px), (max-width: 767px) {
   .herobannerarea.herobannerarea__university .herobannerarea__single__slider {
@@ -3089,6 +3096,7 @@ Hero Banner Area
 @media (max-width: 767px) {
   .herobannerarea.herobannerarea__university .herobannerarea__single__slider {
     padding: 50px 0 100px;
+    height: 450px;
   }
 }
 .herobannerarea.herobannerarea__university .herobannerarea__single__slider .herobannerarea__title h2 {
@@ -3136,6 +3144,8 @@ Hero Banner Area
 .herobannerarea.herobannerarea__university .swiper.university__slider__thumb .swiper-wrapper .swiper-slide img {
   width: 100%;
   border-radius: 10px;
+  max-height: 80px;
+  object-fit: cover;
 }
 .herobannerarea.herobannerarea__university .hreobannerarea__button__2 {
   margin-top: 50px;
@@ -3717,7 +3727,7 @@ About Area
   margin-bottom: 13px;
 }
 .aboutarea__content__wraper .aboutarea__para.aboutarea__para__2 {
-  border-left: 2px solid var(--primaryColor);
+  /* border-left: 2px solid var(--primaryColor); */
   padding-left: 13px;
 }
 .aboutarea__content__wraper .aboutarea__para p {
@@ -3793,15 +3803,18 @@ About Area
   background: var(--primaryColor);
 }
 .aboutarea__list__2 ul li i {
-  width: 31px;
-  height: 33px;
+  width: 50px;
+  height: 53px;
   line-height: 31px;
   text-align: center;
   background: rgba(95, 45, 237, 0.04);
   color: var(--primaryColor);
   transition: var(--transition);
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-right: 15px;
+  font-size: 1.8rem;
 }
 
 .about__right__wraper__2 {
@@ -3861,9 +3874,9 @@ About Area
   align-items: center;
   justify-content: center;
   padding: 25px 10px;
-  position: absolute;
+  /* position: absolute;
   bottom: 0;
-  left: 0;
+  left: 0; */
   animation: move5 3s infinite linear;
 }
 @media (max-width: 767px) {
@@ -6366,6 +6379,10 @@ Testimonial Area
   justify-content: space-between;
   margin-bottom: 30px;
 }
+
+.single__testimonial__wraper .testimonial__content {
+  min-height: 96px;
+}
 @media (min-width: 768px) and (max-width: 991px) {
   .single__testimonial__wraper .single__testimonial__inner {
     margin-bottom: 15px;
@@ -7151,35 +7168,63 @@ Blog
   box-shadow: 0 0 50px 10px rgba(95, 45, 237, 0.1);
 }
 
-.blogarea__content__wraper {
+.blogarea__content__wraper__scroll {
+  padding: 35px 35px 35px 35px;
   box-shadow: 0px 3px 40px rgba(14, 37, 49, 0.078);
-  border-radius: var(--borderRadius);
-  margin-bottom: 30px;
 }
+
+.blogarea__content__wraper {
+  border-radius: var(--borderRadius);
+  margin-bottom: 30px; 
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+.blogarea__content__wraper::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.blogarea__content__wraper::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+.blogarea__content__wraper::-webkit-scrollbar-thumb
+{
+	background-color: var(--primaryColorLight);
+}
+
 .blogarea__content__wraper:hover .blogarea__img img {
   transform: scale(1.05);
 }
 .blogarea__content__wraper .blogarea__img {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .blogarea__content__wraper .blogarea__img img {
   width: 100%;
 }
 .blogarea__content__wraper .blogarea__img .blogarea__date {
-  position: absolute;
+  /* position: absolute;
   top: 20px;
-  left: 20px;
-  background: var(--primaryColor);
-  display: inline-block;
-  text-align: center;
+  left: 20px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 600;
   line-height: 36px;
   color: var(--whiteColor);
   border-radius: var(--borderRadius);
   font-family: var(--contentFont);
-  font-size: 30px;
-  padding: 8px 24px;
+  padding-top: 3px;
+}
+
+.blogarea__content__wraper .blogarea__img .blogarea__date i {
+  color: var(--primaryColor);
+  font-size: 2.8rem;
 }
 @media (max-width: 767px) {
   .blogarea__content__wraper .blogarea__img .blogarea__date {
@@ -7204,7 +7249,10 @@ Blog
   display: block;
 }
 .blogarea__content__wraper .blogarea__text__wraper {
-  padding: 40px 35px 35px 35px;
+  display: flex;
+  gap: 20px;
+  border-bottom: 2px dashed #ddd;
+  margin-top: 1rem;
 }
 @media (max-width: 767px) {
   .blogarea__content__wraper .blogarea__text__wraper {
@@ -7243,7 +7291,11 @@ Blog
   color: var(--primaryColor);
 }
 .blogarea__content__wraper .blogarea__text__wraper .blogarea__para p {
-  line-height: 29px;
+  line-height: 28px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 .blogarea__content__wraper .blogarea__text__wraper .blogarea__icon {
   display: flex;
@@ -9191,7 +9243,7 @@ Contact Area
   border: 1px solid var(--borderColor);
   padding: 40px 35px 35px 40px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   box-shadow: 0px 4px 15px rgba(174, 181, 206, 0.09);
   margin-bottom: 30px;
   transition: var(--transition);
@@ -9610,9 +9662,9 @@ Error
 Breadcrumb Area
 -------------------------------*/
 .breadcrumbarea {
-  padding-top: 162px;
-  padding-bottom: 150px;
-  background: var(--lightGrey10);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: var(--primaryColorLight);
   position: relative;
 }
 @media (min-width: 992px) and (max-width: 1365px) {
@@ -11948,9 +12000,9 @@ Footer Area
   border: 1px solid var(--whitegrey);
 }
 .footerarea__newsletter__button {
-  position: absolute;
+  /* position: absolute;
   top: 0;
-  right: 0;
+  right: 0; */
 }
 .footerarea__newsletter__button .subscribe__btn {
   padding: 0 20px;
@@ -12140,7 +12192,7 @@ Footer Area
 }
 .footerarea__right__wraper .footerarea__right__list ul li a {
   display: flex;
-  align-items: center;
+  align-items: self-start;
 }
 .footerarea__right__wraper .footerarea__right__list ul li a:hover .footerarea__right__content h6 {
   color: var(--primaryColor);
@@ -12150,12 +12202,16 @@ Footer Area
   max-width: 60px;
 }
 .footerarea__right__wraper .footerarea__right__list ul li a .footerarea__right__content span {
-  font-size: 12px;
+  font-size: 16px;
   color: var(--darkgray);
 }
 .footerarea__right__wraper .footerarea__right__list ul li a .footerarea__right__content h6 {
   font-size: 15px;
   color: var(--whiteColor);
+}
+
+.hr-border {
+  border-color: var(--darkcolor);
 }
 
 .footerarea__copyright__wrapper {

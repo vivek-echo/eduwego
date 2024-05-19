@@ -444,6 +444,8 @@ var swiper = new Swiper(".featured__course", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
+    autoplay: true,
+    loop: true,
     slidesPerView: 1,
     breakpoints: {
         575: {
