@@ -33,7 +33,7 @@
     <div id="back__preloader">
         <div id="back__circle_loader"></div>
         <div class="back__loader_logo">
-            <img loading="lazy" src="{{asset('assets/img/pre.png')}}" alt="Preload">
+            <img loading="lazy" src="{{asset('assets/img/cropped-Logo-180x180.png')}}" alt="Preload">
         </div>
     </div>
     <!-- pre loader area end -->
