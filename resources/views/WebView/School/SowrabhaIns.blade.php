@@ -33,7 +33,7 @@
                                 <li><a href="javascript:void(0);">Online Admission</a></li>
                                 <li><a href="javascript:void(0);">Admission Cell</a></li>
                                 <li><a href="javascript:void(0);">Application Form</a></li>
-                                <li><a target="_blank" href="Sowrabha-Prospectus.pdf">Download Prospectus</a></li>
+                                <li><a id="downloadBtn" >Download Prospectus</a></li>
                                 <li><a href="javascript:void(0);">Pay Online</a></li>
                             </ul>
                         </li>
@@ -158,7 +158,7 @@
                 <div class="blog__details__content__wraper">
                     <div class="course__button__wraper" data-aos="fade-up">
                         <div class="course__button">
-                            <a target="_blank" href="Sowrabha-Prospectus.pdf"><i class="icofont-file-document"></i> View
+                            <a href="/download-pdf"><i class="icofont-file-document"></i> View
                                 Prospectus</a>
                         </div>
                         <div class="course__date">
@@ -347,6 +347,11 @@
         </div>
     </div>
 </div>
+<script>
+   document.getElementById('downloadBtn').addEventListener('click', function() {
+            window.location.href = "{{ route('download.pdf') }}";
+        });
+</script>
 <!-- bsc-nursing__end -->
 
 

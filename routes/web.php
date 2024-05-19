@@ -33,3 +33,5 @@ Route::match(['get', 'post'], '/enlightSchool', [HomeController::class,'enlightS
 Route::match(['get', 'post'], '/ContentPageNewsNotice', [NewsNoticeController::class,'ContentPageNewsNoticeIndex']);
 Route::match(['get', 'post'], '/submitNewsNotice', [NewsNoticeController::class,'submitNewsNoticeForm']);
 Route::match(['get', 'post'], '/getNewsNoticeData', [NewsNoticeController::class,'getNewsNoticeData']);
+
+Route::get('/download-pdf', [HomeController::class, 'downloadPdf'])->name('download.pdf');
