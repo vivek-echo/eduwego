@@ -90,6 +90,15 @@
         <header>
             <div class="headerarea headerarea__3 header__sticky header__area">
                 <div class="container desktop__menu__wrapper">
+                    <div class="row justify-content-end">
+                        <div class="col-sm-auto">
+                            <div class="mt-2">
+                                <a href="javascript:void(0);" class="default__small__button mb-0 rounded m"><i class="icofont-user-alt-1"></i>Student Login</a>
+                                <a href="javascript:void(0);" class="default__small__button mb-0 rounded"><i class="icofont-file-document me-1"></i>Online Admission</a>
+                                <a href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions" target="_blank" class="default__small__button mb-0 rounded">Enquiry Now</a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col-xl-2 col-lg-2 col-md-6">
                             <div class="headerarea__left">
