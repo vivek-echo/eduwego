@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WebPipeLines\HomeController;
+use App\Http\Controllers\WebPipeLines\NewsNoticeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,3 +28,7 @@ Route::match(['get', 'post'], '/scholarship', [HomeController::class,'scholarshi
 Route::match(['get', 'post'], '/ramaKrishnaSchool', [HomeController::class,'ramaKrishnaSchoolIndex']);
 Route::match(['get', 'post'], '/sapthagiriSchool', [HomeController::class,'sapthagiriSchoolIndex']);
 Route::match(['get', 'post'], '/SriKrishnaCollege', [HomeController::class,'SriKrishnaCollegeIndex']);
+
+Route::match(['get', 'post'], '/ContentPageNewsNotice', [NewsNoticeController::class,'ContentPageNewsNoticeIndex']);
+Route::match(['get', 'post'], '/submitNewsNotice', [NewsNoticeController::class,'submitNewsNoticeForm']);
+Route::match(['get', 'post'], '/getNewsNoticeData', [NewsNoticeController::class,'getNewsNoticeData']);

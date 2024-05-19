@@ -3,11 +3,16 @@
 namespace App\Http\Controllers\WebPipeLines;
 
 use App\Http\Controllers\Controller;
-
+use Illuminate\Support\Facades\DB;
 class HomeController extends Controller
 {
     public function homeIndex(){
-        return view('WebView.Home.Home');
+        $news =  DB::table('news')->where('newsPublish',2)->where('deletedFlag', 0)->get();
+        $notice =  DB::table('notice')->where('noticePublish',2)->where('deletedFlag', 0)->get();
+        $resp['news']= $news;
+        $resp['notice']= $notice;
+
+        return view('WebView.Home.Home',$resp);
     }
     public function nursingIndex(){
         return view('WebView.Nursing.Nursing');

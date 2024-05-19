@@ -444,6 +444,17 @@ li {
   color: var(--whiteColor);
 }
 
+.icon-badge i {
+  width: 78px;
+  height: 78px;
+  color: var(--whiteColor);
+  background: var(--primaryColor);
+  display: inline-block;
+  text-align: center;
+  line-height: 78px;
+  font-size: 30px;
+}
+
 @media (min-width: 1500px) and (max-width: 1920px), (min-width: 1366px) and (max-width: 1499px) {
   .container {
     max-width: 1200px;
@@ -612,6 +623,7 @@ li {
     font-size: 38px;
     line-height: 50px;
   }
+
 }
 @media (min-width: 992px) and (max-width: 1365px) {
   .section__title .section__title__heading h2 {
@@ -629,6 +641,22 @@ li {
   .section__title .section__title__heading h2 {
     font-size: 30px;
     line-height: 40px;
+  }
+}
+
+.main-logo {
+  height: 80px;
+}
+
+@media (max-width: 1599px) {
+  .main-logo {
+    height: 60px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1365px) {
+  .main-logo {
+    height: 48px;
   }
 }
 
@@ -975,13 +1003,13 @@ Header Area
 }
 @media (min-width: 1366px) and (max-width: 1499px) {
   .headerarea__main__menu nav ul > li a {
-    padding: 30px 15px;
+    padding: 30px 7px;
   }
 }
 @media (min-width: 992px) and (max-width: 1365px) {
   .headerarea__main__menu nav ul > li a {
-    padding: 20px 10px;
-    font-size: 14px;
+    padding: 20px 5px;
+    font-size: 13px;
   }
 }
 .headerarea__main__menu nav ul > li:hover > a {
@@ -4716,10 +4744,12 @@ Grid Area
   position: relative;
   overflow: hidden;
   margin-bottom: 20px;
+  height: 210px;
 }
 .gridarea__wraper .gridarea__img img {
   width: 100%;
   border-radius: var(--borderRadius);
+  height: 210px;
 }
 .gridarea__wraper .gridarea__img .gridarea__small__button {
   position: absolute;
@@ -8015,6 +8045,7 @@ Blog
 }
 .blog__details__content__wraper .blog__details__list__2 ul li i {
   width: 31px;
+    height: 31px;
 }
 .blog__details__content__wraper .blog__details__list__2 ul li p {
   font-weight: 400;
@@ -8590,13 +8621,13 @@ Course
 }
 
 .course__button a {
-  height: 26px;
-  width: 114px;
+  height: 28px;
+  width: 160px;
   background: var(--primaryColor);
   color: var(--whiteColor);
   display: inline-block;
   text-align: center;
-  line-height: 23px;
+  line-height: 26px;
   font-weight: 600;
   font-size: 14px;
   margin-right: 20px;
