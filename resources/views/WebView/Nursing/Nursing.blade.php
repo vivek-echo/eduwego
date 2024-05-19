@@ -123,7 +123,7 @@
                     </div>
                     <div class="breadcrumb__inner">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li>Nursing</li>
                         </ul>
                     </div>
@@ -170,7 +170,7 @@
                             </ul>
                         </div>
                         <div class="gridarea__heading">
-                            <h3><a href="bsc-nursing.html">B.SC Nursing</a></h3>
+                            <h3><a href="/bScNursing">B.SC Nursing</a></h3>
                         </div>
                         <div>
                             <p>The course of study shall extend over 4 academic years from the date of
@@ -178,7 +178,7 @@
                         </div>
                         <div class="gridarea__bottom">
 
-                            <a href="bsc-nursing.html">
+                            <a href="/bScNursing">
                                 <div class="gridarea__small__img">
                                     <div class="gridarea__small__content ms-0">
                                         <h6>Read More <i class="icofont-long-arrow-right"></i></h6>

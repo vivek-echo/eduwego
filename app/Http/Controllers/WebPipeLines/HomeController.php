@@ -17,6 +17,9 @@ class HomeController extends Controller
     public function nursingIndex(){
         return view('WebView.Nursing.Nursing');
     }
+    public function bscNursingIndex(){
+        return view('WebView.Nursing.bScNursing');
+    }
     public function paramedicalsIndex(){
         // resources\views\WebView\Paramedecials\Paramedicals.blade.php
         return view('WebView.Paramedicals.Paramedicals');
@@ -33,13 +36,13 @@ class HomeController extends Controller
     public function scholarshipIndex(){
         return view('WebView.Scholarship.Scholarship');
     }
-    public function ramaKrishnaSchoolIndex(){
-        return view('WebView.School.RamaKrishnaSchool');
+    public function sowrabhaInsIndex(){
+        return view('WebView.School.SowrabhaIns');
     }
-    public function sapthagiriSchoolIndex(){
-        return view('WebView.School.SapthagiriSchool');
+    public function englightInsIndex(){
+        return view('WebView.School.EnglightIns');
     }
-    public function SriKrishnaCollegeIndex(){
-        return view('WebView.School.SriKrishnaCollege');
-    }
+    public function enlightSchoolIndex(){
+        return view('WebView.School.EnlightSchool');
+    }   
 }

@@ -20,14 +20,15 @@ use App\Http\Controllers\WebPipeLines\NewsNoticeController;
 
 Route::match(['get', 'post'], '/', [HomeController::class,'homeIndex']);
 Route::match(['get', 'post'], '/nursing', [HomeController::class,'nursingIndex']);
+Route::match(['get', 'post'], '/bScNursing', [HomeController::class,'bscNursingIndex']);
 Route::match(['get', 'post'], '/paramedicals', [HomeController::class,'paramedicalsIndex']);
 Route::match(['get', 'post'], '/gallery', [HomeController::class,'galleryIndex']);
 Route::match(['get', 'post'], '/contacts', [HomeController::class,'contactsIndex']);
 Route::match(['get', 'post'], '/facilities', [HomeController::class,'facilitiesIndex']);
 Route::match(['get', 'post'], '/scholarship', [HomeController::class,'scholarshipIndex']);
-Route::match(['get', 'post'], '/ramaKrishnaSchool', [HomeController::class,'ramaKrishnaSchoolIndex']);
-Route::match(['get', 'post'], '/sapthagiriSchool', [HomeController::class,'sapthagiriSchoolIndex']);
-Route::match(['get', 'post'], '/SriKrishnaCollege', [HomeController::class,'SriKrishnaCollegeIndex']);
+Route::match(['get', 'post'], '/sowrabhaIns', [HomeController::class,'sowrabhaInsIndex']);
+Route::match(['get', 'post'], '/englightIns', [HomeController::class,'englightInsIndex']);
+Route::match(['get', 'post'], '/enlightSchool', [HomeController::class,'enlightSchoolIndex']);
 
 Route::match(['get', 'post'], '/ContentPageNewsNotice', [NewsNoticeController::class,'ContentPageNewsNoticeIndex']);
 Route::match(['get', 'post'], '/submitNewsNotice', [NewsNoticeController::class,'submitNewsNoticeForm']);

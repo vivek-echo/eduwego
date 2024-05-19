@@ -115,7 +115,7 @@
                                     <ul>
 
                                         <li>
-                                            <a href="index.html">Home</a>
+                                            <a href="/">Home</a>
                                         </li>
 
                                         <li>
@@ -150,11 +150,11 @@
                                                 <i class="icofont-rounded-down"></i>
                                             </a>
                                             <ul class="headerarea__submenu">
-                                                <li><a href="javascript:void(0);">Sowrabha Institute of Nursing Sciences</a>
+                                                <li><a href="/sowrabhaIns">Sowrabha Institute of Nursing Sciences</a>
                                                 </li>
-                                                <li><a href="javascript:void(0);">Enlight institute of Para Medical Sciences</a>
+                                                <li><a href="/englightIns">Enlight institute of Para Medical Sciences</a>
                                                 </li>
-                                                <li><a href="javascript:void(0);">Enlight School of Nursing</a></li>
+                                                <li><a href="/enlightSchool">Enlight School of Nursing</a></li>
                                             </ul>
                                         </li>
 
@@ -271,13 +271,13 @@
                                 <div class="footerarea__list">
                                     <ul>
                                         <li>
-                                            <a href="javascript:void(0);">Sowrabha Institute of Nursing Sciences</a>
+                                            <a href="/sowrabhaIns">Sowrabha Institute of Nursing Sciencess</a>
                                         </li>
                                         <li>
-                                            <a href="javascript:void(0);">Enlight Institute of Para Medical Sciences</a>
+                                            <a href="/englightIns">Enlight Institute of Para Medical Sciences</a>
                                         </li>
                                         <li>
-                                            <a href="javascript:void(0);">Sapthagiri School Of Nursing</a>
+                                            <a href="/enlightSchool">Sapthagiri School Of Nursing</a>
                                         </li>
                                     </ul>
                                     <hr class="hr-border">
