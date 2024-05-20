@@ -30,7 +30,7 @@
                                         <p>Lorem Ipsum is simply dummy text of the printing typesetting.</p>
                                     </div> -->
                                     <div class="hreobannerarea__button__2">
-                                        <a class="default__button" href="javascript:void(0);">Know More</a>
+                                        <a class="default__button" target="_blank" href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions">Apply Now</a>
                                     </div>
 
                                 </div>
@@ -58,7 +58,7 @@
                                     </div>
 
                                     <div class="hreobannerarea__button__2">
-                                        <a class="default__button" href="javascript:void(0);">Know More</a>
+                                        <a class="default__button" target="_blank" href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions">Apply Now</a>
                                     </div>
 
                                 </div>
@@ -88,7 +88,7 @@
                                         <p>Lorem Ipsum is simply dummy text of the printing typesetting.</p>
                                     </div> -->
                                     <div class="hreobannerarea__button__2">
-                                        <a class="default__button" href="#javascript:void(0);">Know More</a>
+                                        <a class="default__button" target="_blank" href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions">Apply Now</a>
                                     </div>
 
                                 </div>
@@ -124,7 +124,7 @@
         </div>
 
         <div class="herobannerarea__icon__2">
-            <img loading="lazy" class="herobanner__common__img herobanner__img__1" src="{{asset('assets/img/herobanner/herobanner__1.png')}}" alt="photo">
+            {{-- <img loading="lazy" class="herobanner__common__img herobanner__img__1" src="{{asset('assets/img/herobanner/herobanner__1.png')}}" alt="photo"> --}}
             <img loading="lazy" class="herobanner__common__img herobanner__img__2" src="{{asset('assets/img/herobanner/herobanner__2.png')}}" alt="photo">
             <img loading="lazy" class="herobanner__common__img herobanner__img__3" src="{{asset('assets/img/herobanner/herobanner__3.png')}}" alt="photo">
             <!--<img loading="lazy"  class="herobanner__common__img herobanner__img__4" src="{{asset('assets/img/herobanner/herobanner__4.png')}}" alt="photo">-->
@@ -311,7 +311,7 @@
 
     <!-- our__best__institutes - start -->
     <div class="blogarea__2 sp_top_40 sp_bottom_100">
-        <div class="container">
+        <div class="container-fluid full__width__padding">
             <div class="row">
                 <div class="col-xl-12" data-aos="fade-up">
                     <div class="section__title__2 text-center teamarea__margin">
@@ -325,7 +325,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12" data-aos="fade-up">
                     <div class="single__blog__wraper">
                         <div class="single__blog__img">
                             <img loading="lazy" src="{{asset('assets/img/courses/course-5.jpg')}}" alt="Institute">
@@ -334,7 +334,7 @@
                             <p>Institute</p>
                             <h4> <a href="sowrabha.html">Sowrabha Institute of Nursing Sciences</a></h4>
                             <div class="single__blog__bottom__button">
-                                <a href="sowrabha.html">Read More
+                                <a href="sowrabha.html">Explore More
                                     <i class="icofont-long-arrow-right"></i>
                                 </a>
                             </div>
@@ -342,7 +342,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12" data-aos="fade-up">
                     <div class="single__blog__wraper">
                         <div class="single__blog__img">
                             <img loading="lazy" src="{{asset('assets/img/courses/course-6.jpg')}}" alt="Institute">
@@ -351,7 +351,7 @@
                             <p>Institute</p>
                             <h4> <a href="enlight-institute.html">Enlight Institute of Para Medical Sciences</a></h4>
                             <div class="single__blog__bottom__button">
-                                <a href="enlight-institute.html">Read More
+                                <a href="enlight-institute.html">Explore More
                                     <i class="icofont-long-arrow-right"></i>
                                 </a>
                             </div>
@@ -359,7 +359,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12" data-aos="fade-up">
                     <div class="single__blog__wraper">
                         <div class="single__blog__img">
                             <img loading="lazy" src="{{asset('assets/img/courses/course-7.jpg')}}" alt="Institute">
@@ -368,7 +368,23 @@
                             <p>Institute</p>
                             <h4> <a href="enlight-school">Enlight School of <br>Nursing</a></h4>
                             <div class="single__blog__bottom__button">
-                                <a href="enlight-school">Read More
+                                <a href="enlight-school">Explore More
+                                    <i class="icofont-long-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12" data-aos="fade-up">
+                    <div class="single__blog__wraper">
+                        <div class="single__blog__img">
+                            <img loading="lazy" src="{{asset('assets/img/courses/course-8.jpg')}}" alt="Institute">
+                        </div>
+                        <div class="single__blog__content">
+                            <p>Institute</p>
+                            <h4> <a href="enlight-school">Sri Shantidhama School <br>of Nursing</a></h4>
+                            <div class="single__blog__bottom__button">
+                                <a href="enlight-school">Explore More
                                     <i class="icofont-long-arrow-right"></i>
                                 </a>
                             </div>
