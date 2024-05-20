@@ -27,10 +27,10 @@
         </div>
     </div>
 
-    <div class="shape__icon__2">
+    {{-- <div class="shape__icon__2">
         <img loading="lazy"  class=" shape__icon__img shape__icon__img__1" src="{{asset('assets/img/herobanner/herobanner__1.png')}}" alt="photo">
         <img loading="lazy"  class=" shape__icon__img shape__icon__img__3" src="{{asset('assets/img/herobanner/herobanner__3.png')}}" alt="photo">
-    </div>
+    </div> --}}
 
 </div>
 <!-- breadcrumbarea__section__end-->

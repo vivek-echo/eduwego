@@ -59,11 +59,16 @@
                     </div>
                     <div class="col-xl-6 col-lg-6">
                         <div class="topbar__right">
-                            <div class="topbar__icon">
-                                <i class="icofont-location-pin"></i>
-                            </div>
                             <div class="topbar__text">
-                                <p>82/17, Tavarekere, Bangalore, Karnataka - 562130</p>
+                                <div class="row justify-content-end">
+                                    <div class="col-sm-auto">
+                                        <div class="login-buttons">
+                                            <a href="javascript:void(0);" class="default__small__button__pink mb-0 rounded py-1"><i class="icofont-user-alt-1"></i>Student Login</a>
+                                            <a href="javascript:void(0);" class="default__small__button__pink mb-0 rounded py-1"><i class="icofont-file-document me-1"></i>Online Admission</a>
+                                            <a href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions" target="_blank" class="default__small__button__pink mb-0 rounded py-1">Enquiry Now</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="topbar__list">
                                 <ul>
@@ -90,15 +95,6 @@
         <header>
             <div class="headerarea headerarea__3 header__sticky header__area">
                 <div class="container desktop__menu__wrapper">
-                    <div class="row justify-content-end">
-                        <div class="col-sm-auto">
-                            <div class="mt-2">
-                                <a href="javascript:void(0);" class="default__small__button mb-0 rounded m"><i class="icofont-user-alt-1"></i>Student Login</a>
-                                <a href="javascript:void(0);" class="default__small__button mb-0 rounded"><i class="icofont-file-document me-1"></i>Online Admission</a>
-                                <a href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions" target="_blank" class="default__small__button mb-0 rounded">Enquiry Now</a>
-                            </div>
-                        </div>
-                    </div>
                     <div class="row">
                         <div class="col-xl-2 col-lg-2 col-md-6">
                             <div class="headerarea__left">
@@ -119,7 +115,7 @@
                                         </li>
 
                                         <li>
-                                            <a href="about.html">About</a>
+                                            <a href="javascript:void(0);">About</a>
                                         </li>
 
                                         <li>
@@ -152,9 +148,10 @@
                                             <ul class="headerarea__submenu">
                                                 <li><a href="/sowrabhaIns">Sowrabha Institute of Nursing Sciences</a>
                                                 </li>
-                                                <li><a href="/englightIns">Enlight institute of Para Medical Sciences</a>
+                                                <li><a href="/englightIns">Enlight Institute of Para Medical Sciences</a>
                                                 </li>
                                                 <li><a href="/enlightSchool">Enlight School of Nursing</a></li>
+                                                <li><a href="javascript:void(0);">Sri Shantidhama School of Nursing</a></li>
                                             </ul>
                                         </li>
 
@@ -168,16 +165,12 @@
                                                 <li><a href="javascript:void(0);">Hostel</a>
                                                 </li>
                                                 <li><a href="javascript:void(0);">Sports</a></li>
-                                                <li><a href="/gallery">Gallery</a></li>
+                                                <li><a href="javascript:void(0);">Gallery</a></li>
                                             </ul>
                                         </li>
 
                                         <li>
                                             <a href="/facilities">Facilities</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="scholarship.html">Scholarship</a>
                                         </li>
 
                                         <li>
@@ -255,9 +248,10 @@
                                     <ul class="dropdown">
                                         <li><a href="/sowrabhaIns">Sowrabha Institute of Nursing Sciences</a>
                                         </li>
-                                        <li><a href="/englightIns">Enlight institute of Para Medical Sciences</a>
+                                        <li><a href="/englightIns">Enlight Institute of Para Medical Sciences</a>
                                         </li>
                                         <li><a href="/enlightSchool">Enlight School of Nursing</a></li>
+                                        <li><a href="javascript:void(0);">Sri Shantidhama School of Nursing</a></li>
                                     </ul>
                                 </li>
 
@@ -268,16 +262,12 @@
                                         <li><a href="javascript:void(0);">Hostel</a>
                                         </li>
                                         <li><a href="javascript:void(0);">Sports</a></li>
-                                        <li><a href="/gallery">Gallery</a></li>
+                                        <li><a href="javascript:void(0);">Gallery</a></li>
                                     </ul>
                                 </li>
 
                                 <li>
                                     <a href="/facilities">Facilities</a>
-                                </li>
-
-                                <li>
-                                    <a href="scholarship.html">Scholarship</a>
                                 </li>
 
                                 <li>
@@ -363,11 +353,6 @@
                                     <p>ENLIGHTGROUP OF INSTITUTIONS is one of the best nursing college in Bangalore.
                                         It’s recognized by INC & KNC, PCI, Affiliated to RGUHS, Bangalore, Karnataka</p>
                                 </div>
-                                <div class="foter__bottom__text">
-                                    <div class="footer__bottom__content">
-                                        <a href="javascript:void(0);"><img loading="lazy" class="rounded" width="80" src="{{asset('assets/img/cropped-Logo-180x180.png')}}" alt="logo"></a>
-                                    </div>
-                                </div>
 
                             </div>
                         </div>
@@ -385,7 +370,10 @@
                                             <a href="/englightIns">Enlight Institute of Para Medical Sciences</a>
                                         </li>
                                         <li>
-                                            <a href="/enlightSchool">Sapthagiri School Of Nursing</a>
+                                            <a href="/enlightSchool">Enlight school of Nursing </a>
+                                        </li>
+                                        <li>
+                                            <a href="/shantiDhamaSchool">Sri Shantidhama School of Nursing</a>
                                         </li>
                                     </ul>
                                     <hr class="hr-border">
@@ -503,7 +491,7 @@
                     <div class="row">
                         <div class="col-xl-9 col-lg-9">
                             <div class="footerarea__copyright__content footerarea__copyright__content__2">
-                                <p>Copyright © <span>2024</span> || All Right Reserved by Enlight Educational Trust</p>
+                                <p>Copyright © <span>2024</span> || All Right Reserved by EDUWEGO</p>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3">

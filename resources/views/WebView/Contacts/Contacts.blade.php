@@ -27,10 +27,10 @@
         </div>
     </div>
 
-    <div class="shape__icon__2">
+    {{-- <div class="shape__icon__2">
         <img loading="lazy" class=" shape__icon__img shape__icon__img__1" src="{{asset('assets/img/herobanner/herobanner__1.png')}}" alt="photo">
         <img loading="lazy" class=" shape__icon__img shape__icon__img__3" src="{{asset('assets/img/herobanner/herobanner__3.png')}}" alt="photo">
-    </div>
+    </div> --}}
 
 </div>
 <!-- breadcrumbarea__section__end-->
@@ -60,7 +60,7 @@
                     <div class="contact__text">
                         <h5>Mail address</h5>
                         <div class="contact__email">
-                            <!-- <p>contact@enlightgroup.org</p> -->
+                            <p>infosowrabha@gmail.com</p>
                             <p>enlighteducationaltrust@gmail.com</p>
                         </div>
                     </div>
@@ -79,7 +79,7 @@
                     <div class="contact__text">
                         <h5>Phone Number</h5>
                         <div class="contact__email">
-                            <p> 099001 72894</p>
+                            <p>099001 72894</p>
                             <p>080 2955 6773</p>
 
                         </div>
