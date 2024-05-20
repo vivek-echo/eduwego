@@ -15,7 +15,7 @@
                     </div>
                     <div class="breadcrumb__inner">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li>Contact</li>
                         </ul>
                     </div>
@@ -60,7 +60,7 @@
                     <div class="contact__text">
                         <h5>Mail address</h5>
                         <div class="contact__email">
-                            <p>contact@enlightgroup.org</p>
+                            <!-- <p>contact@enlightgroup.org</p> -->
                             <p>enlighteducationaltrust@gmail.com</p>
                         </div>
                     </div>
@@ -79,7 +79,7 @@
                     <div class="contact__text">
                         <h5>Phone Number</h5>
                         <div class="contact__email">
-                            <p>080955 55703 , 099001 72894</p>
+                            <p> 099001 72894</p>
                             <p>080 2955 6773</p>
 
                         </div>

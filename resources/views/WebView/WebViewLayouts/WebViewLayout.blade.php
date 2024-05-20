@@ -199,7 +199,7 @@
                     <div class="row align-items-center">
                         <div class="col-6">
                             <div class="mobile-logo">
-                                <a class="logo__dark" href="#"><img loading="lazy" src="{{asset('assets/img/logo/enlight-group-logo.png')}}" height="60" alt="logo"></a>
+                                <a class="logo__dark" href="/"><img loading="lazy" src="{{asset('assets/img/logo/enlight-group-logo.png')}}" height="60" alt="logo"></a>
                             </div>
                         </div>
                         <div class="col-6">

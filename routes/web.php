@@ -35,3 +35,8 @@ Route::match(['get', 'post'], '/submitNewsNotice', [NewsNoticeController::class,
 Route::match(['get', 'post'], '/getNewsNoticeData', [NewsNoticeController::class,'getNewsNoticeData']);
 
 Route::get('/download-pdf', [HomeController::class, 'downloadPdf'])->name('download.pdf');
+
+
+Route::match(['get', 'post'], '/YOUR_ROUTE',function(){
+    dd("hello world");
+});
