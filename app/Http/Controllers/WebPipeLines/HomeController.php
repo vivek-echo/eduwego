@@ -44,18 +44,16 @@ class HomeController extends Controller
     }
     public function enlightSchoolIndex(){
         return view('WebView.School.EnlightSchool');
+    }   
+    //start added by deepak on 20-05-2024
+    public function MSCNursingIndex(){
+        return view('WebView.Nursing.MSCNursing');
     }
-    public function downloadPdf()
-    {
-        // dd("ascjh bhg");
-        $filePath = public_path('assets/Sowrabha-Prospectus.pdf'); // Path to your PDF file
-// dd($filePath);
-        if (!file_exists($filePath)) {
-            abort(404, 'File not found.');
-        }
-
-        return response()->download($filePath, 'Sowrabha-Prospectus.pdf', [
-            'Content-Type' => 'application/pdf',
-        ]);
+    public function PbbscNursingIndex(){
+        return view('WebView.Nursing.PbbscNursing');
     }
+    public function GnmNursingIndex(){
+        return view('WebView.Nursing.GnmNursing');
+    }
+  
 }

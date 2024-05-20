@@ -59,7 +59,7 @@
                         </div>
                     </div>
                     <div class="course__details__heading" data-aos="fade-up">
-                        <h3>About this course</h3>
+                        <h3>About this Institute</h3>
                     </div>
                     <div class="course__details__paragraph" data-aos="fade-up">
                         <p>The course of study shall extend over 4 academic years from the date of commencement
@@ -162,7 +162,7 @@
 
                     <div class="blogsidebar__content__wraper__2" data-aos="fade-up">
 
-                        <h4 class="sidebar__title">popular Course</h4>
+                        <h4 class="sidebar__title">Other Course</h4>
                         <ul class="course__details__populer__list">
                             <li>
 
@@ -172,7 +172,7 @@
                                 </div>
                                 <div class="course__details__populer__content">
                                     <h6>
-                                        <a href="bsc-nursing.html">B.Sc. Nursing</a>
+                                        <a href="/bScNursing">B.Sc. Nursing</a>
                                     </h6>
                                 </div>
                             </li>
@@ -216,8 +216,7 @@
 
                         <div class="course__summery__button">
                             <p>Need any help in Admission ?</p>
-                            <a class="default__button default__button--3" href="tel:+91 80955 55703"><i
-                                    class="icofont-phone"></i> +91 80955 55703</a>
+                            <a class="default__button default__button--3" href="tel:+91 9916073632"><i class="icofont-phone"></i> +91 9916073632</a>
                         </div>
 
                     </div>

@@ -331,10 +331,10 @@
                             <img loading="lazy" src="{{asset('assets/img/courses/course-5.jpg')}}" alt="Institute">
                         </div>
                         <div class="single__blog__content">
-                            <p>Institute</p>
-                            <h4> <a href="sowrabha.html">Sowrabha Institute of Nursing Sciences</a></h4>
+                            <p>Enlight Group of Institutions</p>
+                            <h4> <a href="sowrabhaIns">Sowrabha Institute of Nursing Sciences</a></h4>
                             <div class="single__blog__bottom__button">
-                                <a href="sowrabha.html">Explore More
+                                <a href="sowrabhaIns">Explore More
                                     <i class="icofont-long-arrow-right"></i>
                                 </a>
                             </div>
@@ -348,10 +348,10 @@
                             <img loading="lazy" src="{{asset('assets/img/courses/course-6.jpg')}}" alt="Institute">
                         </div>
                         <div class="single__blog__content">
-                            <p>Institute</p>
-                            <h4> <a href="enlight-institute.html">Enlight Institute of Para Medical Sciences</a></h4>
+                            <p>Enlight Group of Institutions</p>
+                            <h4> <a href="englightIns">Enlight Institute of Para Medical Sciences</a></h4>
                             <div class="single__blog__bottom__button">
-                                <a href="enlight-institute.html">Explore More
+                                <a href="englightIns">Explore More
                                     <i class="icofont-long-arrow-right"></i>
                                 </a>
                             </div>
@@ -365,10 +365,10 @@
                             <img loading="lazy" src="{{asset('assets/img/courses/course-7.jpg')}}" alt="Institute">
                         </div>
                         <div class="single__blog__content">
-                            <p>Institute</p>
-                            <h4> <a href="enlight-school">Enlight School of <br>Nursing</a></h4>
+                            <p>Enlight Group of Institutions</p>
+                            <h4> <a href="enlightSchool">Enlight School of <br>Nursing</a></h4>
                             <div class="single__blog__bottom__button">
-                                <a href="enlight-school">Explore More
+                                <a href="enlightSchool">Explore More
                                     <i class="icofont-long-arrow-right"></i>
                                 </a>
                             </div>
@@ -381,10 +381,10 @@
                             <img loading="lazy" src="{{asset('assets/img/courses/course-8.jpg')}}" alt="Institute">
                         </div>
                         <div class="single__blog__content">
-                            <p>Institute</p>
-                            <h4> <a href="enlight-school">Sri Shantidhama School <br>of Nursing</a></h4>
+                            <p>Enlight Group of Institutions</p>
+                            <h4> <a href="enlightSchool">Sri Shantidhama School <br>of Nursing</a></h4>
                             <div class="single__blog__bottom__button">
-                                <a href="enlight-school">Explore More
+                                <a href="enlightSchool">Explore More
                                     <i class="icofont-long-arrow-right"></i>
                                 </a>
                             </div>

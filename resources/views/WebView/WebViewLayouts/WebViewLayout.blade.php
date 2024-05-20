@@ -192,7 +192,7 @@
                     <div class="row align-items-center">
                         <div class="col-6">
                             <div class="mobile-logo">
-                                <a class="logo__dark" href="/"><img loading="lazy" src="{{asset('assets/img/logo/enlight-group-logo.png')}}" height="60" alt="logo"></a>
+                                <a class="logo__dark" href="#"><img loading="lazy" src="{{asset('assets/img/logo/enlight-group-logo.png')}}" height="60" alt="logo"></a>
                             </div>
                         </div>
                         <div class="col-6">
@@ -491,7 +491,7 @@
                     <div class="row">
                         <div class="col-xl-9 col-lg-9">
                             <div class="footerarea__copyright__content footerarea__copyright__content__2">
-                                <p>Copyright © <span>2024</span> || All Right Reserved by EDUWEGO</p>
+                                <p>Copyright © <span>2024</span> || All Right Reserved Enlight Group of Institutions | Design & Developed by EDUWEGO</p>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3">

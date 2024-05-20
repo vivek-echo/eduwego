@@ -43,7 +43,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="gridarea__wraper">
                     <div class="gridarea__img">
-                        <a href="bsc-nursing.html"><img loading="lazy" src="{{asset('assets/img/courses/course-1.jpg')}}" alt="image-courses"></a>
+                        <a href="/bScNursing"><img loading="lazy" src="{{asset('assets/img/courses/course-1.jpg')}}" alt="image-courses"></a>
                         <div class="gridarea__small__button">
                             <div class="grid__badge">Nursing</div>
                         </div>
@@ -53,7 +53,7 @@
                         <div class="gridarea__list">
                             <ul>
                                 <li>
-                                    <i class="icofont-chair"></i> 20 seats
+                                    <i class="icofont-chair"></i> 20 seats left
                                 </li>
                                 <li>
                                     <div class="text-end"><i class="icofont-clock-time"></i> 4 Years
@@ -85,7 +85,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="gridarea__wraper">
                     <div class="gridarea__img">
-                        <a href="msc-nursing.html"><img loading="lazy" src="{{asset('assets/img/courses/course-2.jpg')}}" alt="image-courses"></a>
+                        <a href="/MSCNursing"><img loading="lazy" src="{{asset('assets/img/courses/course-2.jpg')}}" alt="image-courses"></a>
                         <div class="gridarea__small__button">
                             <div class="grid__badge">Nursing</div>
                         </div>
@@ -95,7 +95,7 @@
                         <div class="gridarea__list">
                             <ul>
                                 <li>
-                                    <i class="icofont-chair"></i> 20 seats
+                                    <i class="icofont-chair"></i> 20 seats left
                                 </li>
                                 <li>
                                     <div class="text-end"><i class="icofont-clock-time"></i> 2 Years
@@ -104,7 +104,7 @@
                             </ul>
                         </div>
                         <div class="gridarea__heading">
-                            <h3><a href="msc-nursing.html">M.SC Nursing</a></h3>
+                            <h3><a href="/MSCNursing">M.SC Nursing</a></h3>
                         </div>
                         <div>
                             <p>MSc Nursing will prepare Nurses, to improve the quality of nursing
@@ -112,7 +112,7 @@
                         </div>
                         <div class="gridarea__bottom">
 
-                            <a href="msc-nursing.html">
+                            <a href="/MSCNursing">
                                 <div class="gridarea__small__img">
                                     <div class="gridarea__small__content ms-0">
                                         <h6>Read More <i class="icofont-long-arrow-right"></i></h6>
@@ -137,7 +137,7 @@
                         <div class="gridarea__list">
                             <ul>
                                 <li>
-                                    <i class="icofont-chair"></i> 20 seats
+                                    <i class="icofont-chair"></i> 20 seats left
                                 </li>
                                 <li>
                                     <div class="text-end"><i class="icofont-clock-time"></i> 2 Years
@@ -179,7 +179,7 @@
                         <div class="gridarea__list">
                             <ul>
                                 <li>
-                                    <i class="icofont-chair"></i> 20 seats
+                                    <i class="icofont-chair"></i> 20 seats left
                                 </li>
                                 <li>
                                     <div class="text-end"><i class="icofont-clock-time"></i> 3 Years

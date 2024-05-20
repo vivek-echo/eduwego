@@ -45,7 +45,7 @@
             <div class="col-xl-8 col-lg-8">
 
                 <div class="blogarae__img__2 course__details__img__2" data-aos="fade-up">
-                    <img loading="lazy" src="{{ asset('assets/img/courses/bsc-nursing')}}')}}" alt="blog">
+                    <img loading="lazy" src="{{ asset('assets/img/courses/bsc-nursing.jpg')}}" alt="blog">
                 </div>
 
                 <div class="blog__details__content__wraper">
@@ -108,18 +108,11 @@
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-3">
-                            <div class="course__details__wraper" data-aos="fade-up">
+                            <div  >
 
-                                <div class="d-flex align-items-center gap-3">
-                                    <div class="icon-badge">
-                                        <i class="icofont-chair"></i>
+                            <div class="hreobannerarea__button__2">
+                                        <a class="default__button" target="_blank" href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions">Apply Now</a>
                                     </div>
-                                    <div>
-                                        <h5 class="text-primary mb-0">Seats</h5>
-                                        <p class="mb-0">20</p>
-                                    </div>
-                                </div>
-
                             </div>
                         </div>
                     </div>
@@ -162,7 +155,7 @@
 
                     <div class="blogsidebar__content__wraper__2" data-aos="fade-up">
 
-                        <h4 class="sidebar__title">Populer Course</h4>
+                        <h4 class="sidebar__title">Other Course</h4>
                         <ul class="course__details__populer__list">
                             <li>
 
@@ -179,24 +172,24 @@
                             <li>
 
                                 <div class="course__details__populer__img">
-                                    <img loading="lazy" src="{{ asset('assets/img/courses/msc-nursing')}}" alt="courses"
+                                    <img loading="lazy" src="{{ asset('assets/img/courses/msc-nursing.jpg')}}" alt="courses"
                                         width="90" height="70">
                                 </div>
                                 <div class="course__details__populer__content">
                                     <h6>
-                                        <a href="javascript:void(0);">M.Sc. Nursing</a>
+                                        <a href="/PbbscNursing">PBBSc Nursing</a>
                                     </h6>
                                 </div>
                             </li>
                             <li>
 
                                 <div class="course__details__populer__img">
-                                    <img loading="lazy" src="{{ asset('assets/img/courses/msc-nursing')}}" alt="courses"
+                                    <img loading="lazy" src="{{ asset('assets/img/courses/msc-nursing.jpg')}}" alt="courses"
                                         width="90" height="70">
                                 </div>
                                 <div class="course__details__populer__content">
                                     <h6>
-                                        <a href="javascript:void(0);">M.Sc. Nursing</a>
+                                        <a href="javascript:void(0);">GNM Nursing</a>
                                     </h6>
                                 </div>
                             </li>
@@ -204,8 +197,7 @@
 
                         <div class="course__summery__button">
                             <p>Need any help in Admission ?</p>
-                            <a class="default__button default__button--3" href="tel:+91 80955 55703"><i
-                                    class="icofont-phone"></i> +91 80955 55703</a>
+                             <a class="default__button default__button--3" href="tel:+91 9916073632"><i class="icofont-phone"></i> +91 9916073632</a>
                         </div>
 
                     </div>
