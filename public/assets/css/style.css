@@ -7465,6 +7465,12 @@ Blog
   line-height: 32px;
   color: var(--blackColor2);
 }
+@media (max-width: 1600px) {
+  .single__blog__content h4 a {
+    font-size: 22px;
+    line-height: 25px;
+  }
+}
 @media (min-width: 992px) and (max-width: 1365px) {
   .single__blog__content h4 a {
     font-size: 20px;
@@ -12215,8 +12221,20 @@ Footer Area
   color: var(--whiteColor);
 }
 .footerarea__wrapper .footerarea__inner .footerarea__list ul li {
-  display: block;
+  display: inline-flex;
   margin-bottom: 12px;
+  align-items: self-start;
+  line-height: 1.5;
+  gap: 5px;
+}
+.footerarea__wrapper .footerarea__inner .footerarea__list ul li i {
+  color: var(--darkgray);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--contentFont);
+  transition: 0.3s;
+  position: relative;
+  margin-top: 4px;
 }
 .footerarea__wrapper .footerarea__inner .footerarea__list ul li a {
   color: var(--darkgray);

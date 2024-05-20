@@ -434,11 +434,11 @@
                                         </ul>
                                     </div>
                                     <div class="gridarea__heading">
-                                        <h3><a href="course-details.html">B.SC Nursing</a></h3>
+                                        <h3><a href="course-details.html">Bachelor of Science<br> (Nursing)</a></h3>
                                     </div>
                                     <div>
                                         <p>The course of study shall extend over 4 academic years from the date of
-                                            commencement of his/ her study of ....</p>
+                                            commence....</p>
                                     </div>
                                     <div class="gridarea__bottom">
 
@@ -476,7 +476,7 @@
                                         </ul>
                                     </div>
                                     <div class="gridarea__heading">
-                                        <h3><a href="course-details.html">M.SC Nursing</a></h3>
+                                        <h3><a href="course-details.html">Master of Science<br> (Nursing)</a></h3>
                                     </div>
                                     <div>
                                         <p>MSc Nursing will prepare Nurses, to improve the quality of nursing
@@ -607,11 +607,11 @@
                                         </ul>
                                     </div>
                                     <div class="gridarea__heading">
-                                        <h3><a href="course-details.html">PBBSc Nursing</a></h3>
+                                        <h3><a href="course-details.html">Post Basic Bachelor of Science in Nursing</a></h3>
                                     </div>
                                     <div>
                                         <p>The B.Sc Nursing (Post certificate) course of study shall extend over a
-                                            period of 2 academic years from the date....</p>
+                                            period of 2....</p>
                                     </div>
                                     <div class="gridarea__bottom">
 
@@ -649,11 +649,11 @@
                                         </ul>
                                     </div>
                                     <div class="gridarea__heading">
-                                        <h3><a href="course-details.html">GNM Nursing</a></h3>
+                                        <h3><a href="course-details.html">General Nursing and Midwifery (Nursing)</a></h3>
                                     </div>
                                     <div>
                                         <p>GNM referred to as General Nursing and Midwifery deals with the education
-                                            of nurses in general health care, nursing, and....</p>
+                                            of nurses....</p>
                                     </div>
                                     <div class="gridarea__bottom">
 

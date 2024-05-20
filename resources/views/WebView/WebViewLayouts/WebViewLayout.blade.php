@@ -344,7 +344,7 @@
 
                 <div class="footerarea__wrapper footerarea__wrapper__2">
                     <div class="row">
-                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12" data-aos="fade-up">
                             <div class="footerarea__inner footerarea__about__us">
                                 <div class="footerarea__heading">
                                     <h3>About us</h3>
@@ -356,7 +356,7 @@
 
                             </div>
                         </div>
-                        <div class="col-xl-2 col-lg-2  col-md-6 col-sm-6" data-aos="fade-up">
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" data-aos="fade-up">
                             <div class="footerarea__inner">
                                 <div class="footerarea__heading">
                                     <h3>Our Institutes</h3>
@@ -364,26 +364,32 @@
                                 <div class="footerarea__list">
                                     <ul>
                                         <li>
+                                            <i class="icofont-dotted-right"></i>
                                             <a href="/sowrabhaIns">Sowrabha Institute of Nursing Sciencess</a>
                                         </li>
                                         <li>
+                                            <i class="icofont-dotted-right"></i>
                                             <a href="/englightIns">Enlight Institute of Para Medical Sciences</a>
                                         </li>
                                         <li>
+                                            <i class="icofont-dotted-right"></i>
                                             <a href="/enlightSchool">Enlight school of Nursing </a>
                                         </li>
                                         <li>
+                                            <i class="icofont-dotted-right"></i>
                                             <a href="/shantiDhamaSchool">Sri Shantidhama School of Nursing</a>
                                         </li>
                                     </ul>
                                     <hr class="hr-border">
                                     <ul>
                                         <li>
-                                            <a href="javascript:void(0);"><i class="icofont-ui-user"></i> Student
+                                            <i class="icofont-ui-user"></i>
+                                            <a href="javascript:void(0);"> Student
                                                 Login</a>
-                                        </li>
+                                        </li><br>
                                         <li>
-                                            <a href="javascript:void(0);"><i class="icofont-ui-user"></i> Employee
+                                            <i class="icofont-ui-user"></i>
+                                            <a href="javascript:void(0);"> Employee
                                                 Login</a>
                                         </li>
                                     </ul>
@@ -392,35 +398,43 @@
 
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6" data-aos="fade-up">
-                            <div class="footerarea__inner footerarea__padding__left">
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6" data-aos="fade-up">
+                            <div class="footerarea__inner">
                                 <div class="footerarea__heading">
                                     <h3>Quick Links</h3>
                                 </div>
                                 <div class="footerarea__list">
                                     <ul>
                                         <li>
+                                            <i class="icofont-dotted-right"></i>
                                             <a href="javascript:void(0);">Online Application</a>
                                         </li>
                                         <li>
+                                            <i class="icofont-dotted-right"></i>
                                             <a target="_blank" href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions">Online Enquirey</a>
                                         </li>
                                         <li>
+                                            <i class="icofont-dotted-right"></i>
                                             <a href="javascript:void(0);">Contact Us</a>
                                         </li>
                                         <li>
+                                            <i class="icofont-dotted-right"></i>
                                             <a href="javascript:void(0);">Login to Student Portal</a>
                                         </li>
                                         <li>
+                                            <i class="icofont-dotted-right"></i>
                                             <a href="javascript:void(0);">Login For Partners</a>
                                         </li>
                                         <li>
+                                            <i class="icofont-dotted-right"></i>
                                             <a href="javascript:void(0);">Login For College Admin</a>
                                         </li>
                                         <li>
+                                            <i class="icofont-dotted-right"></i>
                                             <a href="javascript:void(0);">Login for Employee</a>
                                         </li>
                                         <li>
+                                            <i class="icofont-dotted-right"></i>
                                             <a href="javascript:void(0);">College WEBMAIL login</a>
                                         </li>
                                     </ul>
@@ -429,7 +443,6 @@
 
                             </div>
                         </div>
-
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12" data-aos="fade-up">
                             <div class="footerarea__right__wraper footerarea__inner">
                                 <div class="footerarea__heading">
