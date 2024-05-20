@@ -56,4 +56,17 @@ class HomeController extends Controller
         return view('WebView.Nursing.GnmNursing');
     }
   
+    public function downloadPdf()
+    {
+        // dd("ascjh bhg");
+        $filePath = public_path('assets/Sowrabha-Prospectus.pdf'); // Path to your PDF file
+// dd($filePath);
+        if (!file_exists($filePath)) {
+            abort(404, 'File not found.');
+        }
+
+        return response()->download($filePath, 'Sowrabha-Prospectus.pdf', [
+            'Content-Type' => 'application/pdf',
+        ]);
+    }
 }
