@@ -51,7 +51,7 @@
                     </div>
                     <div class="gridarea__content">
                         <div class="gridarea__heading">
-                            <h3>Bengali Food Available </h3>
+                            <h3>Food Available With Good<br> Hygiene </h3>
                         </div>
                         <div>
                             <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima velit consequuntur architecto accusamus provident.</p> -->
@@ -71,7 +71,7 @@
                     </div>
                     <div class="gridarea__content">
                         <div class="gridarea__heading">
-                            <h3>Complete Loan Facility available </h3>
+                            <h3>Complete Loan Facility <br>Available </h3>
                         </div>
                         <div>
                             <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima velit consequuntur architecto accusamus provident.</p> -->

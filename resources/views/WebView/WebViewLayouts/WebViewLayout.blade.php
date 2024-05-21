@@ -9,13 +9,11 @@
     <title>Enlight Educational Trust – Together We To Lead</title>
 
     <!-- <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"> -->
-    <link rel="icon" href="img/cropped-Logo-32x32.png" sizes="32x32" />
-    <link rel="icon" href="img/cropped-Logo-192x192.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="img/cropped-Logo-180x180.png" />
+    <link rel="icon" href="{{asset('cropped-Logo-32x32.png')}}" sizes="32x32" />
+    <link rel="icon" href="{{asset('cropped-Logo-180x180.png')}}" sizes="192x192" />
+    <link rel="apple-touch-icon" href="{{asset('cropped-Logo-192x192')}}" />
     <!-- Place favicon.ico in the root directory -->
-    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+
     <!-- CSS here -->
     <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/animate.min.css')}}">
@@ -33,7 +31,7 @@
     <div id="back__preloader">
         <div id="back__circle_loader"></div>
         <div class="back__loader_logo">
-            <img loading="lazy" src="{{asset('assets/img/cropped-Logo-180x180.png')}}" alt="Preload">
+            <img loading="lazy" src="{{asset('cropped-Logo-180x180.png')}}" alt="Preload">
         </div>
     </div>
     <!-- pre loader area end -->
@@ -223,8 +221,15 @@
                                     <a href="/">Home</a>
                                 </li>
 
-                                <li>
-                                    <a href="/about">About</a>
+                                <li class="menu-item-has-children"><a href="javascript:void(0);">About Us</a>
+                                    <ul class="dropdown">
+                                        <li><a href="javascript:void(0);">About ELGI</a>
+                                        </li>
+                                        <li><a href="javascript:void(0);">Director's Message</a>
+                                        </li>
+                                        <li><a href="javascript:void(0);">Chairman's Message</a></li>
+                                        <li><a href="javascript:void(0);">Principal Desk</a></li>
+                                    </ul>
                                 </li>
 
                                 <li class="menu-item-has-children"><a href="javascript:void(0);">Courses</a>

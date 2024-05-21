@@ -4724,6 +4724,17 @@ Grid Area
   padding-bottom: 70px;
   background: var(--lightGrey7);
 }
+
+.gridarea__content .card-info-height {
+  height: 150px;
+}
+
+@media (min-width: 1500px) and (max-width: 1680px) {
+  .gridarea__content .card-info-height {
+    height: 200px;
+  }
+}
+
 @media (min-width: 992px) and (max-width: 1365px) {
   .gridarea {
     padding-top: 80px;

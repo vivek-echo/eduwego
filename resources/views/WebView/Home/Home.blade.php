@@ -433,12 +433,14 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="gridarea__heading">
-                                        <h3><a href="course-details.html">Bachelor of Science<br> (Nursing)</a></h3>
-                                    </div>
-                                    <div>
-                                        <p>The course of study shall extend over 4 academic years from the date of
-                                            commence....</p>
+                                    <div class="card-info-height">
+                                        <div class="gridarea__heading">
+                                            <h3><a href="course-details.html">B.Sc.Nursing</a></h3>
+                                        </div>
+                                        <div>
+                                            <p>The course of study shall extend over 4 academic years from the date of
+                                                commencement of his/ her study of....</p>
+                                        </div>
                                     </div>
                                     <div class="gridarea__bottom">
 
@@ -475,12 +477,14 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="gridarea__heading">
-                                        <h3><a href="course-details.html">Master of Science<br> (Nursing)</a></h3>
-                                    </div>
-                                    <div>
-                                        <p>MSc Nursing will prepare Nurses, to improve the quality of nursing
-                                            education and practice, in India. It will build upon....</p>
+                                    <div class="card-info-height">
+                                        <div class="gridarea__heading">
+                                            <h3><a href="course-details.html">M.Sc.Nursing</a></h3>
+                                        </div>
+                                        <div>
+                                            <p>MSc Nursing will prepare Nurses, to improve the quality of nursing
+                                                education and practice, in India. It will build upon....</p>
+                                        </div>
                                     </div>
                                     <div class="gridarea__bottom">
 
@@ -520,13 +524,15 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="gridarea__heading">
-                                        <h3><a href="course-details.html">Diploma in Medical Laboratory Technology
-                                                (DMLT)</a></h3>
-                                    </div>
-                                    <div>
-                                        <p>DMLT is a two years course. A professional with DMLT examines and
-                                            analyzes different body....</p>
+                                    <div class="card-info-height">
+                                        <div class="gridarea__heading">
+                                            <h3><a href="course-details.html">Diploma in Medical Laboratory Technology
+                                                    (DMLT)</a></h3>
+                                        </div>
+                                        <div>
+                                            <p>DMLT is a two years course. A professional with DMLT examines and
+                                                analyzes different body....</p>
+                                        </div>
                                     </div>
                                     <div class="gridarea__bottom">
 
@@ -563,13 +569,15 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="gridarea__heading">
-                                        <h3><a href="course-details.html">Diploma in Medical Imaging/X-Ray
-                                                Technology (DMXT)</a></h3>
-                                    </div>
-                                    <div>
-                                        <p>DMXT is an undergraduate radiology course and is all about how
-                                            electromagnetic radiation....</p>
+                                    <div class="card-info-height">
+                                        <div class="gridarea__heading">
+                                            <h3><a href="course-details.html">Diploma in Medical Imaging/X-Ray
+                                                    Technology (DMXT)</a></h3>
+                                        </div>
+                                        <div>
+                                            <p>DMXT is an undergraduate radiology course and is all about how
+                                                electromagnetic radiation....</p>
+                                        </div>
                                     </div>
                                     <div class="gridarea__bottom">
 
@@ -606,12 +614,14 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="gridarea__heading">
-                                        <h3><a href="course-details.html">Post Basic Bachelor of Science in Nursing</a></h3>
-                                    </div>
-                                    <div>
-                                        <p>The B.Sc Nursing (Post certificate) course of study shall extend over a
-                                            period of 2....</p>
+                                    <div class="card-info-height">
+                                        <div class="gridarea__heading">
+                                            <h3><a href="course-details.html">PBBSc Nursing</a></h3>
+                                        </div>
+                                        <div>
+                                            <p>The B.Sc Nursing (Post certificate) course of study shall extend over a
+                                                period of 2 academic years from the date....</p>
+                                        </div>
                                     </div>
                                     <div class="gridarea__bottom">
 
@@ -648,12 +658,14 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="gridarea__heading">
-                                        <h3><a href="course-details.html">General Nursing and Midwifery (Nursing)</a></h3>
-                                    </div>
-                                    <div>
-                                        <p>GNM referred to as General Nursing and Midwifery deals with the education
-                                            of nurses....</p>
+                                    <div class="card-info-height">
+                                        <div class="gridarea__heading">
+                                            <h3><a href="course-details.html">GNM Nursing</a></h3>
+                                        </div>
+                                        <div>
+                                            <p>GNM referred to as General Nursing and Midwifery deals with the education
+                                                of nurses in general health care, nursing, and....</p>
+                                        </div>
                                     </div>
                                     <div class="gridarea__bottom">
 
@@ -690,13 +702,15 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="gridarea__heading">
-                                        <h3><a href="course-details.html">Diploma in Medical Operation Technology
-                                                (DMOT)</a></h3>
-                                    </div>
-                                    <div>
-                                        <p>DMOT is a two-year diploma program designed to create trained and
-                                            qualified professionals ....</p>
+                                    <div class="card-info-height">
+                                        <div class="gridarea__heading">
+                                            <h3><a href="course-details.html">Diploma in Medical Operation Technology
+                                                    (DMOT)</a></h3>
+                                        </div>
+                                        <div>
+                                            <p>DMOT is a two-year diploma program designed to create trained and
+                                                qualified professionals ....</p>
+                                        </div>
                                     </div>
                                     <div class="gridarea__bottom">
 
@@ -733,13 +747,15 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="gridarea__heading">
-                                        <h3><a href="course-details.html">Diploma in Medical Anesthesia Technology
-                                                (DOT/DAT)</a></h3>
-                                    </div>
-                                    <div>
-                                        <p>DOT/DAT leads the students to a comprehensive study of the field of
-                                            anesthetics and its .....</p>
+                                    <div class="card-info-height">
+                                        <div class="gridarea__heading">
+                                            <h3><a href="course-details.html">Diploma in Medical Anesthesia Technology
+                                                    (DOT/DAT)</a></h3>
+                                        </div>
+                                        <div>
+                                            <p>DOT/DAT leads the students to a comprehensive study of the field of
+                                                anesthetics and its .....</p>
+                                        </div>
                                     </div>
                                     <div class="gridarea__bottom">
 
