@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WebPipeLines\HomeController;
-use App\Http\Controllers\WebPipeLines\NewsNoticeController;
+use App\Http\Controllers\ApplicationPipeLines\NewsNoticeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -29,10 +29,13 @@ Route::match(['get', 'post'], '/scholarship', [HomeController::class,'scholarshi
 Route::match(['get', 'post'], '/sowrabhaIns', [HomeController::class,'sowrabhaInsIndex']);
 Route::match(['get', 'post'], '/englightIns', [HomeController::class,'englightInsIndex']);
 Route::match(['get', 'post'], '/enlightSchool', [HomeController::class,'enlightSchoolIndex']);
+Route::middleware(['auth'])->group(function () {
+    //Your routes here
+    Route::match(['get', 'post'], '/ContentPageNewsNotice', [NewsNoticeController::class,'ContentPageNewsNoticeIndex']);
+    Route::match(['get', 'post'], '/submitNewsNotice', [NewsNoticeController::class,'submitNewsNoticeForm']);
+    Route::match(['get', 'post'], '/getNewsNoticeData', [NewsNoticeController::class,'getNewsNoticeData']);
+});
 
-Route::match(['get', 'post'], '/ContentPageNewsNotice', [NewsNoticeController::class,'ContentPageNewsNoticeIndex']);
-Route::match(['get', 'post'], '/submitNewsNotice', [NewsNoticeController::class,'submitNewsNoticeForm']);
-Route::match(['get', 'post'], '/getNewsNoticeData', [NewsNoticeController::class,'getNewsNoticeData']);
 Route::match(['get', 'post'], '/MSCNursing', [HomeController::class,'MSCNursingIndex']);//added by deepak on 20-05-2024
 Route::match(['get', 'post'], '/PbbscNursing', [HomeController::class,'PbbscNursingIndex']);//added by deepak on 20-05-2024
 Route::match(['get', 'post'], '/GnmNursing', [HomeController::class,'GnmNursingIndex']);//added by deepak on 20-05-2024

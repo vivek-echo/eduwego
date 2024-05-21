@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\WebPipeLines;
+namespace App\Http\Controllers\ApplicationPipeLines;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
@@ -9,7 +9,7 @@ class NewsNoticeController extends Controller
 {
     public function contentPageNewsNoticeIndex()
     {
-        return view('WebView.ContentPage.ContentPageNewsNoticeIndex');
+        return view('ApplicationView.ContentPage.ContentPageNewsNoticeIndex');
     }
 
     public function submitNewsNoticeForm()
