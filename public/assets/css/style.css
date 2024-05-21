@@ -413,6 +413,10 @@ li {
   padding-bottom: 20px;
 }
 
+.lh-1-5 {
+  line-height: 1.5;
+}
+
 .col--30 {
   padding-left: 30px;
   padding-right: 30px;
@@ -1043,7 +1047,7 @@ Header Area
 .headerarea__main__menu nav ul > li .headerarea__submenu {
   position: absolute;
   background-color: var(--whiteColor);
-  min-width: 200px;
+  min-width: 300px;
   transition: 0.3s;
   top: 110%;
   left: 0;
@@ -8689,8 +8693,9 @@ Course
 }
 
 .course__button a {
-  height: 28px;
-  width: 160px;
+  padding: 2px 12px;
+  /* height: 28px;
+  width: 160px; */
   background: var(--primaryColor);
   color: var(--whiteColor);
   display: inline-block;

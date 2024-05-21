@@ -4,11 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Admin Dashboard | Edurock - Education LMS Template</title>
+    <title>Admin Dashboard | Enlight Educational Trust – Together We To Lead</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico">
+    <link rel="icon" href="{{asset('cropped-Logo-32x32.png')}}" sizes="32x32" />
+    <link rel="icon" href="{{asset('cropped-Logo-180x180.png')}}" sizes="192x192" />
+    <link rel="apple-touch-icon" href="{{asset('cropped-Logo-192x192')}}" />
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
@@ -29,69 +31,42 @@
     <div id="back__preloader">
         <div id="back__circle_loader"></div>
         <div class="back__loader_logo">
-            <img loading="lazy" src="../assets/img/pre.png" alt="Preload">
+            <img loading="lazy" src="{{asset('cropped-Logo-180x180.png')}}" alt="Preload">
         </div>
     </div>
     <!-- pre loader area end -->
-
-    <!-- Dark/Light area start -->
-    <div class="mode_switcher my_switcher">
-        <button id="light--to-dark-button" class="light align-items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon dark__mode" viewBox="0 0 512 512">
-                <path d="M160 136c0-30.62 4.51-61.61 16-88C99.57 81.27 48 159.32 48 248c0 119.29 96.71 216 216 216 88.68 0 166.73-51.57 200-128-26.39 11.49-57.38 16-88 16-119.29 0-216-96.71-216-216z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
-            </svg>
-
-            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon light__mode" viewBox="0 0 512 512">
-                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M256 48v48M256 416v48M403.08 108.92l-33.94 33.94M142.86 369.14l-33.94 33.94M464 256h-48M96 256H48M403.08 403.08l-33.94-33.94M142.86 142.86l-33.94-33.94" />
-                <circle cx="256" cy="256" r="80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" />
-            </svg>
-
-            <span class="light__mode">Light</span>
-            <span class="dark__mode">Dark</span>
-        </button>
-    </div>
-    <!-- Dark/Light area end -->
 
     <main class="main_wrapper overflow-hidden">
 
 
         <!-- topbar__section__stert -->
         <div class="topbararea">
-            <div class="container">
+            <div class="container mt-3">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6">
                         <div class="topbar__left">
                             <ul>
                                 <li>
-                                    Call Us: +1 800 123 456 789
+                                    <i class="icofont-phone"></i> 080 2955 6773
                                 </li>
                                 <li>
-                                    - Mail Us: Itcroc@mail.com
+                                    <i class="icofont-email ms-2"></i> enlighteducationaltrust@gmail.com
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6">
                         <div class="topbar__right">
-                            <div class="topbar__icon">
-                                <i class="icofont-location-pin"></i>
-                            </div>
-                            <div class="topbar__text">
-                                <p>684 West College St. Sun City, USA</p>
-                            </div>
                             <div class="topbar__list">
                                 <ul>
                                     <li>
-                                        <a href="#"><i class="icofont-facebook"></i></a>
+                                        <a title="Facebook" target="_blank" href="https://www.facebook.com/enlightgroup2020"><i class="icofont-facebook"></i></a>
                                     </li>
                                     <li>
-                                        <a href="#"><i class="icofont-twitter"></i></a>
+                                        <a title="Twitter" target="_blank" href="https://x.com/of_enlight?t=IIT52UV_BZ1hzOkmeuhHGQ&s=08"><i class="icofont-twitter"></i></a>
                                     </li>
                                     <li>
-                                        <a href="#"><i class="icofont-instagram"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="icofont-youtube-play"></i></a>
+                                        <a title="Instagram" target="_blank" href="https://www.instagram.com/enlight_group?igsh=Z2Foc3c4b2hhOTkz"><i class="icofont-instagram"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -106,683 +81,24 @@
         <!-- headar section start -->
         <header>
             <div class="headerarea headerarea__3 header__sticky header__area">
-                <div class="container desktop__menu__wrapper">
+                <div class="container desktop__menu__wrapper mt-3 mb-3">
                     <div class="row">
                         <div class="col-xl-2 col-lg-2 col-md-6">
                             <div class="headerarea__left">
                                 <div class="headerarea__left__logo">
 
-                                    <a href="../index.html"><img loading="lazy" src="../assets/img/logo/logo_1.png" alt="logo"></a>
+                                    <a href="/home"><img loading="lazy" src="{{asset('assets/img/logo/enlight-group-logo.png')}}" alt="logo" class="main-logo"></a>
                                 </div>
 
                             </div>
                         </div>
                         <div class="col-xl-7 col-lg-7 main_menu_wrap">
                             <div class="headerarea__main__menu">
-                                <!-- <nav>
-                                    <ul>
-
-
-                                        <li class="mega__menu position-static">
-                                            <a class="headerarea__has__dropdown" href="index.html">Demos<i class="icofont-rounded-down"></i> </a>
-                                            <div class="headerarea__submenu mega__menu__wrapper mega__menu__grid__5">
-
-                                                <ul class="nav  tab__button__wrap" id="myTab2" role="tablist">
-                                                    <li class="nav-item" role="presentation">
-                                                        <button class="single__tab__link active" data-bs-toggle="tab" data-bs-target="#projects__light" type="button">Light</button>
-                                                    </li>
-                                                    <li class="nav-item" role="presentation">
-                                                        <button class="single__tab__link" data-bs-toggle="tab" data-bs-target="#projects__dark" type="button">Dark</button>
-                                                    </li>
-                                                </ul>
-
-
-                                                <div class="tab-content tab__content__wrapper" id="myTabContent2">
-                                                    <div class="tab-pane fade active show" id="projects__light" role="tabpanel" aria-labelledby="projects__light">
-
-                                                        <div class="row">
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="../index.html">
-                                                                        <img loading="lazy" src="../assets/img/mega/home-1.png" alt="Mega Menu">
-                                                                        <span class="mega__menu__thumb__title">Home
-                                                                            (Default)</span>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="../home-2.html">
-                                                                        <img loading="lazy" src="../assets/img/mega/home-2.png" alt="Mega Menu">
-                                                                        <span class="mega__menu__thumb__title">Home
-                                                                            (Elegant)</span>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="../home-3.html">
-                                                                        <img loading="lazy" src="../assets/img/mega/home-3.png" alt="Mega Menu">
-                                                                        <span class="mega__menu__thumb__title">Home
-                                                                            (Classic)</span>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="../home-4.html">
-                                                                        <img loading="lazy" src="../assets/img/mega/home-4.png" alt="Mega Menu">
-                                                                        <span class="mega__menu__thumb__title">Home
-                                                                            (Classic LMS)</span>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="../home-5.html">
-                                                                        <img loading="lazy" src="../assets/img/mega/home-5.png" alt="Mega Menu">
-                                                                        <span class="mega__menu__thumb__title">Home
-                                                                            (Online Course)</span>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="../home-6.html">
-                                                                        <img loading="lazy" src="../assets/img/mega/home-6.png" alt="Mega Menu">
-                                                                        <span class="mega__menu__thumb__title">Home
-                                                                            (Marketplace)</span>
-                                                                    </a>
-                                                                    <span class="mega__menu__thumb__label">New</span>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="../home-7.html">
-                                                                        <img loading="lazy" src="../assets/img/mega/home-7.png" alt="Mega Menu">
-                                                                        <span class="mega__menu__thumb__title">Home
-                                                                            (University)</span>
-                                                                    </a>
-                                                                    <span class="mega__menu__thumb__label">New</span>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="../home-8.html">
-                                                                        <img loading="lazy" src="../assets/img/mega/home-8.png" alt="Mega Menu">
-                                                                        <span class="mega__menu__thumb__title">Home
-                                                                            (eCommerce)</span>
-                                                                    </a>
-                                                                    <span class="mega__menu__thumb__label">New</span>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="../home-9.html">
-                                                                        <img loading="lazy" src="../assets/img/mega/home-9.png" alt="Mega Menu">
-                                                                        <span class="mega__menu__thumb__title">Home
-                                                                            (Kindergarten)</span>
-                                                                    </a>
-                                                                    <span class="mega__menu__thumb__label">New</span>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="../home-10.html">
-                                                                        <img loading="lazy" src="../assets/img/mega/home-10.png" alt="Mega Menu">
-                                                                        <span class="mega__menu__thumb__title">Home
-                                                                            (Machine Learning)</span>
-                                                                    </a>
-                                                                    <span class="mega__menu__thumb__label">New</span>
-                                                                </div>
-                                                            </div>
-
-
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="../home-11.html">
-                                                                        <img loading="lazy" src="../assets/img/mega/home-11.png" alt="Mega Menu">
-                                                                        <span class="mega__menu__thumb__title">Home
-                                                                            (Single Course)</span>
-                                                                    </a>
-                                                                    <span class="mega__menu__thumb__label">New</span>
-                                                                </div>
-                                                            </div>
-
-
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="#">
-                                                                        <img loading="lazy" src="../assets/img/mega/coming.png" alt="Mega Menu 1">
-                                                                        <span class="mega__menu__thumb__title">Layout
-                                                                            Coming Soon 1</span>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="#">
-                                                                        <img loading="lazy" src="../assets/img/mega/coming.png" alt="Mega Menu 2">
-                                                                        <span class="mega__menu__thumb__title">Layout
-                                                                            Coming Soon 2</span>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="#">
-                                                                        <img loading="lazy" src="../assets/img/mega/coming.png" alt="Mega Menu 3">
-                                                                        <span class="mega__menu__thumb__title">Layout
-                                                                            Coming Soon 3</span>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="#">
-                                                                        <img loading="lazy" src="../assets/img/mega/coming.png" alt="Mega Menu 4">
-                                                                        <span class="mega__menu__thumb__title">Layout
-                                                                            Coming Soon 4</span>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-
-                                                    <div class="tab-pane fade" id="projects__dark" role="tabpanel" aria-labelledby="projects__dark">
-
-                                                        <div class="row">
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="../index-dark.html">
-                                                                        <img loading="lazy" src="../assets/img/mega/home-1-dark.png" alt="Mega Menu">
-                                                                        <span class="mega__menu__thumb__title">Home
-                                                                            (Default)</span>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="../home-2-dark.html">
-                                                                        <img loading="lazy" src="../assets/img/mega/home-2-dark.png" alt="Mega Menu">
-                                                                        <span class="mega__menu__thumb__title">Home
-                                                                            (Elegant)</span>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="../home-3-dark.html">
-                                                                        <img loading="lazy" src="../assets/img/mega/home-3-dark.png" alt="Mega Menu">
-                                                                        <span class="mega__menu__thumb__title">Home
-                                                                            (Classic)</span>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="../home-4-dark.html">
-                                                                        <img loading="lazy" src="../assets/img/mega/home-4-dark.png" alt="Mega Menu">
-                                                                        <span class="mega__menu__thumb__title">Home
-                                                                            (Classic LMS)</span>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="../home-5-dark.html">
-                                                                        <img loading="lazy" src="../assets/img/mega/home-5-dark.png" alt="Mega Menu">
-                                                                        <span class="mega__menu__thumb__title">Home
-                                                                            (Online Course)</span>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="../home-6-dark.html">
-                                                                        <img loading="lazy" src="../assets/img/mega/home-6-dark.png" alt="Mega Menu">
-                                                                        <span class="mega__menu__thumb__title">Home
-                                                                            (Marketplace)</span>
-                                                                    </a>
-                                                                    <span class="mega__menu__thumb__label">New</span>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="../home-7-dark.html">
-                                                                        <img loading="lazy" src="../assets/img/mega/home-7-dark.png" alt="Mega Menu">
-                                                                        <span class="mega__menu__thumb__title">Home
-                                                                            (University)</span>
-                                                                    </a>
-                                                                    <span class="mega__menu__thumb__label">New</span>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="../home-8-dark.html">
-                                                                        <img loading="lazy" src="../assets/img/mega/home-8-dark.png" alt="Mega Menu">
-                                                                        <span class="mega__menu__thumb__title">Home
-                                                                            (eCommerce)</span>
-                                                                    </a>
-                                                                    <span class="mega__menu__thumb__label">New</span>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="../home-9-dark.html">
-                                                                        <img loading="lazy" src="../assets/img/mega/home-9-dark.png" alt="Mega Menu">
-                                                                        <span class="mega__menu__thumb__title">Home
-                                                                            (Kindergarten)</span>
-                                                                    </a>
-                                                                    <span class="mega__menu__thumb__label">New</span>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="../home-10-dark.html">
-                                                                        <img loading="lazy" src="../assets/img/mega/home-10-dark.png" alt="Mega Menu">
-                                                                        <span class="mega__menu__thumb__title">Home
-                                                                            (Machine Learning)</span>
-                                                                    </a>
-                                                                    <span class="mega__menu__thumb__label">New</span>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="home-11-dark.html">
-                                                                        <img loading="lazy" src="../assets/img/mega/home-11-dark.png" alt="Mega Menu">
-                                                                        <span class="mega__menu__thumb__title">Home
-                                                                            (Single Course)</span>
-                                                                    </a>
-                                                                    <span class="mega__menu__thumb__label">New</span>
-                                                                </div>
-                                                            </div>
-
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="#">
-                                                                        <img loading="lazy" src="../assets/img/mega/coming-dark.png" alt="Mega Menu 1">
-                                                                        <span class="mega__menu__thumb__title">Layout
-                                                                            Coming Soon 1</span>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="#">
-                                                                        <img loading="lazy" src="../assets/img/mega/coming-dark.png" alt="Mega Menu 2">
-                                                                        <span class="mega__menu__thumb__title">Layout
-                                                                            Coming Soon 2</span>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="#">
-                                                                        <img loading="lazy" src="../assets/img/mega/coming-dark.png" alt="Mega Menu 3">
-                                                                        <span class="mega__menu__thumb__title">Layout
-                                                                            Coming Soon 3</span>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-
-
-                                                            <div class="col-3 mega__menu__single__wrap">
-                                                                <div class="mega__menu__thumb">
-                                                                    <a href="#">
-                                                                        <img loading="lazy" src="../assets/img/mega/coming-dark.png" alt="Mega Menu 4">
-                                                                        <span class="mega__menu__thumb__title">Layout
-                                                                            Coming Soon 4</span>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
-
-                                        </li>
-
-                                        <li class="mega__menu position-static">
-                                            <a class="headerarea__has__dropdown" href="about.html">Pages<i class="icofont-rounded-down"></i> </a>
-                                            <div class="headerarea__submenu mega__menu__wrapper">
-
-                                                <div class="row">
-                                                    <div class="col-3 mega__menu__single__wrap">
-                                                        <h4 class="mega__menu__title"><a href="#">Get Started 1 </a>
-                                                        </h4>
-                                                        <ul class="mega__menu__item">
-                                                            <li><a href="../about.html">About <span class="mega__menu__label">Sale
-                                                                        Everything</span></a></li>
-                                                            <li><a href="../about-dark.html">About (Dark)<span class="mega__menu__label new">New</span></a>
-                                                            </li>
-                                                            <li><a href="../blog.html">Blog</a></li>
-                                                            <li><a href="../blog-dark.html">Blog (Dark)</a></li>
-                                                            <li><a href="../blog-details.html">Blog Details</a></li>
-                                                            <li><a href="../blog-details-dark.html">Blog Details
-                                                                    (Dark)</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-3 mega__menu__single__wrap">
-                                                        <h4 class="mega__menu__title"><a href="#">Get Started 2 </a>
-                                                        </h4>
-                                                        <ul class="mega__menu__item">
-                                                            <li><a href="../error.html">Error 404</a></li>
-                                                            <li><a href="../error-dark.html">Error (Dark)</a></li>
-                                                            <li><a href="../event-details.html">Event Details</a></li>
-                                                            <li><a href="../zoom/zoom-meetings.html">Zoom<span class="mega__menu__label">Online Call</span></a>
-                                                            </li>
-                                                            <li><a href="../zoom/zoom-meetings-dark.html">Zoom Meeting
-                                                                    (Dark)</a></li>
-                                                            <li><a href="../zoom/zoom-meeting-details.html">Zoom Meeting
-                                                                    Details</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-3 mega__menu__single__wrap">
-                                                        <h4 class="mega__menu__title"><a href="#">Get Started 3</a></h4>
-                                                        <ul class="mega__menu__item">
-                                                            <li><a href="../zoom/zoom-meeting-details-dark.html">Meeting
-                                                                    Details (Dark)</a></li>
-                                                            <li><a href="../login.html">Login</a></li>
-                                                            <li><a href="../login-dark.html">Login (Dark)</a></li>
-                                                            <li><a href="../maintenance.html">Maintenance</a></li>
-                                                            <li><a href="../maintenance-dark.html">Maintenance Dark</a></li>
-                                                            <li><a href="#">Terms & Condition</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-3 mega__menu__single__wrap">
-                                                        <h4 class="mega__menu__title"><a href="#">Get Started 4</a></h4>
-                                                        <ul class="mega__menu__item">
-                                                            <li><a href="#">Terms & Condition (Dark)</a></li>
-                                                            <li><a href="#">Privacy Policy</a></li>
-                                                            <li><a href="#">Privacy Policy (Dark)</a></li>
-                                                            <li><a href="#">Success Stories</a></li>
-                                                            <li><a href="#">Success Stories (Dark)</a></li>
-                                                            <li><a href="#">Work Policy</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-12 mega__menu__single__wrap sp_top_30">
-                                                        <div class="mega__menu__img">
-                                                            <a href="#"><img loading="lazy" src="../assets/img/mega/mega_menu_2.png" alt="Mega Menu"></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </li>
-
-
-                                        <li class="mega__menu position-static">
-                                            <a class="headerarea__has__dropdown" href="../course.html">Courses<i class="icofont-rounded-down"></i> </a>
-                                            <div class="headerarea__submenu mega__menu__wrapper">
-
-                                                <div class="row">
-                                                    <div class="col-3 mega__menu__single__wrap">
-                                                        <h4 class="mega__menu__title"><a href="#">Get Started 1 </a>
-                                                        </h4>
-                                                        <ul class="mega__menu__item">
-                                                            <li><a href="../course.html">Grid <span class="mega__menu__label">All Courses</span></a>
-                                                            </li>
-                                                            <li><a href="../course-dark.html">Course Grid (Dark)</a>
-                                                            </li>
-                                                            <li><a href="../course-grid.html">Course Grid</a></li>
-                                                            <li><a href="../course-grid-dark.html">Course Grid
-                                                                    (Dark)</a></li>
-                                                            <li><a href="../course-list.html">Course List</a></li>
-                                                            <li><a href="../course-list-dark.html">Course List
-                                                                    (Dark)</a></li>
-
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-3 mega__menu__single__wrap">
-                                                        <h4 class="mega__menu__title"><a href="#">Get Started 2 </a>
-                                                        </h4>
-                                                        <ul class="mega__menu__item">
-                                                            <li><a href="../course-details.html">Course Details</a></li>
-                                                            <li><a href="../course-details-dark.html">Course Details
-                                                                    (Dark)</a></li>
-                                                            <li><a href="../course-details-2.html">Course Details 2</a>
-                                                            </li>
-                                                            <li><a href="../course-details-2-dark.html">Details 2
-                                                                    (Dark)</a></li>
-                                                            <li><a href="../course-details-3.html">Course Details 3</a>
-                                                            </li>
-                                                            <li><a href="../course-details-3.html">Details 3 (Dark)</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-3 mega__menu__single__wrap">
-                                                        <h4 class="mega__menu__title"><a href="#">Get Started 3</a></h4>
-                                                        <ul class="mega__menu__item">
-                                                            <li><a href="become-an-instructor.html">Become
-                                                                    An Instructor</a>
-                                                            <li><a href="create-course.html">Create Course
-                                                                    <span class="mega__menu__label">Career</span></a>
-                                                            </li>
-                                                            <li><a href="../instructor.html">Instructor</a></li>
-                                                            <li><a href="../instructor-dark.html">Instructor (Dark)</a>
-                                                            </li>
-                                                            <li><a href="../instructor-details.html">Instructor
-                                                                    Details</a></li>
-                                                            <li><a href="../lesson.html">Course Lesson<span class="mega__menu__label new">New</span></a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-3 mega__menu__single__wrap">
-                                                        <div class="mega__menu__img">
-                                                            <a href="#"><img loading="lazy" src="../assets/img/mega/mega_menu_1.png" alt="Mega Menu"></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </li>
-
-
-                                        <li><a class="headerarea__has__dropdown" href="instructor-dashboard.html">Dashboard
-                                                <i class="icofont-rounded-down"></i>
-                                            </a>
-                                            <ul class="headerarea__submenu headerarea__submenu--third--wrap">
-                                                <li><a href="admin-dashboard.html">Admin <i class="icofont-rounded-right"></i></a>
-
-                                                    <ul class="headerarea__submenu--third">
-                                                        <li><a href="admin-dashboard.html">Admin
-                                                                Dashboard</a></li>
-                                                        <li><a href="admin-profile.html">Admin Profile</a>
-                                                        </li>
-                                                        <li><a href="admin-message.html">Message</a></li>
-                                                        <li><a href="admin-wishlist.html">Popular
-                                                                Courses</a></li>
-                                                        <li><a href="admin-reviews.html">Review</a></li>
-                                                        <li><a href="admin-quiz-attempts.html">Admin
-                                                                Quiz</a></li>
-
-                                                        <li><a href="admin-settings.html">Settings</a></li>
-                                                    </ul>
-
-                                                </li>
-                                                <li>
-                                                    <a href="instructor-dashboard.html">Instructor <i class="icofont-rounded-right"></i></a>
-                                                    <ul class="headerarea__submenu--third">
-                                                        <li><a href="instructor-dashboard.html">Inst.
-                                                                Dashboard</a></li>
-                                                        <li><a href="instructor-profile.html">Inst.
-                                                                Profile</a></li>
-                                                        <li><a href="instructor-message.html">Message</a></li>
-                                                        <li><a href="instructor-wishlist.html">Wishlist</a>
-                                                        </li>
-                                                        <li><a href="instructor-reviews.html">Review</a>
-                                                        </li>
-                                                        <li><a href="instructor-my-quiz-attempts.html">My
-                                                                Quiz</a></li>
-                                                        <li><a href="instructor-order-history.html">Order
-                                                                History</a></li>
-                                                        <li><a href="instructor-course.html">My Courses</a>
-                                                        </li>
-                                                        <li><a href="instructor-announcments.html">Announcements</a>
-                                                        </li>
-                                                        <li><a href="instructor-quiz-attempts.html">Quiz
-                                                                Attempts</a></li>
-                                                        <li><a href="instructor-assignments.html">Assignment</a>
-                                                        </li>
-                                                        <li><a href="instructor-settings.html">Settings</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="student-dashboard.html">Student <i class="icofont-rounded-right"></i></a>
-                                                    <ul class="headerarea__submenu--third">
-                                                        <li><a href="student-dashboard.html">Dashboard</a>
-                                                        </li>
-                                                        <li><a href="student-profile.html">Profile</a></li>
-                                                        <li><a href="student-message.html">Message</a></li>
-                                                        <li><a href="student-enrolled-courses.html">Enrolled
-                                                                Courses</a></li>
-                                                        <li><a href="student-wishlist.html">Wishlist</a>
-                                                        </li>
-                                                        <li><a href="student-reviews.html">Review</a></li>
-                                                        <li><a href="student-my-quiz-attempts.html">My
-                                                                Quiz</a></li>
-                                                        <li><a href="student-assignments.html">Assignment</a>
-                                                        </li>
-                                                        <li><a href="student-settings.html">Settings</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-
-                                        <li><a class="headerarea__has__dropdown" href="ecommerce/shop.html">eCommerce
-                                                <i class="icofont-rounded-down"></i>
-                                            </a>
-                                            <ul class="headerarea__submenu">
-                                                <li><a href="../ecommerce/shop.html">Shop<span class="mega__menu__label">Online
-                                                            Store</span></a></li>
-                                                <li><a href="../ecommerce/product-details.html">Product Details</a></li>
-                                                <li><a href="../ecommerce/cart.html">Cart</a></li>
-                                                <li><a href="../ecommerce/checkout.html">Checkout</a></li>
-                                                <li><a href="../ecommerce/wishlist.html">Wishlist</a></li>
-                                            </ul>
-                                        </li>
-
-
-                                    </ul>
-                                </nav> -->
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-6">
                             <div class="headerarea__right">
 
-                                <div class="header__cart">
-                                    <a href="#"> <i class="icofont-cart-alt"></i></a>
-                                    <div class="header__right__dropdown__wrapper">
-                                        <div class="header__right__dropdown__inner">
-                                            <div class="single__header__right__dropdown">
-
-                                                <div class="header__right__dropdown__img">
-                                                    <a href="#">
-                                                        <img loading="lazy" src="../assets/img/grid/cart1.jpg" alt="photo">
-                                                    </a>
-                                                </div>
-                                                <div class="header__right__dropdown__content">
-
-                                                    <a href="shop-product.html">Web Directory</a>
-                                                    <p>1 x <span class="price">$ 80.00</span></p>
-
-                                                </div>
-                                                <div class="header__right__dropdown__close">
-                                                    <a href="#"><i class="icofont-close-line"></i></a>
-                                                </div>
-                                            </div>
-
-                                            <div class="single__header__right__dropdown">
-
-                                                <div class="header__right__dropdown__img">
-                                                    <a href="#">
-                                                        <img loading="lazy" src="../assets/img/grid/cart2.jpg" alt="photo">
-                                                    </a>
-                                                </div>
-                                                <div class="header__right__dropdown__content">
-
-                                                    <a href="shop-product.html">Design Minois</a>
-                                                    <p>1 x <span class="price">$ 60.00</span></p>
-
-                                                </div>
-                                                <div class="header__right__dropdown__close">
-                                                    <a href="#"><i class="icofont-close-line"></i></a>
-                                                </div>
-                                            </div>
-
-                                            <div class="single__header__right__dropdown">
-
-                                                <div class="header__right__dropdown__img">
-                                                    <a href="#">
-                                                        <img loading="lazy" src="../assets/img/grid/cart3.jpg" alt="photo">
-                                                    </a>
-                                                </div>
-                                                <div class="header__right__dropdown__content">
-
-                                                    <a href="shop-product.html">Crash Course</a>
-                                                    <p>1 x <span class="price">$ 70.00</span></p>
-
-                                                </div>
-                                                <div class="header__right__dropdown__close">
-                                                    <a href="#"><i class="icofont-close-line"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <p class="dropdown__price">Total: <span>$1,100.00</span>
-                                        </p>
-                                        <div class="header__right__dropdown__button">
-                                            <a href="cart.html" class="white__color">View Cart</a>
-                                            <a href="checkout.html" class="blue__color">Checkout</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="headerarea__login">
-                                    <a href="../login.html"><i class="icofont-user-alt-5"></i></a>
-                                </div>
                                 <div class="headerarea__button">
                                     <a href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();"><i class="icofont-logout"></i>Logout</a>
@@ -804,82 +120,13 @@
                     <div class="row align-items-center">
                         <div class="col-6">
                             <div class="mobile-logo">
-                                <a class="logo__dark" href="#"><img loading="lazy" src="../assets/img/logo/logo_1.png" alt="logo"></a>
+                                <a class="logo__dark" href="#"><img loading="lazy" src="{{asset('assets/img/logo/enlight-group-logo.png')}}" alt="logo"></a>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="header-right-wrap">
 
                                 <div class="headerarea__right">
-
-                                    <div class="header__cart">
-                                        <a href="#"> <i class="icofont-cart-alt"></i></a>
-                                        <div class="header__right__dropdown__wrapper">
-                                            <div class="header__right__dropdown__inner">
-                                                <div class="single__header__right__dropdown">
-
-                                                    <div class="header__right__dropdown__img">
-                                                        <a href="#">
-                                                            <img loading="lazy" src="../assets/img/grid/cart1.jpg" alt="photo">
-                                                        </a>
-                                                    </div>
-                                                    <div class="header__right__dropdown__content">
-
-                                                        <a href="shop-product.html">Web Directory</a>
-                                                        <p>1 x <span class="price">$ 80.00</span></p>
-
-                                                    </div>
-                                                    <div class="header__right__dropdown__close">
-                                                        <a href="#"><i class="icofont-close-line"></i></a>
-                                                    </div>
-                                                </div>
-
-                                                <div class="single__header__right__dropdown">
-
-                                                    <div class="header__right__dropdown__img">
-                                                        <a href="#">
-                                                            <img loading="lazy" src="../assets/img/grid/cart2.jpg" alt="photo">
-                                                        </a>
-                                                    </div>
-                                                    <div class="header__right__dropdown__content">
-
-                                                        <a href="shop-product.html">Design Minois</a>
-                                                        <p>1 x <span class="price">$ 60.00</span></p>
-
-                                                    </div>
-                                                    <div class="header__right__dropdown__close">
-                                                        <a href="#"><i class="icofont-close-line"></i></a>
-                                                    </div>
-                                                </div>
-
-                                                <div class="single__header__right__dropdown">
-
-                                                    <div class="header__right__dropdown__img">
-                                                        <a href="#">
-                                                            <img loading="lazy" src="../assets/img/grid/cart3.jpg" alt="photo">
-                                                        </a>
-                                                    </div>
-                                                    <div class="header__right__dropdown__content">
-
-                                                        <a href="shop-product.html">Crash Course</a>
-                                                        <p>1 x <span class="price">$ 70.00</span></p>
-
-                                                    </div>
-                                                    <div class="header__right__dropdown__close">
-                                                        <a href="#"><i class="icofont-close-line"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <p class="dropdown__price">Total: <span>$1,100.00</span>
-                                            </p>
-                                            <div class="header__right__dropdown__button">
-                                                <a href="#" class="white__color">VIEW
-                                                    CART</a>
-                                                <a href="#" class="blue__color">CHECKOUT</a>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
 
                                 <div class="mobile-off-canvas">
@@ -897,297 +144,16 @@
         <div class="mobile-off-canvas-active">
             <a class="mobile-aside-close"><i class="icofont  icofont-close-line"></i></a>
             <div class="header-mobile-aside-wrap">
-                <div class="mobile-search">
-                    <form class="search-form" action="#">
-                        <input type="text" placeholder="Search entire store…">
-                        <button class="button-search"><i class="icofont icofont-search-2"></i></button>
-                    </form>
-                </div>
-                <div class="mobile-menu-wrap headerarea">
-
-                    <div class="mobile-navigation">
-
-                        <nav>
-                            <ul class="mobile-menu">
-                                <li class="menu-item-has-children"><a href="../index.html">Home</a>
-                                    <ul class="dropdown">
-                                        <li class="menu-item-has-children"><a href="../index.html">Homes Light</a>
-                                            <ul class="dropdown">
-                                                <li><a href="../index.html">Home (Default)</a></li>
-                                                <li><a href="../home-2.html">Elegant</a></li>
-                                                <li><a href="../home-3.html">Classic</a></li>
-                                                <li><a href="../home-4.html">Classic LMS</a></li>
-                                                <li><a href="../home-5.html">Online Course </a></li>
-                                                <li><a href="../home-6.html">Marketplace </a></li>
-                                                <li><a href="../home-7.html">University</a></li>
-                                                <li><a href="../home-8.html">eCommerce</a></li>
-                                                <li><a href="../home-9.html">Kindergarten</a></li>
-                                                <li><a href="../home-10.html">Machine Learning</a></li>
-                                                <li><a href="../home-11.html">Single Course</a></li>
-                                            </ul>
-                                        </li>
-
-                                        <li class="menu-item-has-children">
-                                            <a href="../index.html">Homes Dark</a>
-                                            <ul class="dropdown">
-                                                <li><a href="../index-dark.html">Home Default (Dark)</a></li>
-                                                <li><a href="../home-2-dark.html">Elegant (Dark)</a></li>
-                                                <li><a href="../home-3-dark.html">Classic (Dark)</a></li>
-                                                <li><a href="../home-4-dark.html">Classic LMS (Dark)</a></li>
-                                                <li><a href="../home-5-dark.html">Online Course (Dark)</a></li>
-                                                <li><a href="../home-6-dark.html">Marketplace (Dark)</a></li>
-                                                <li><a href="../home-7-dark.html">University (Dark)</a></li>
-                                                <li><a href="../home-8-dark.html">eCommerce (Dark)</a></li>
-                                                <li><a href="../home-9-dark.html">Kindergarten (Dark)</a></li>
-                                                <li><a href="../home-10-dark.html">Kindergarten (Dark)</a></li>
-                                                <li><a href="../home-11-dark.html">Single Course (Dark)</a></li>
-                                            </ul>
-                                        </li>
-
-                                    </ul>
-                                </li>
-
-
-                                <li class="menu-item-has-children "><a href="#">Pages</a>
-
-                                    <ul class="dropdown">
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Get Started 1</a>
-
-                                            <ul class="dropdown">
-                                                <li><a href="../about.html">About</a></li>
-                                                <li><a href="../about-dark.html">About (Dark)<span class="mega__menu__label new">New</span></a></li>
-                                                <li><a href="../blog.html">Blog</a></li>
-                                                <li><a href="../blog-dark.html">Blog (Dark)</a></li>
-                                                <li><a href="../blog-details.html">Blog Details</a></li>
-                                                <li><a href="../blog-details-dark.html">Blog Details (Dark)</a></li>
-                                            </ul>
-                                        </li>
-
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Get Started 2</a>
-                                            <ul class="dropdown">
-                                                <li><a href="../error.html">Error 404</a></li>
-                                                <li><a href="../error-dark.html">Error (Dark)</a></li>
-                                                <li><a href="../event-details.html">Event Details</a></li>
-                                                <li><a href="../zoom/zoom-meetings.html">Zoom<span class="mega__menu__label">Online Call</span></a></li>
-                                                <li><a href="../zoom/zoom-meetings-dark.html">Zoom Meeting (Dark)</a>
-                                                </li>
-                                                <li><a href="../zoom/zoom-meeting-details.html">Zoom Meeting Details</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Get Started 3</a>
-                                            <ul class="dropdown">
-                                                <li><a href="../zoom/zoom-meeting-details-dark.html">Meeting Details (Dark)</a>
-                                                </li>
-                                                <li><a href="../login.html">Login</a></li>
-                                                <li><a href="../login-dark.html">Login (Dark)</a></li>
-                                                <li><a href="../maintenance.html">Maintenance</a></li>
-                                                <li><a href="../maintenance-dark.html">Maintenance Dark</a></li>
-                                                <li><a href="#">Terms & Condition</a></li>
-                                            </ul>
-                                        </li>
-
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Get Started 4</a>
-                                            <ul class="dropdown">
-                                                <li><a href="#">Terms & Condition (Dark)</a></li>
-                                                <li><a href="#">Privacy Policy</a></li>
-                                                <li><a href="#">Privacy Policy (Dark)</a></li>
-                                                <li><a href="#">Success Stories</a></li>
-                                                <li><a href="#">Success Stories (Dark)</a></li>
-                                                <li><a href="#">Work Policy</a></li>
-                                            </ul>
-                                        </li>
-
-                                        <li class="menu-item-has-children">
-                                            <div class="mega__menu__img">
-                                                <a href="#"><img loading="lazy" src="../assets/img/mega/mega_menu_2.png" alt="Mega Menu"></a>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </li>
-
-
-
-                                <li class="menu-item-has-children "><a href="../course.html">Courses</a>
-
-                                    <ul class="dropdown">
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Get Started 1</a>
-
-                                            <ul class="dropdown">
-                                                <li><a href="../course.html">Grid <span class="mega__menu__label">All
-                                                            Courses</span></a></li>
-                                                <li><a href="../course-dark.html">Course Grid (Dark)</a></li>
-                                                <li><a href="../course-grid.html">Course Grid</a></li>
-                                                <li><a href="../course-grid-dark.html">Course Grid (Dark)</a></li>
-                                                <li><a href="../course-list.html">Course List</a></li>
-                                                <li><a href="../course-list-dark.html">Course List (Dark)</a></li>
-                                            </ul>
-                                        </li>
-
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Get Started 2</a>
-                                            <ul class="dropdown">
-                                                <li><a href="../course-details.html">Course Details</a></li>
-                                                <li><a href="../course-details-dark.html">Course Details (Dark)</a></li>
-                                                <li><a href="../course-details-2.html">Course Details 2</a></li>
-                                                <li><a href="../course-details-2-dark.html">Details 2 (Dark)</a></li>
-                                                <li><a href="../course-details-3.html">Course Details 3</a></li>
-                                                <li><a href="../course-details-3.html">Details 3 (Dark)</a></li>
-                                            </ul>
-                                        </li>
-
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Get Started 3</a>
-                                            <ul class="dropdown">
-                                                <li><a href="become-an-instructor.html">Become An
-                                                        Instructor</a>
-                                                <li><a href="create-course.html">Create Course <span class="mega__menu__label">Career</span></a></li>
-                                                <li><a href="../instructor.html">Instructor</a></li>
-                                                <li><a href="../instructor-dark.html">Instructor (Dark)</a></li>
-                                                <li><a href="../instructor-details.html">Instructor Details</a></li>
-                                                <li><a href="../lesson.html">Course Lesson<span class="mega__menu__label new">New</span></a></li>
-                                            </ul>
-                                        </li>
-
-                                        <li class="menu-item-has-children">
-                                            <div class="mega__menu__img">
-                                                <a href="#"><img loading="lazy" src="../assets/img/mega/mega_menu_1.png" alt="Mega Menu"></a>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </li>
-
-
-                                <li class="menu-item-has-children "><a href="admin-dashboard.html">Dashboard</a>
-
-                                    <ul class="dropdown">
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Admin</a>
-
-                                            <ul class="dropdown">
-                                                <li><a href="admin-dashboard.html">Admin Dashboard</a></li>
-                                                <li><a href="admin-profile.html">Admin Profile</a></li>
-                                                <li><a href="admin-message.html">Recent
-                                                        Courses</a></li>
-                                                <li><a href="admin-course.html">Courses</a></li>
-                                                <li><a href="admin-reviews.html">Review</a></li>
-                                                <li><a href="admin-quiz-attempts.html">Admin Quiz</a>
-                                                </li>
-
-                                                <li><a href="admin-settings.html">Settings</a></li>
-                                            </ul>
-                                        </li>
-
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Instructor</a>
-                                            <ul class="dropdown">
-                                                <li><a href="instructor-dashboard.html">Inst. Dashboard</a>
-                                                </li>
-                                                <li><a href="instructor-profile.html">Inst. Profile</a>
-                                                </li>
-                                                <li><a href="instructor-enrolled-courses.html">Enrolled
-                                                        Courses</a></li>
-                                                <li><a href="instructor-wishlist.html">Wishlist</a></li>
-                                                <li><a href="instructor-reviews.html">Review</a></li>
-                                                <li><a href="instructor-my-quiz-attempts.html">My Quiz</a>
-                                                </li>
-                                                <li><a href="instructor-order-history.html">Order
-                                                        History</a></li>
-                                                <li><a href="instructor-course.html">My Courses</a></li>
-                                                <li><a href="instructor-announcments.html">Announcements</a>
-                                                </li>
-                                                <li><a href="instructor-quiz-attempts.html">Quiz
-                                                        Attempts</a></li>
-                                                <li><a href="instructor-assignments.html">Assignment</a>
-                                                </li>
-                                                <li><a href="instructor-settings.html">Settings</a></li>
-                                            </ul>
-                                        </li>
-
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Student</a>
-                                            <ul class="dropdown">
-                                                <li><a href="student-dashboard.html">Dashboard</a></li>
-                                                <li><a href="student-profile.html">Profile</a></li>
-                                                <li><a href="student-message.html">Message</a></li>
-                                                <li><a href="student-enrolled-courses.html">Enrolled
-                                                        Courses</a></li>
-                                                <li><a href="student-wishlist.html">Wishlist</a></li>
-                                                <li><a href="student-reviews.html">Review</a></li>
-                                                <li><a href="student-my-quiz-attempts.html">My Quiz</a>
-                                                </li>
-                                                <li><a href="student-assignments.html">Assignment</a></li>
-                                                <li><a href="student-settings.html">Settings</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                                <li class="menu-item-has-children"><a href="ecommerce/shop.html">eCommerce</a>
-                                    <ul class="dropdown">
-                                        <li><a href="../ecommerce/shop.html">Shop<span class="mega__menu__label">Online
-                                                    Store</span></a></li>
-                                        <li><a href="../ecommerce/product-details.html">Product Details</a></li>
-                                        <li><a href="../ecommerce/cart.html">Cart</a></li>
-                                        <li><a href="../ecommerce/checkout.html">Checkout</a></li>
-                                        <li><a href="../ecommerce/wishlist.html">Wishlist</a></li>
-
-                                    </ul>
-                                </li>
-
-                            </ul>
-                        </nav>
-
-                    </div>
-
-                </div>
                 <div class="mobile-curr-lang-wrap">
-                    <div class="single-mobile-curr-lang">
-                        <a class="mobile-language-active" href="#">Language <i class="icofont-thin-down"></i></a>
-                        <div class="lang-curr-dropdown lang-dropdown-active">
-                            <ul>
-                                <li><a href="#">English (US)</a></li>
-                                <li><a href="#">English (UK)</a></li>
-                                <li><a href="#">Spanish</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- <div class="single-mobile-curr-lang">
-                                <a class="mobile-currency-active" href="#">Currency <i class="icofont-thin-down"></i></a>
-                                <div class="lang-curr-dropdown curr-dropdown-active">
-                                    <ul>
-                                        <li><a href="#">USD</a></li>
-                                        <li><a href="#">EUR</a></li>
-                                        <li><a href="#">Real</a></li>
-                                        <li><a href="#">BDT</a></li>
-                                    </ul>
-                                </div>
-                            </div> -->
 
                     <div class="single-mobile-curr-lang">
                         <a class="mobile-account-active" href="#">My Account <i class="icofont-thin-down"></i></a>
                         <div class="lang-curr-dropdown account-dropdown-active">
                             <ul>
-                                <li><a href="../login.html">Login</a></li>
-                                <li><a href="../login.html">/ Create Account</a></li>
-                                <li><a href="../login.html">My Account</a></li>
+                                <li><a href="../login.html">Logout</a></li>
                             </ul>
                         </div>
                     </div>
-                </div>
-                <div class="mobile-social-wrap">
-                    <a class="facebook" href="#"><i class="icofont icofont-facebook"></i></a>
-                    <a class="twitter" href="#"><i class="icofont icofont-twitter"></i></a>
-                    <a class="pinterest" href="#"><i class="icofont icofont-pinterest"></i></a>
-                    <a class="instagram" href="#"><i class="icofont icofont-instagram"></i></a>
-                    <a class="google" href="#"><i class="icofont icofont-youtube-play"></i></a>
                 </div>
             </div>
         </div>
@@ -1210,24 +176,13 @@
                                 <div class="dashboardarea__inner admin__dashboard__inner">
                                     <div class="dashboardarea__left">
                                         <div class="dashboardarea__left__img">
-                                            <img loading="lazy" src="{{asset('assets/img/dashbord/dashbord__2.jpg')}}" alt="vvvvvvv">
+                                            <img loading="lazy" src="{{asset('assets/img/dashbord/dashbord__2.jpg')}}" alt="photo">
                                         </div>
                                         <div class="dashboardarea__left__content">
                                             <h5>Hello</h5>
                                             <h4>Admin</h4>
                                         </div>
                                     </div>
-                                    <!-- <div class="dashboardarea__star">
-                                <i class="icofont-star"></i>
-                                <i class="icofont-star"></i>
-                                <i class="icofont-star"></i>
-                                <i class="icofont-star"></i>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star">
-                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
-                                    </polygon>
-                                </svg>
-                                <span>4.0 (120 Reviews)</span>
-                            </div> -->
                                     <div class="dashboardarea__right">
                                         <div class="dashboardarea__right__button">
                                             <a class="default__button" href="create-course.html">Create a New Course
@@ -1272,36 +227,9 @@
                                                 My Profile</a>
                                         </li>
                                         <li>
-                                            <a href="admin-message.html">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-book-open">
-                                                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
-                                                    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
-                                                </svg>
-                                                Message</a><span class="dashboard__label">12</span>
-                                        </li>
-                                        <li>
-                                            <a href="admin-message.html">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bookmark">
-                                                    <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
-                                                </svg>
-                                                Courses</a>
-                                        </li>
-                                        <li>
-                                            <a href="admin-reviews.html">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star">
-                                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
-                                                    </polygon>
-                                                </svg>
-                                                Reviews</a>
-                                        </li>
-                                        <li>
-                                            <a href="admin-quiz-attempts.html">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-help-circle">
-                                                    <circle cx="12" cy="12" r="10"></circle>
-                                                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
-                                                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
-                                                </svg>
-                                                Quiz Attempts</a>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="32" x="0" y="0" viewBox="0 0 32 32" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M24.013 1H7.987a3.73 3.73 0 0 0-3.726 3.726v19.989a3.73 3.73 0 0 0 3.726 3.725h4.995a1 1 0 0 0 0-2H7.987a1.728 1.728 0 0 1-1.726-1.725V4.725A1.728 1.728 0 0 1 7.987 3h16.026a1.728 1.728 0 0 1 1.726 1.726v14.359a1 1 0 0 0 2 0V4.725A3.73 3.73 0 0 0 24.013 1z" fill="#007bff" opacity="1" data-original="#000000" class=""></path><path d="M10.062 5.505a1.363 1.363 0 1 0 1.363 1.362 1.363 1.363 0 0 0-1.363-1.362zM14.88 7.867h8.55a1 1 0 0 0 0-2h-8.55a1 1 0 0 0 0 2zM10.062 10.47a1.363 1.363 0 1 0 1.363 1.362 1.363 1.363 0 0 0-1.363-1.363zM14.88 12.832h8.55a1 1 0 0 0 0-2h-8.55a1 1 0 0 0 0 2zM10.062 15.434a1.363 1.363 0 1 0 1.363 1.363 1.363 1.363 0 0 0-1.363-1.363zM14.88 17.797h8.55a1 1 0 0 0 0-2h-8.55a1 1 0 0 0 0 2zM22.038 20.671a.976.976 0 0 0-1.928 0 4.336 4.336 0 0 0-3.37 4.218v2.167a2.363 2.363 0 0 0-.9 1.85 1 1 0 0 0 1 1h3.234V30a1 1 0 0 0 2 0v-.095h3.235a1 1 0 0 0 1-1 2.363 2.363 0 0 0-.9-1.85v-2.166a4.336 4.336 0 0 0-3.371-4.218zM18.7 27.905a1.007 1.007 0 0 0 .039-.277v-2.74a2.334 2.334 0 0 1 4.668 0v2.74a1.007 1.007 0 0 0 .04.277z" fill="#007bff" opacity="1" data-original="#000000" class=""></path></g></svg>News & Notices
+                                            </a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1351,170 +279,12 @@
 
         <!-- footer__section__start -->
         <div class="footerarea">
-            <div class="container">
-                <div class="footerarea__newsletter__wraper">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-up">
-                            <div class="footerarea__logo">
-                                <a href="#"><img loading="lazy" src="../assets/img/logo/logo_2.png" alt="logophoto"></a>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-up">
-                            <div class="footerarea__newsletter">
-                                <div class="footerarea__newsletter__input">
-                                    <form action="#">
-                                        <input type="text" placeholder="Enter your email here">
-                                        <div class="footerarea__newsletter__button">
-                                            <button type="submit" class="subscribe__btn">Subscribe Now</button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="footerarea__wrapper">
-                    <div class="row">
-                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 " data-aos="fade-up">
-                            <div class="footerarea__inner footerarea__about__us">
-                                <div class="footerarea__heading">
-                                    <h3>About us</h3>
-                                </div>
-                                <div class="footerarea__content">
-                                    <p>orporate clients and leisure travelers has been relying on Groundlink for
-                                        dependable safe, and professional chauffeured car end service in major cities
-                                        across World.</p>
-                                </div>
-                                <div class="footerarea__icon">
-                                    <ul>
-                                        <li><a href="http://facebook.com/"><i class="icofont-facebook"></i></a></li>
-                                        <li><a href="http://twitter.com/"><i class="icofont-twitter"></i></a></li>
-                                        <li><a href="http://vimeo.com/"><i class="icofont-vimeo"></i></a></li>
-                                        <li><a href="http://linkedin.com/"><i class="icofont-linkedin"></i></a></li>
-                                        <li><a href="http://skype.com/"><i class="icofont-skype"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 " data-aos="fade-up">
-                            <div class="footerarea__inner">
-                                <div class="footerarea__heading">
-                                    <h3>Usefull Links</h3>
-                                </div>
-                                <div class="footerarea__list">
-                                    <ul>
-                                        <li>
-                                            <a href="#">About Us</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Teachers</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Partner</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Room-Details</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Gallery</a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 " data-aos="fade-up">
-                            <div class="footerarea__inner footerarea__padding__left">
-                                <div class="footerarea__heading">
-                                    <h3>Course</h3>
-                                </div>
-                                <div class="footerarea__list">
-                                    <ul>
-                                        <li>
-                                            <a href="#">Ui Ux Design</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Web Development</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Business Strategy</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Softwere Development</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Business English</a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12" data-aos="fade-up">
-                            <div class="footerarea__right__wraper footerarea__inner">
-                                <div class="footerarea__heading">
-                                    <h3>Recent Post</h3>
-                                </div>
-                                <div class="footerarea__right__list">
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <div class="footerarea__right__img">
-                                                    <img loading="lazy" src="../assets/img/footer/footer__1.png" alt="footerphoto">
-                                                </div>
-                                                <div class="footerarea__right__content">
-                                                    <span>02 Apr 2024 </span>
-                                                    <h6>Best Your Business</h6>
-                                                </div>
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#">
-                                                <div class="footerarea__right__img">
-                                                    <img loading="lazy" src="../assets/img/footer/footer__2.png" alt="footerphoto">
-                                                </div>
-                                                <div class="footerarea__right__content">
-                                                    <span>02 Apr 2024 </span>
-                                                    <h6>Keep Your Business</h6>
-                                                </div>
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#">
-                                                <div class="footerarea__right__img">
-                                                    <img loading="lazy" src="../assets/img/footer/footer__3.png" alt="footerphoto">
-                                                </div>
-                                                <div class="footerarea__right__content">
-                                                    <span>02 Apr 2024 </span>
-                                                    <h6>Nice Your Business</h6>
-                                                </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="container desktop__menu__wrapper">
                 <div class="footerarea__copyright__wrapper">
                     <div class="row">
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12" data-aos="fade-up">
+                        <div class="col-sm-12">
                             <div class="footerarea__copyright__content">
-                                <p>© 2024 Powered by <a href="#">Edurock</a>. All Rights Reserved.</p>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12" data-aos="fade-up">
-                            <div class="footerarea__copyright__list">
-                                <ul>
-                                    <li><a href="#">Terms of Use</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
-                                </ul>
+                                <p>Copyright © <span>2024</span> || All Right Reserved Enlight Group of Institutions | Design & Developed by EDUWEGO</p>
                             </div>
                         </div>
                     </div>

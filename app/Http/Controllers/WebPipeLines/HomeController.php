@@ -85,6 +85,23 @@ class HomeController extends Controller
         return view('WebView.Nursing.GnmNursing');
     }
 
+    public function diplomainmedicallaboratorytechnologydmltIndex()
+    {
+        return view('WebView.Paramedicals.diploma-in-medical-laboratory-technology-dmlt');
+    }
+    public function diplomainmedicalimagingxraytechnologydmxtIndex()
+    {
+        return view('WebView.Paramedicals.diploma-in-medical-imaging-x-ray-technology-dmxt');
+    }
+    public function diplomainmedicaloperationtechnologydmotIndex()
+    {
+        return view('WebView.Paramedicals.diploma-in-medical-operation-technology-dmot');
+    }
+    public function diplomainmedicalanesthesiatechnologydotdatIndex()
+    {
+        return view('WebView.Paramedicals.diploma-in-medical-anesthesia-technology-dot-dat');
+    }
+
     public function downloadPdf()
     {
         // dd("ascjh bhg");

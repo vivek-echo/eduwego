@@ -22,88 +22,100 @@
         margin-left: 10px;
         font-size: 1.5em;
     }
+
+    .swal2-actions {
+        gap: 10px;
+    }
 </style>
-<div class="container">
-    <h2 class="mb-4">News & Notices</h2>
-    <div id="success-message" class="alert alert-success" style="display:none;">
-        Data saved successfully.
+<div class="col-xl-9 col-lg-9 col-md-12">
+    <div class="dashboard__content__wraper">
+        <div class="dashboard__section__title">
+            <h4>News & Notices</h4>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div id="success-message" class="alert alert-success" style="display:none;">
+                    Data saved successfully.
+                </div>
+                <form id="dynamicForm" action="/submitNewsNotice" method="POST">
+                    @csrf
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="mb-0">News</h4>
+                        </div>
+                        <div class="card-body">
+                            <div id="newsSection">
+                                <div class="row field-group">
+                                    <div class="col-lg-1">
+                                        <label for="">News :</label>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <textarea class="form-control" name="newsFields[]"></textarea>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <label for="">Publish/Unpublish :</label>
+                                    </div>
+                                    <div class="col-lg-1">
+                                        <input type="checkbox" name="newsPublish[]" class="publish-checkbox">
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <i class="fas fa-plus-circle icon addMoreNews text-success"></i>
+                                        <i class="fas fa-minus-circle icon removeNews text-danger"></i>
+                
+                                    </div>
+                
+                
+                                </div>
+                            </div>
+                
+                        </div>
+                    </div>
+                
+                    <div class="card mt-4">
+                        <div class="card-header">
+                            <h4 class="mb-0">Notices</h4>
+                        </div>
+                        <div class="card-body">
+                            <div id="noticeSection">
+                                <div class="row field-group">
+                                    <div class="col-lg-1">
+                                        <label for="">Notice :</label>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <textarea class="form-control" name="noticeFields[]"></textarea>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <label for="">Publish/Unpublish :</label>
+                                    </div>
+                                    <div class="col-lg-1">
+                                        <input type="checkbox" name="noticePublish[]" class="publish-checkbox">
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <i class="fas fa-plus-circle icon addMoreNotice text-success"></i>
+                                        <i class="fas fa-minus-circle icon removeNotice text-danger"></i>
+                                    </div>
+                
+                
+                                </div>
+                            </div>
+                
+                        </div>
+                    </div>
+                    <!-- <div class="field-group input-group">
+                        <input type="text" class="form-control" name="fields[]" placeholder="Enter a value" />
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <input type="checkbox" name="publish[]" class="publish-checkbox">
+                                <label class="ml-2">Publish/Unpublish</label>
+                            </div>
+                            <button type="button" class="btn btn-success addMore">Add More</button>
+                        </div>
+                    </div> -->
+                    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                </form>
+            </div>
+        </div>
     </div>
-    <form id="dynamicForm" action="/submitNewsNotice" method="POST">
-        @csrf
-        <div class="card">
-            <div class="card-header">
-                <h3>News</h3>
-            </div>
-            <div class="card-body">
-                <div id="newsSection">
-                    <div class="row field-group">
-                        <div class="col-lg-1">
-                            <label for="">News :</label>
-                        </div>
-                        <div class="col-lg-5">
-                            <textarea class="form-control" name="newsFields[]"></textarea>
-                        </div>
-                        <div class="col-lg-2">
-                            <label for="">Publish/Unpublish :</label>
-                        </div>
-                        <div class="col-lg-1">
-                            <input type="checkbox" name="newsPublish[]" class="publish-checkbox">
-                        </div>
-                        <div class="col-lg-2">
-                            <i class="fas fa-plus-circle icon addMoreNews text-success"></i>
-                            <i class="fas fa-minus-circle icon removeNews text-danger"></i>
-
-                        </div>
-
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="card mt-4">
-            <div class="card-header">
-                <h3>Notices</h3>
-            </div>
-            <div class="card-body">
-                <div id="noticeSection">
-                    <div class="row field-group">
-                        <div class="col-lg-1">
-                            <label for="">Notice :</label>
-                        </div>
-                        <div class="col-lg-5">
-                            <textarea class="form-control" name="noticeFields[]"></textarea>
-                        </div>
-                        <div class="col-lg-2">
-                            <label for="">Publish/Unpublish :</label>
-                        </div>
-                        <div class="col-lg-1">
-                            <input type="checkbox" name="noticePublish[]" class="publish-checkbox">
-                        </div>
-                        <div class="col-lg-2">
-                            <i class="fas fa-plus-circle icon addMoreNotice text-success"></i>
-                            <i class="fas fa-minus-circle icon removeNotice text-danger"></i>
-                        </div>
-
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <!-- <div class="field-group input-group">
-            <input type="text" class="form-control" name="fields[]" placeholder="Enter a value" />
-            <div class="input-group-append">
-                <div class="input-group-text">
-                    <input type="checkbox" name="publish[]" class="publish-checkbox">
-                    <label class="ml-2">Publish/Unpublish</label>
-                </div>
-                <button type="button" class="btn btn-success addMore">Add More</button>
-            </div>
-        </div> -->
-        <button type="submit" class="btn btn-primary mt-3">Submit</button>
-    </form>
 </div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>

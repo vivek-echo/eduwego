@@ -51,7 +51,7 @@
                 <div class="blog__details__content__wraper">
                     <div class="course__button__wraper" data-aos="fade-up">
                         <div class="course__button">
-                            <a href="javascript:void(0);"><i class="icofont-file-document"></i> View
+                            <a href="javascript:void(0);"><i class="icofont-file-document"></i> Download
                                 Prospectus</a>
                         </div>
                         <div class="course__date">
@@ -86,13 +86,13 @@
                                     </div>
                                     <div>
                                         <h5 class="text-primary mb-0">Approvals</h5>
-                                        <p class="mb-0">Indian Nursing Council ( INC ), Karnataka Nursing Council ( KNC )</p>
+                                        <p class="lh-1-5 mb-0">Indian Nursing Council ( INC ), Karnataka Nursing Council ( KNC )</p>
                                     </div>
                                 </div>
 
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-3">
+                        <div class="col-sm-12 col-md-4">
                             <div class="course__details__wraper" data-aos="fade-up">
 
                                 <div class="d-flex align-items-center gap-3">
@@ -107,12 +107,11 @@
 
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-3">
-                            <div  >
-
-                            <div class="hreobannerarea__button__2">
-                                        <a class="default__button" target="_blank" href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions">Apply Now</a>
-                                    </div>
+                        <div class="col-sm-12 col-md-12">
+                            <div class="mb-3" data-aos="fade-up">
+                                <a class="default__button" target="_blank"
+                                    href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions">Apply
+                                    Now</a>
                             </div>
                         </div>
                     </div>

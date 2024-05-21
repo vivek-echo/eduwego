@@ -10,12 +10,12 @@
                 <div class="col-xl-12">
                     <div class="breadcrumb__content__wraper" data-aos="fade-up">
                         <div class="breadcrumb__title">
-                            <h2 class="heading text-white">M.Sc. Nursing</h2>
+                            <h2 class="heading text-white">Diploma in Medical Imaging/ X-ray Technology (DMXT)</h2>
                         </div>
                         <div class="breadcrumb__inner">
                             <ul>
                                 <li><a href="/">Home</a></li>
-                                <li>M.Sc. Nursing</li>
+                                <li>Diploma in Medical Imaging/ X-ray Technology (DMXT)</li>
                             </ul>
                         </div>
                     </div>
@@ -25,13 +25,6 @@
                 </div>
             </div>
         </div>
-
-        {{-- <div class="shape__icon__2">
-        <img loading="lazy" class=" shape__icon__img shape__icon__img__1" src="{{ asset('assets/img/herobanner/herobanner__1.png')}}"
-            alt="photo">
-        <img loading="lazy" class=" shape__icon__img shape__icon__img__3" src="{{ asset('assets/img/herobanner/herobanner__3.png')}}"
-            alt="photo">
-    </div> --}}
 
     </div>
     <!-- breadcrumbarea__section__end-->
@@ -61,14 +54,12 @@
                             <h3>About this course</h3>
                         </div>
                         <div class="course__details__paragraph" data-aos="fade-up">
-                            <p>MSc Nursing will prepare Nurses, to improve the quality of nursing education and practice, in India. It will build upon and extend, competence acquired at the graduate level, emphasize application of relevant theories into nursing practice, education, administration and development of research skills. It will prepare nurses, for leadership position in nursing and health care fields, who can function as nurse specialists, consultants, educators, administrators and researchers in a wide variety of professional settings in meeting the National priorities and the changing needs of the society.
+                            <p>DMXT is an undergraduate radiology course and is all about how electromagnetic radiation penetrates the human body and helps in creating an image on a photographic film. DMXT professionals become X-ray experts and help in scanning through X-ray machines.
                             </p>
                         </div>
 
                         <h4 class="sidebar__title" data-aos="fade-up">Eligibility</h4>
-                        <p>The Minimum education requirement shall be the passing of a B.Sc. Nursing/Post Basic B.Sc. Nursing with a minimum of 55% aggregate marks.
-                            <br>
-                            Minimum one year of work experience after Basic B.Sc. Nursing. Minimum one year of work experience before or after Post Basic B.Sc. Nursing
+                        <p>Candidate has to be 10+2 Science from a recognized board
                         </p>
                         <div class="row">
                             <div class="col-sm-12 col-md-6">

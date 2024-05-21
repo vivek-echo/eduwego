@@ -43,7 +43,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="gridarea__wraper">
                     <div class="gridarea__img">
-                        <a href="course-details.html"><img loading="lazy" src="{{asset('assets/img/courses/course-3.jpg')}}"
+                        <a href="/diploma-in-medical-laboratory-technology-dmlt"><img loading="lazy" src="{{asset('assets/img/courses/course-3.jpg')}}"
                                 alt="grid"></a>
                         <div class="gridarea__small__button">
                             <div class="grid__badge blue__color">Paramedical</div>
@@ -66,7 +66,7 @@
                             </ul>
                         </div>
                         <div class="gridarea__heading">
-                            <h3><a href="course-details.html">Diploma in Medical Laboratory Technology
+                            <h3><a href="/diploma-in-medical-laboratory-technology-dmlt">Diploma in Medical Laboratory Technology
                                     (DMLT)</a></h3>
                         </div>
                         <div>
@@ -75,10 +75,10 @@
                         </div>
                         <div class="gridarea__bottom">
 
-                            <a href="instructor-details.html">
+                            <a href="/diploma-in-medical-laboratory-technology-dmlt">
                                 <div class="gridarea__small__img">
                                     <div class="gridarea__small__content ms-0">
-                                        <h6>Read More <i class="icofont-long-arrow-right"></i></h6>
+                                        <h6>Apply Now <i class="icofont-long-arrow-right"></i></h6>
                                     </div>
                                 </div>
                             </a>
@@ -90,7 +90,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="gridarea__wraper">
                     <div class="gridarea__img">
-                        <a href="course-details.html"><img loading="lazy" src="{{asset('assets/img/courses/course-4.jpg')}}"
+                        <a href="/diploma-in-medical-imaging-x-ray-technology-dmxt"><img loading="lazy" src="{{asset('assets/img/courses/course-4.jpg')}}"
                                 alt="grid"></a>
                         <div class="gridarea__small__button gridarea__small__button__1">
                             <div class="grid__badge blue__color">Paramedical</div>
@@ -110,7 +110,7 @@
                             </ul>
                         </div>
                         <div class="gridarea__heading">
-                            <h3><a href="course-details.html">Diploma in Medical Imaging/X-Ray
+                            <h3><a href="/diploma-in-medical-imaging-x-ray-technology-dmxt">Diploma in Medical Imaging/X-Ray
                                     Technology (DMXT)</a></h3>
                         </div>
                         <div>
@@ -119,10 +119,10 @@
                         </div>
                         <div class="gridarea__bottom">
 
-                            <a href="instructor-details.html">
+                            <a href="/diploma-in-medical-imaging-x-ray-technology-dmxt">
                                 <div class="gridarea__small__img">
                                     <div class="gridarea__small__content">
-                                        <h6>Read More <i class="icofont-long-arrow-right"></i></h6>
+                                        <h6>Apply Now <i class="icofont-long-arrow-right"></i></h6>
                                     </div>
                                 </div>
                             </a>
@@ -134,7 +134,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="gridarea__wraper">
                     <div class="gridarea__img">
-                        <a href="course-details.html"><img loading="lazy" src="{{asset('assets/img/courses/course-7.jpg')}}"
+                        <a href="/diploma-in-medical-operation-technology-dmot"><img loading="lazy" src="{{asset('assets/img/courses/course-7.jpg')}}"
                                 alt="grid"></a>
                         <div class="gridarea__small__button gridarea__small__button__1">
                             <div class="grid__badge blue__color">Paramedical</div>
@@ -154,7 +154,7 @@
                             </ul>
                         </div>
                         <div class="gridarea__heading">
-                            <h3><a href="course-details.html">Diploma in Medical Operation Technology
+                            <h3><a href="/diploma-in-medical-operation-technology-dmot">Diploma in Medical Operation Technology
                                     (DMOT)</a></h3>
                         </div>
                         <div>
@@ -163,10 +163,10 @@
                         </div>
                         <div class="gridarea__bottom">
 
-                            <a href="instructor-details.html">
+                            <a href="/diploma-in-medical-operation-technology-dmot">
                                 <div class="gridarea__small__img">
                                     <div class="gridarea__small__content">
-                                        <h6>Read More <i class="icofont-long-arrow-right"></i></h6>
+                                        <h6>Apply Now <i class="icofont-long-arrow-right"></i></h6>
                                     </div>
                                 </div>
                             </a>
@@ -178,7 +178,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 ">
                 <div class="gridarea__wraper">
                     <div class="gridarea__img">
-                        <a href="course-details.html"><img loading="lazy" src="{{asset('assets/img/courses/course-8.jpg')}}"
+                        <a href="/diploma-in-medical-anesthesia-technology-dot-dat"><img loading="lazy" src="{{asset('assets/img/courses/course-8.jpg')}}"
                                 alt="grid"></a>
                         <div class="gridarea__small__button gridarea__small__button__1">
                             <div class="grid__badge blue__color">Paramedical</div>
@@ -198,7 +198,7 @@
                             </ul>
                         </div>
                         <div class="gridarea__heading">
-                            <h3><a href="course-details.html">Diploma in Medical Anesthesia Technology
+                            <h3><a href="/diploma-in-medical-anesthesia-technology-dot-dat">Diploma in Medical Anesthesia Technology
                                     (DOT/DAT)</a></h3>
                         </div>
                         <div>
@@ -206,10 +206,10 @@
                         </div>
                         <div class="gridarea__bottom">
 
-                            <a href="instructor-details.html">
+                            <a href="/diploma-in-medical-anesthesia-technology-dot-dat">
                                 <div class="gridarea__small__img">
                                     <div class="gridarea__small__content">
-                                        <h6>Read More <i class="icofont-long-arrow-right"></i></h6>
+                                        <h6>Apply Now <i class="icofont-long-arrow-right"></i></h6>
                                     </div>
                                 </div>
                             </a>

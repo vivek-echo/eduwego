@@ -73,7 +73,7 @@
                             <a href="/bScNursing">
                                 <div class="gridarea__small__img">
                                     <div class="gridarea__small__content ms-0">
-                                        <h6>Read More <i class="icofont-long-arrow-right"></i></h6>
+                                        <h6>Apply Now<i class="icofont-long-arrow-right"></i></h6>
                                     </div>
                                 </div>
                             </a>
@@ -115,7 +115,7 @@
                             <a href="/MSCNursing">
                                 <div class="gridarea__small__img">
                                     <div class="gridarea__small__content ms-0">
-                                        <h6>Read More <i class="icofont-long-arrow-right"></i></h6>
+                                        <h6>Apply Now<i class="icofont-long-arrow-right"></i></h6>
                                     </div>
                                 </div>
                             </a>
@@ -127,7 +127,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="gridarea__wraper">
                     <div class="gridarea__img">
-                        <a href="pbbsc-nursing.html"><img loading="lazy" src="{{asset('assets/img/courses/course-5.jpg')}}" alt="image-courses"></a>
+                        <a href="/PbbscNursing"><img loading="lazy" src="{{asset('assets/img/courses/course-5.jpg')}}" alt="image-courses"></a>
                         <div class="gridarea__small__button">
                             <div class="grid__badge">Nursing</div>
                         </div>
@@ -146,7 +146,7 @@
                             </ul>
                         </div>
                         <div class="gridarea__heading">
-                            <h3><a href="pbbsc-nursing.html">PBBSc Nursing</a></h3>
+                            <h3><a href="/PbbscNursing">PBBSc Nursing</a></h3>
                         </div>
                         <div>
                             <p>The B.Sc Nursing (Post certificate) course of study shall extend over a
@@ -154,10 +154,10 @@
                         </div>
                         <div class="gridarea__bottom">
 
-                            <a href="pbbsc-nursing.html">
+                            <a href="/PbbscNursing">
                                 <div class="gridarea__small__img">
                                     <div class="gridarea__small__content ms-0">
-                                        <h6>Read More <i class="icofont-long-arrow-right"></i></h6>
+                                        <h6>Apply Now<i class="icofont-long-arrow-right"></i></h6>
                                     </div>
                                 </div>
                             </a>
@@ -169,7 +169,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 ">
                 <div class="gridarea__wraper">
                     <div class="gridarea__img">
-                        <a href="gnm-nursing.html"><img loading="lazy" src="{{asset('assets/img/courses/course-6.jpg')}}" alt="image-courses"></a>
+                        <a href="/GnmNursing"><img loading="lazy" src="{{asset('assets/img/courses/course-6.jpg')}}" alt="image-courses"></a>
                         <div class="gridarea__small__button">
                             <div class="grid__badge">Nursing</div>
                         </div>
@@ -188,7 +188,7 @@
                             </ul>
                         </div>
                         <div class="gridarea__heading">
-                            <h3><a href="gnm-nursing.html">GNM Nursing</a></h3>
+                            <h3><a href="/GnmNursing">GNM Nursing</a></h3>
                         </div>
                         <div>
                             <p>GNM referred to as General Nursing and Midwifery deals with the education
@@ -196,10 +196,10 @@
                         </div>
                         <div class="gridarea__bottom">
 
-                            <a href="gnm-nursing.html">
+                            <a href="/GnmNursing">
                                 <div class="gridarea__small__img">
                                     <div class="gridarea__small__content ms-0">
-                                        <h6>Read More <i class="icofont-long-arrow-right"></i></h6>
+                                        <h6>Apply Now<i class="icofont-long-arrow-right"></i></h6>
                                     </div>
                                 </div>
                             </a>

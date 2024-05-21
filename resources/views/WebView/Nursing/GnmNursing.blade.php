@@ -62,19 +62,12 @@
                         <h3>About this course</h3>
                     </div>
                     <div class="course__details__paragraph" data-aos="fade-up">
-                        <p>The course of study shall extend over 4 academic years from the date of commencement
-                            of his/ her study of the subjects comprising the nursing curriculum to the date of
-                            completion of the examination. Terms and vacations shall be as notified by the
-                            university from time to time.
+                        <p>GNM referred to as General Nursing and Midwifery deals with the education of nurses in general health care, nursing, and midwifery. It is a 3-year-long Diploma program. The academic program is 3 years long and 6 months are dedicated towards internship. The internship is mandatory. This program will boost your career prospects. After completing this course, successful candidates may register themselves as a registered nurse or midwife with the state nurse registration council.
                         </p>
                     </div>
 
                     <h4 class="sidebar__title" data-aos="fade-up">Eligibility</h4>
-                    <p>The Minimum education requirement shall be the passing of a B.Sc. Nursing/Post Basic
-                        B.Sc. Nursing with a minimum of 55% aggregate marks.
-                        <br>
-                        Minimum one year of work experience after Basic B.Sc. Nursing. Minimum one year of work
-                        experience before or after Post Basic B.Sc. Nursing
+                    <p>Candidate has to be 10+2 Science from a recognized board
                     </p>
                     <div class="row">
                         <div class="col-sm-12 col-md-6">
@@ -86,13 +79,13 @@
                                     </div>
                                     <div>
                                         <h5 class="text-primary mb-0">Approvals</h5>
-                                        <p class="mb-0">Indian Nursing Council ( INC ), Karnataka Nursing Council ( KNC )</p>
+                                        <p class="lh-1-5 mb-0">Indian Nursing Council ( INC ), Karnataka Nursing Council ( KNC )</p>
                                     </div>
                                 </div>
 
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-3">
+                        <div class="col-sm-12 col-md-4">
                             <div class="course__details__wraper" data-aos="fade-up">
 
                                 <div class="d-flex align-items-center gap-3">
@@ -107,12 +100,11 @@
 
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-3">
-                            <div  >
-
-                            <div class="hreobannerarea__button__2">
-                                        <a class="default__button" target="_blank" href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions">Apply Now</a>
-                                    </div>
+                        <div class="col-sm-12 col-md-12">
+                            <div class="mb-3" data-aos="fade-up">
+                                <a class="default__button" target="_blank"
+                                    href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions">Apply
+                                    Now</a>
                             </div>
                         </div>
                     </div>
@@ -138,6 +130,10 @@
                                 <li>
                                     <i class="icofont-check"></i>
                                     <p>Migration</p>
+                                </li>
+                                <li>
+                                    <i class="icofont-check"></i>
+                                    <p>12 Pic Colour Passport size Photo</p>
                                 </li>
 
                             </ul>
