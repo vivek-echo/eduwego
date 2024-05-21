@@ -113,7 +113,15 @@
                                         </li>
 
                                         <li>
-                                            <a href="javascript:void(0);">About</a>
+                                            <a class="headerarea__has__dropdown" href="javascript:void(0);">About Us
+                                                <i class="icofont-rounded-down"></i>
+                                            </a>
+                                            <ul class="headerarea__submenu">
+                                                <li><a href="javascript:void(0);">About ELGI</a></li>
+                                                <li><a href="javascript:void(0);">Director's Message</a></li>
+                                                <li><a href="javascript:void(0);">Chairman's Message</a></li>
+                                                <li><a href="javascript:void(0);">Principal Desk</a></li>
+                                            </ul>
                                         </li>
 
                                         <li>

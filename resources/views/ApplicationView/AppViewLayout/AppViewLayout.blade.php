@@ -1,8 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
-
-
-<!-- Mirrored from html.themewin.com/edurock-preview/edurock/dashboard/admin-dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 May 2024 15:42:07 GMT -->
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -24,16 +21,6 @@
     <link rel="stylesheet" href="{{asset('assets/css/swiper-bundle.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
 
-
-    <script>
-        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
-        if (localStorage.getItem("theme-color") === "dark" || (!("theme-color" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
-            document.documentElement.classList.add("is_dark");
-        }
-        if (localStorage.getItem("theme-color") === "light") {
-            document.documentElement.classList.remove("is_dark");
-        }
-    </script>
 
 </head>
 
@@ -1419,21 +1406,6 @@
     <script src="{{asset('assets/js/main.js')}}"></script>
 
 
-
-    <script>
-        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
-        if (localStorage.getItem("theme-color") === "dark" || (!("theme-color" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
-            document.getElementById("light--to-dark-button")?.classList.add("dark--mode");
-        }
-        if (localStorage.getItem("theme-color") === "light") {
-            document.getElementById("light--to-dark-button")?.classList.remove("dark--mode");
-        }
-    </script>
-
-
 </body>
-
-
-<!-- Mirrored from html.themewin.com/edurock-preview/edurock/dashboard/admin-dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 May 2024 15:44:10 GMT -->
 
 </html>

@@ -773,11 +773,11 @@
 
                     </div>
 
-                    <div class="slider__controls__wrap slider__controls__arrows">
-                        <div class="swiper-button-next arrow-btn"></div>
-                        <div class="swiper-button-prev arrow-btn"></div>
-                    </div>
-
+                    
+                </div>
+                <div class="slider__controls__wrap slider__controls__arrows">
+                    <div class="swiper-button-next arrow-btn"></div>
+                    <div class="swiper-button-prev arrow-btn"></div>
                 </div>
             </div>
         </div>
@@ -1140,50 +1140,50 @@
                     <div class="single__gallery__img">
                         <img loading="lazy" src="{{asset('assets/img/gallery/gallery-1.jpg')}}" alt="photo">
                         <div class="gallery__icon">
-                            <a class="popup__img" href="img/gallery/gallery-1.jpg')}}"> <i class="icofont-eye-alt"></i></a>
+                            <a class="popup__img" href="{{asset('assets/img/gallery/gallery-1.jpg')}}"> <i class="icofont-eye-alt"></i></a>
                         </div>
                     </div>
                     <div class="single__gallery__img">
                         <img loading="lazy" src="{{asset('assets/img/gallery/gallery-2.jpg')}}" alt="photo">
                         <div class="gallery__icon">
-                            <a class="popup__img" href="img/gallery/gallery-2.jpg')}}"> <i class="icofont-eye-alt"></i></a>
+                            <a class="popup__img" href="{{asset('assets/img/gallery/gallery-2.jpg')}}"> <i class="icofont-eye-alt"></i></a>
                         </div>
                     </div>
                     <div class="single__gallery__img">
                         <img loading="lazy" src="{{asset('assets/img/gallery/gallery-3.jpg')}}" alt="photo">
                         <div class="gallery__icon">
-                            <a class="popup__img" href="img/gallery/gallery-3.jpg')}}"> <i class="icofont-eye-alt"></i></a>
+                            <a class="popup__img" href="{{asset('assets/img/gallery/gallery-3.jpg')}}"> <i class="icofont-eye-alt"></i></a>
                         </div>
                     </div>
                     <div class="single__gallery__img">
                         <img loading="lazy" src="{{asset('assets/img/gallery/gallery-4.jpg')}}" alt="photo">
                         <div class="gallery__icon">
-                            <a class="popup__img" href="img/gallery/gallery-4.jpg')}}"> <i class="icofont-eye-alt"></i></a>
+                            <a class="popup__img" href="{{asset('assets/img/gallery/gallery-4.jpg')}}"> <i class="icofont-eye-alt"></i></a>
                         </div>
                     </div>
                     <div class="single__gallery__img">
                         <img loading="lazy" src="{{asset('assets/img/gallery/gallery-5.jpg')}}" alt="photo">
                         <div class="gallery__icon">
-                            <a class="popup__img" href="img/gallery/gallery-5.jpg')}}"> <i class="icofont-eye-alt"></i></a>
+                            <a class="popup__img" href="{{asset('assets/img/gallery/gallery-5.jpg')}}"> <i class="icofont-eye-alt"></i></a>
                         </div>
                     </div>
                     <div class="single__gallery__img">
                         <img loading="lazy" src="{{asset('assets/img/gallery/gallery-6.jpg')}}" alt="photo">
                         <div class="gallery__icon">
-                            <a class="popup__img" href="img/gallery/gallery-6.jpg')}}"> <i class="icofont-eye-alt"></i></a>
+                            <a class="popup__img" href="{{asset('assets/img/gallery/gallery-6.jpg')}}"> <i class="icofont-eye-alt"></i></a>
                         </div>
                     </div>
 
                     <div class="single__gallery__img">
                         <img loading="lazy" src="{{asset('assets/img/gallery/gallery-7.jpg')}}" alt="photo">
                         <div class="gallery__icon">
-                            <a class="popup__img" href="img/gallery/gallery-7.jpg')}}"> <i class="icofont-eye-alt"></i></a>
+                            <a class="popup__img" href="{{asset('assets/img/gallery/gallery-7.jpg')}}"> <i class="icofont-eye-alt"></i></a>
                         </div>
                     </div>
                     <div class="single__gallery__img">
                         <img loading="lazy" src="{{asset('assets/img/gallery/gallery-8.jpg')}}" alt="photo">
                         <div class="gallery__icon">
-                            <a class="popup__img" href="img/gallery/gallery-8.jpg')}}"> <i class="icofont-eye-alt"></i></a>
+                            <a class="popup__img" href="{{asset('assets/img/gallery/gallery-8.jpg')}}"> <i class="icofont-eye-alt"></i></a>
                         </div>
                     </div>
 
