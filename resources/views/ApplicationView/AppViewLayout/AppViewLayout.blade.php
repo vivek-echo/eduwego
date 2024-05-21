@@ -132,7 +132,7 @@
                         </div>
                         <div class="col-xl-7 col-lg-7 main_menu_wrap">
                             <div class="headerarea__main__menu">
-                                <nav>
+                                <!-- <nav>
                                     <ul>
 
 
@@ -719,7 +719,7 @@
 
 
                                     </ul>
-                                </nav>
+                                </nav> -->
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-6">
@@ -797,7 +797,13 @@
                                     <a href="../login.html"><i class="icofont-user-alt-5"></i></a>
                                 </div>
                                 <div class="headerarea__button">
-                                    <a href="#">Get Start</a>
+                                    <a href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();"><i class="icofont-logout"></i>Logout</a>
+
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                        @csrf
+                                    </form>
                                 </div>
                             </div>
                         </div>

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
@@ -23,7 +24,8 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $arrRes['userProfile'] = Auth::user();
         // resources\views\ApplicationView\home.blade.php
-        return view('ApplicationView.home');
+        return view('ApplicationView.home',$arrRes);
     }
 }
