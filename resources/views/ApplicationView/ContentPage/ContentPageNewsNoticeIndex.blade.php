@@ -1,6 +1,5 @@
-@extends('WebView.WebViewLayouts.WebViewLayout')
-
-@section('webContent')
+@extends('ApplicationView.AppViewLayout.AppViewLayout')
+@section('appContent')
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

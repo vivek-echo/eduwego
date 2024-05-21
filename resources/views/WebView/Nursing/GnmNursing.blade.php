@@ -11,12 +11,12 @@
             <div class="col-xl-12">
                 <div class="breadcrumb__content__wraper" data-aos="fade-up">
                     <div class="breadcrumb__title">
-                        <h2 class="heading text-white">M.Sc. Nursing</h2>
+                        <h2 class="heading text-white">GNM. Nursing</h2>
                     </div>
                     <div class="breadcrumb__inner">
                         <ul>
                             <li><a href="/">Home</a></li>
-                            <li>M.Sc. Nursing</li>
+                            <li>GNM. Nursing</li>
                         </ul>
                     </div>
                 </div>
@@ -155,7 +155,7 @@
 
                     <div class="blogsidebar__content__wraper__2" data-aos="fade-up">
 
-                        <h4 class="sidebar__title">Other Course</h4>
+                        <h4 class="sidebar__title">Other Courses</h4>
                         <ul class="course__details__populer__list">
                             <li>
 
@@ -189,7 +189,7 @@
                                 </div>
                                 <div class="course__details__populer__content">
                                     <h6>
-                                        <a href="javascript:void(0);">GNM Nursing</a>
+                                        <a href="/MSCNursing">MSc. Nursing</a>
                                     </h6>
                                 </div>
                             </li>

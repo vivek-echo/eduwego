@@ -155,7 +155,7 @@
 
                     <div class="blogsidebar__content__wraper__2" data-aos="fade-up">
 
-                        <h4 class="sidebar__title">Other Course</h4>
+                        <h4 class="sidebar__title">Other Courses</h4>
                         <ul class="course__details__populer__list">
                             <li>
 
@@ -177,7 +177,7 @@
                                 </div>
                                 <div class="course__details__populer__content">
                                     <h6>
-                                        <a href="javascript:void(0);">PBBSc Nursing</a>
+                                        <a href="/MSCNursing">M.Sc Nursing</a>
                                     </h6>
                                 </div>
                             </li>
@@ -189,7 +189,7 @@
                                 </div>
                                 <div class="course__details__populer__content">
                                     <h6>
-                                        <a href="javascript:void(0);">GNM Nursing</a>
+                                        <a href="/GnmNursing">GNM Nursing</a>
                                     </h6>
                                 </div>
                             </li>
