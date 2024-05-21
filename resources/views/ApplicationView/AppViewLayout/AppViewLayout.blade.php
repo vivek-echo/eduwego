@@ -1227,7 +1227,7 @@
                                         </div>
                                         <div class="dashboardarea__left__content">
                                             <h5>Hello</h5>
-                                            <h4>{{$userProfile->name}}</h4>
+                                            <h4>Admin</h4>
                                         </div>
                                     </div>
                                     <!-- <div class="dashboardarea__star">
@@ -1264,7 +1264,7 @@
                         <div class="col-xl-3 col-lg-3 col-md-12">
                             <div class="dashboard__inner sticky-top">
                                 <div class="dashboard__nav__title">
-                                    <h6>Welcome, {{$userProfile->name}}</h6>
+                                    <h6>Welcome, Admin</h6>
                                 </div>
                                 <div class="dashboard__nav">
                                     <ul>
