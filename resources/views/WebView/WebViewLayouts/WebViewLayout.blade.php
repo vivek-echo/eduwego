@@ -157,11 +157,11 @@
                                                 <i class="icofont-rounded-down"></i>
                                             </a>
                                             <ul class="headerarea__submenu">
-                                                <li><a href="javascript:void(0);">Overview</a>
-                                                </li>
+                                                <!-- <li><a href="javascript:void(0);">Overview</a>
+                                                </li> -->
                                                 <li><a href="/Hostel">Hostel</a>
                                                 </li>
-                                                <li><a href="javascript:void(0);">Sports</a></li>
+                                                <!-- <li><a href="javascript:void(0);">Sports</a></li> -->
                                                 <li><a href="/gallery">Gallery</a></li>
                                             </ul>
                                         </li>
@@ -255,11 +255,11 @@
 
                                 <li class="menu-item-has-children"><a href="javascript:void(0);">Campus</a>
                                     <ul class="dropdown">
-                                        <li><a href="javascript:void(0);">Overview</a>
-                                        </li>
+                                        <!-- <li><a href="javascript:void(0);">Overview</a>
+                                        </li> -->
                                         <li><a href="/Hostel">Hostel</a>
                                         </li>
-                                        <li><a href="javascript:void(0);">Sports</a></li>
+                                        <!-- <li><a href="javascript:void(0);">Sports</a></li> -->
                                         <li><a href="/gallery">Gallery</a></li>
                                     </ul>
                                 </li>
