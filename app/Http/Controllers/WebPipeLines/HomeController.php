@@ -71,6 +71,10 @@ class HomeController extends Controller
     {
         return view('WebView.School.EnlightSchool');
     }
+    public function santidhamaschoolIndex()
+    {
+        return view('WebView.School.santidhamaschool');
+    }
     //start added by deepak on 20-05-2024
     public function MSCNursingIndex()
     {
@@ -100,6 +104,26 @@ class HomeController extends Controller
     public function diplomainmedicalanesthesiatechnologydotdatIndex()
     {
         return view('WebView.Paramedicals.diploma-in-medical-anesthesia-technology-dot-dat');
+    }
+    public function HostelIndex()
+    {
+        return view('WebView.Hostel.Hostel');
+    }
+    public function AboutElgiIndex()
+    {
+        return view('WebView.About.AboutElgi');
+    }
+    public function ChairmanMessageIndex()
+    {
+        return view('WebView.About.ChairmanMessage');
+    }
+    public function DirectorMessageIndex()
+    {
+        return view('WebView.About.DirectorMessage');
+    }
+    public function PrincipalDeskIndex()
+    {
+        return view('WebView.About.PrincipalDesk');
     }
 
     public function downloadPdf()

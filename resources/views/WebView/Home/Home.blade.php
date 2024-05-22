@@ -192,7 +192,7 @@
                             <div class="default__small__button">About Us</div>
                         </div>
                         <div class="aboutarea__headding heading__underline">
-                            <h2>Reliable & Trusted <span>Institutions</span></h2>
+                            <h2>Reliable & Trusted Institutions</h2>
                         </div>
                         <div class="aboutarea__para aboutarea__para__2">
                             <p>The Enlight Group Of Institutions Is Located In A Sprawling Green Campus Which Is
@@ -285,9 +285,9 @@
                         <div class="blogarea__content__wraper">
                             @foreach($notice as $noticeVal)
                             <div class="blogarea__text__wraper">
-                                <div class="blogarea__img">
+                                <div class="blogarea__img new-gif-size">
                                     <div class="blogarea__date">
-                                        <i class="icofont-news"></i>
+                                        <img src="{{asset('assets/img/newgif.gif')}}" alt="new-notice-image">
                                     </div>
                                 </div>
                                 <div class="blogarea__para">
@@ -310,7 +310,7 @@
     <!-- news and notices - end -->
 
     <!-- our__best__institutes - start -->
-    <div class="blogarea__2 sp_top_40 sp_bottom_100">
+    <div class="blogarea__2 sp_top_40 sp_bottom_70">
         <div class="container-fluid full__width__padding">
             <div class="row">
                 <div class="col-xl-12" data-aos="fade-up">
@@ -397,7 +397,7 @@
     <!-- our__best__institutes - end -->
 
     <!-- .courses__section__end -->
-    <div class="gridarea__2 sp_bottom_100" data-aos="fade-up">
+    <div class="gridarea__2 sp_bottom_70" data-aos="fade-up">
         <div class="container-fluid full__width__padding">
 
             <div class="section__title">
@@ -506,9 +506,6 @@
                                     <a href="course-details.html"><img loading="lazy" src="{{asset('assets/img/courses/course-3.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button">
                                         <div class="grid__badge blue__color">Paramedical</div>
-                                    </div>
-                                    <div class="gridarea__small__icon">
-                                        <a href="#"><i class="icofont-heart-alt"></i></a>
                                     </div>
 
                                 </div>
@@ -828,7 +825,7 @@
 
 
     <!-- facility__start -->
-    <div class="aboutarea__2 aboutarea__4 sp_bottom_100">
+    <div class="aboutarea__2 aboutarea__4 sp_bottom_70">
         <div class="container">
             <div class="row">
 
@@ -909,7 +906,7 @@
 
 
     <!-- testmonialarea__section__atart -->
-    <div class="testmonialarea sp_top_100 sp_bottom_110">
+    <div class="testmonialarea sp_top_70 sp_bottom_80">
         <div class="container">
             <div class="row" data-aos="fade-up">
                 <div class="section__title text-center">
@@ -917,7 +914,7 @@
                         <div class="default__small__button">Testimonials</div>
                     </div>
                     <div class="section__title__heading heading__underline">
-                        <h2>What <span>Students</span> Say About Us</h2>
+                        <h2>What Students Say About Us</h2>
                     </div>
                 </div>
             </div>
@@ -1073,7 +1070,7 @@
                     <div class="section__title text-center">
 
                         <div class="section__title__heading heading__underline">
-                            <h2><span>Placement</span> In Associated With
+                            <h2>Placement In Associated With
                             </h2>
                         </div>
                     </div>

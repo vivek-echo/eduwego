@@ -4,8 +4,8 @@
 
 <!-- breadcrumbarea__section__start -->
 
-<div class="breadcrumbarea">
-
+<div class="breadcrumbarea" style="background-image: url('{{asset('assets/img/infobanner/infobanner-2.jpg')}}')">
+    <div class="dark-overlay"></div>
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
@@ -15,7 +15,7 @@
                     </div>
                     <div class="breadcrumb__inner">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li>Sowrabha Institute of Nursing Sciences</li>
                         </ul>
                     </div>
@@ -27,12 +27,6 @@
         </div>
     </div>
 
-    {{-- <div class="shape__icon__2">
-        <img loading="lazy" class=" shape__icon__img shape__icon__img__1" src="{{asset('assets/img/herobanner/herobanner__1.png')}}"
-            alt="photo">
-        <img loading="lazy" class=" shape__icon__img shape__icon__img__3" src="{{asset('assets/img/herobanner/herobanner__3.png')}}"
-            alt="photo">
-    </div> --}}
 
 </div>
 <!-- breadcrumbarea__section__end-->
@@ -62,21 +56,10 @@
                         <h3>About this Institute</h3>
                     </div>
                     <div class="course__details__paragraph" data-aos="fade-up">
-                        <p>The course of study shall extend over 4 academic years from the date of commencement
-                            of his/ her study of the subjects comprising the nursing curriculum to the date of
-                            completion of the examination. Terms and vacations shall be as notified by the
-                            university from time to time.
+                        <p>Sowrabha Institute of Nursing Sciences was established in the year 2019. The College is Affiliated to RGUHS, Recognized by Govt of Karnataka and approved by Karnataka Nursing Council and Indian Nursing Council.The Institution has set new standards of excellence in Nursing Education and practice by offering GNM Course under School of Nursing & by offering B.Sc, P.B.B.Sc under College of Nursing
                         </p>
                     </div>
-
-                    <!-- <h4 class="sidebar__title" data-aos="fade-up">Eligibility</h4>
-                    <p>The Minimum education requirement shall be the passing of a B.Sc. Nursing/Post Basic
-                        B.Sc. Nursing with a minimum of 55% aggregate marks.
-                        <br>
-                        Minimum one year of work experience after Basic B.Sc. Nursing. Minimum one year of work
-                        experience before or after Post Basic B.Sc. Nursing
-                    </p> -->
-                    <div class="row">
+                    <div class="row align-items-center">
                         <div class="col-sm-12 col-md-6">
                             <div class="course__details__wraper" data-aos="fade-up">
 
@@ -86,70 +69,20 @@
                                     </div>
                                     <div>
                                         <h5 class="text-primary mb-0">Approvals</h5>
-                                        <p class="mb-0">Indian Nursing Council ( INC ), Karnataka Nursing Council ( KNC )</p>
+                                        <p class="lh-1-5 mb-0">Indian Nursing Council ( INC ), Karnataka Nursing Council ( KNC )</p>
                                     </div>
                                 </div>
 
                             </div>
                         </div>
-                        <!-- <div class="col-sm-12 col-md-3">
-                            <div class="course__details__wraper" data-aos="fade-up">
-
-                                <div class="d-flex align-items-center gap-3">
-                                    <div class="icon-badge">
-                                        <i class="icofont-clock-time"></i>
-                                    </div>
-                                    <div>
-                                        <h5 class="text-primary mb-0">Duration</h5>
-                                        <p class="mb-0">4 Years</p>
-                                    </div>
-                                </div>
-
+                        <div class="col-sm-12 col-md-4">
+                            <div data-aos="fade-up">
+                                <a class="default__button" target="_blank"
+                                    href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions">Apply
+                                    Now</a>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-3"> -->
-                            <!-- <div class="course__details__wraper" data-aos="fade-up">
-
-                                <div class="d-flex align-items-center gap-3">
-                                    <div class="icon-badge">
-                                        <i class="icofont-chair"></i>
-                                    </div>
-                                    <div>
-                                        <h5 class="text-primary mb-0">Seats</h5>
-                                        <p class="mb-0">20</p>
-                                    </div>
-                                </div>
-
-                            </div> 
-                        </div>-->
                     </div>
-                    
-                    <!-- <div class="course__list__wraper" data-aos="fade-up">
-                        <div class="blog__details__heading__2">
-                            <h5>Documents Required For Admission</h5>
-                        </div>
-                        <div class="aboutarea__list__2 blog__details__list__2" data-aos="fade-up">
-                            <ul>
-                                <li>
-                                    <i class="icofont-check"></i>
-                                    <p>10th / 12th Marksheet</p>
-                                </li>
-                                <li>
-                                    <i class="icofont-check"></i>
-                                    <p>10th / 12th Admit Card</p>
-                                </li>
-                                <li>
-                                    <i class="icofont-check"></i>
-                                    <p>Aadhhar Copy</p>
-                                </li>
-                                <li>
-                                    <i class="icofont-check"></i>
-                                    <p>Migration</p>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div> -->
 
 
                 </div>
@@ -162,7 +95,7 @@
 
                     <div class="blogsidebar__content__wraper__2" data-aos="fade-up">
 
-                        <h4 class="sidebar__title">popular Course</h4>
+                        <h4 class="sidebar__title">Popular Course</h4>
                         <ul class="course__details__populer__list">
                             <li>
 

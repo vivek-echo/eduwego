@@ -47,10 +47,10 @@
                         <div class="topbar__left">
                             <ul>
                                 <li>
-                                    <i class="icofont-phone"></i> 080 2955 6773
+                                    <i class="icofont-phone"></i> +91-8029556773
                                 </li>
                                 <li>
-                                    <i class="icofont-email ms-2"></i> enlighteducationaltrust@gmail.com
+                                    <i class="icofont-email ms-2"></i> enlightschool@gmail.com
                                 </li>
                             </ul>
                         </div>
@@ -117,10 +117,10 @@
                                                 <i class="icofont-rounded-down"></i>
                                             </a>
                                             <ul class="headerarea__submenu">
-                                                <li><a href="javascript:void(0);">About ELGI</a></li>
-                                                <li><a href="javascript:void(0);">Director's Message</a></li>
-                                                <li><a href="javascript:void(0);">Chairman's Message</a></li>
-                                                <li><a href="javascript:void(0);">Principal Desk</a></li>
+                                                <li><a href="/AboutElgi">About ELGI</a></li>
+                                                <li><a href="/DirectorMessage">Director's Message</a></li>
+                                                <li><a href="/ChairmanMessage">Chairman's Message</a></li>
+                                                <li><a href="/PrincipalDesk">Principal Desk</a></li>
                                             </ul>
                                         </li>
 
@@ -135,16 +135,7 @@
                                         </li>
 
                                         <li>
-                                            <a class="headerarea__has__dropdown" href="javascript:void(0);">Admissions
-                                                <i class="icofont-rounded-down"></i>
-                                            </a>
-                                            <ul class="headerarea__submenu">
-                                                <li><a href="javascript:void(0);">Online Admission</a></li>
-                                                <li><a href="javascript:void(0);">Admission Cell</a></li>
-                                                <li><a href="javascript:void(0);">Application Form</a></li>
-                                                <li><a href="javascript:void(0);">Download Prospectus</a></li>
-                                                <li><a href="javascript:void(0);">Pay Online</a></li>
-                                            </ul>
+                                            <a href="javascript:void(0);">Admission</a>
                                         </li>
 
                                         <li>
@@ -157,7 +148,7 @@
                                                 <li><a href="/englightIns">Enlight Institute of Para Medical Sciences</a>
                                                 </li>
                                                 <li><a href="/enlightSchool">Enlight School of Nursing</a></li>
-                                                <li><a href="javascript:void(0);">Sri Shantidhama School of Nursing</a></li>
+                                                <li><a href="/shantidhamaschool">Sri Shantidhama School of Nursing</a></li>
                                             </ul>
                                         </li>
 
@@ -168,10 +159,10 @@
                                             <ul class="headerarea__submenu">
                                                 <li><a href="javascript:void(0);">Overview</a>
                                                 </li>
-                                                <li><a href="javascript:void(0);">Hostel</a>
+                                                <li><a href="/Hostel">Hostel</a>
                                                 </li>
                                                 <li><a href="javascript:void(0);">Sports</a></li>
-                                                <li><a href="javascript:void(0);">Gallery</a></li>
+                                                <li><a href="/gallery">Gallery</a></li>
                                             </ul>
                                         </li>
 
@@ -231,12 +222,12 @@
 
                                 <li class="menu-item-has-children"><a href="javascript:void(0);">About Us</a>
                                     <ul class="dropdown">
-                                        <li><a href="javascript:void(0);">About ELGI</a>
+                                        <li><a href="/AboutElgi">About ELGI</a>
                                         </li>
-                                        <li><a href="javascript:void(0);">Director's Message</a>
+                                        <li><a href="/DirectorMessage">Director's Message</a>
                                         </li>
-                                        <li><a href="javascript:void(0);">Chairman's Message</a></li>
-                                        <li><a href="javascript:void(0);">Principal Desk</a></li>
+                                        <li><a href="/ChairmanMessage">Chairman's Message</a></li>
+                                        <li><a href="/PrincipalDesk">Principal Desk</a></li>
                                     </ul>
                                 </li>
 
@@ -247,14 +238,8 @@
                                     </ul>
                                 </li>
 
-                                <li class="menu-item-has-children"><a href="javascript:void(0);">Admissions</a>
-                                    <ul class="dropdown">
-                                        <li><a href="javascript:void(0);">Online Admission</a></li>
-                                        <li><a href="javascript:void(0);">Admission Cell</a></li>
-                                        <li><a href="javascript:void(0);">Application Form</a></li>
-                                        <li><a href="javascript:void(0);">Download Prospectus</a></li>
-                                        <li><a href="javascript:void(0);">Pay Online</a></li>
-                                    </ul>
+                                <li>
+                                    <a href="javascript:void(0);">Admission</a>
                                 </li>
 
                                 <li class="menu-item-has-children"><a href="javascript:void(0);">Institutions</a>
@@ -264,7 +249,7 @@
                                         <li><a href="/englightIns">Enlight Institute of Para Medical Sciences</a>
                                         </li>
                                         <li><a href="/enlightSchool">Enlight School of Nursing</a></li>
-                                        <li><a href="javascript:void(0);">Sri Shantidhama School of Nursing</a></li>
+                                        <li><a href="/shantidhamaschool">Sri Shantidhama School of Nursing</a></li>
                                     </ul>
                                 </li>
 
@@ -272,10 +257,10 @@
                                     <ul class="dropdown">
                                         <li><a href="javascript:void(0);">Overview</a>
                                         </li>
-                                        <li><a href="javascript:void(0);">Hostel</a>
+                                        <li><a href="/Hostel">Hostel</a>
                                         </li>
                                         <li><a href="javascript:void(0);">Sports</a></li>
-                                        <li><a href="javascript:void(0);">Gallery</a></li>
+                                        <li><a href="/gallery">Gallery</a></li>
                                     </ul>
                                 </li>
 
@@ -345,7 +330,7 @@
                                 <div class="footerarea__newsletter__input">
                                     <form action="#">
                                         <div class="footerarea__newsletter__button text-sm-end text-start">
-                                            <a href="javascript:void(0);" type="submit" class="subscribe__btn">Apply
+                                            <a target="_blank" href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions" type="submit" class="subscribe__btn">Apply
                                                 Now</a>
                                         </div>
                                     </form>
@@ -469,7 +454,7 @@
                                                     <i class="fs-5 icofont-phone"></i>
                                                 </div>
                                                 <div class="footerarea__right__content">
-                                                    <span>+91 80 2955 6773</span>
+                                                    <span>+91-9916073632</span>
                                                 </div>
                                             </a>
                                         </li>
@@ -480,7 +465,7 @@
                                                     <i class="fs-5 icofont-mobile-phone"></i>
                                                 </div>
                                                 <div class="footerarea__right__content">
-                                                    <span>+91 99 1607 3632</span>
+                                                    <span>+91-8029556773</span>
                                                 </div>
                                             </a>
                                         </li>
@@ -491,7 +476,7 @@
                                                     <i class="fs-5 icofont-email"></i>
                                                 </div>
                                                 <div class="footerarea__right__content">
-                                                    <span>enlighteducationaltrust@gmail.com</span>
+                                                    <span>enlightschool@gmail.com</span>
                                                 </div>
                                             </a>
                                         </li>

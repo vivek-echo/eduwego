@@ -4,8 +4,8 @@
 
 <!-- breadcrumbarea__section__start -->
 
-<div class="breadcrumbarea">
-
+<div class="breadcrumbarea" style="background-image: url('{{asset('assets/img/infobanner/infobanner-2.jpg')}}')">
+    <div class="dark-overlay"></div>
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
@@ -15,7 +15,7 @@
                     </div>
                     <div class="breadcrumb__inner">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li>Facilities</li>
                         </ul>
                     </div>

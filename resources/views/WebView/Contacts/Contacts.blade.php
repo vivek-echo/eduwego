@@ -3,8 +3,8 @@
 @section('webContent')
     <!-- breadcrumbarea__section__start -->
 
-    <div class="breadcrumbarea">
-
+    <div class="breadcrumbarea" style="background-image: url('{{asset('assets/img/infobanner/infobanner-1.jpg')}}')">
+        <div class="dark-overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -14,7 +14,7 @@
                         </div>
                         <div class="breadcrumb__inner">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="/">Home</a></li>
                                 <li>Contact</li>
                             </ul>
                         </div>
@@ -69,7 +69,7 @@
                             <h5>Mail address</h5>
                             <div class="contact__email">
                                 <p>infosowrabha@gmail.com</p>
-                                <p>enlighteducationaltrust@gmail.com</p>
+                                <p>enlightschool@gmail.com</p>
                             </div>
                         </div>
                     </div>
@@ -94,8 +94,8 @@
                         <div class="contact__text">
                             <h5>Phone Number</h5>
                             <div class="contact__email">
-                                <p>099001 72894</p>
-                                <p>080 2955 6773</p>
+                                <p>+91-9916073632</p>
+                                <p>+91-8029556773</p>
 
                             </div>
                         </div>

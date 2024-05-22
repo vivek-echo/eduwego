@@ -29,6 +29,7 @@ Route::match(['get', 'post'], '/scholarship', [HomeController::class,'scholarshi
 Route::match(['get', 'post'], '/sowrabhaIns', [HomeController::class,'sowrabhaInsIndex']);
 Route::match(['get', 'post'], '/englightIns', [HomeController::class,'englightInsIndex']);
 Route::match(['get', 'post'], '/enlightSchool', [HomeController::class,'enlightSchoolIndex']);
+Route::match(['get', 'post'], '/shantidhamaschool', [HomeController::class,'santidhamaschoolIndex']);
 Route::middleware(['auth'])->group(function () {
     //Your routes here
     Route::match(['get', 'post'], '/ContentPageNewsNotice', [NewsNoticeController::class,'ContentPageNewsNoticeIndex']);
@@ -41,10 +42,17 @@ Route::match(['get', 'post'], '/PbbscNursing', [HomeController::class,'PbbscNurs
 Route::match(['get', 'post'], '/GnmNursing', [HomeController::class,'GnmNursingIndex']);//added by deepak on 20-05-2024
 Route::get('/download-pdf', [HomeController::class, 'downloadPdf'])->name('download.pdf');
 
-Route::match(['get', 'post'], '/diploma-in-medical-laboratory-technology-dmlt', [HomeController::class,'diplomainmedicallaboratorytechnologydmltIndex']);//added by deepak on 20-05-2024
-Route::match(['get', 'post'], '/diploma-in-medical-imaging-x-ray-technology-dmxt', [HomeController::class,'diplomainmedicalimagingxraytechnologydmxtIndex']);//added by deepak on 20-05-2024
-Route::match(['get', 'post'], '/diploma-in-medical-operation-technology-dmot', [HomeController::class,'diplomainmedicaloperationtechnologydmotIndex']);//added by deepak on 20-05-2024
-Route::match(['get', 'post'], '/diploma-in-medical-anesthesia-technology-dot-dat', [HomeController::class,'diplomainmedicalanesthesiatechnologydotdatIndex']);//added by deepak on 20-05-2024
+Route::match(['get', 'post'], '/diploma-in-medical-laboratory-technology-dmlt', [HomeController::class,'diplomainmedicallaboratorytechnologydmltIndex']);
+Route::match(['get', 'post'], '/diploma-in-medical-imaging-x-ray-technology-dmxt', [HomeController::class,'diplomainmedicalimagingxraytechnologydmxtIndex']);
+Route::match(['get', 'post'], '/diploma-in-medical-operation-technology-dmot', [HomeController::class,'diplomainmedicaloperationtechnologydmotIndex']);
+Route::match(['get', 'post'], '/diploma-in-medical-anesthesia-technology-dot-dat', [HomeController::class,'diplomainmedicalanesthesiatechnologydotdatIndex']);
+
+Route::match(['get', 'post'], '/Hostel', [HomeController::class,'HostelIndex']);
+
+Route::match(['get', 'post'], '/AboutElgi', [HomeController::class,'AboutElgiIndex']);
+Route::match(['get', 'post'], '/ChairmanMessage', [HomeController::class,'ChairmanMessageIndex']);
+Route::match(['get', 'post'], '/DirectorMessage', [HomeController::class,'DirectorMessageIndex']);
+Route::match(['get', 'post'], '/PrincipalDesk', [HomeController::class,'PrincipalDeskIndex']);
 
 
 Route::match(['get', 'post'], '/YOUR_ROUTE',function(){

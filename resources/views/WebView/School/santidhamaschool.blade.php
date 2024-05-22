@@ -4,19 +4,19 @@
 
 <!-- breadcrumbarea__section__start -->
 
-<div class="breadcrumbarea" style="background-image: url('{{asset('assets/img/infobanner/infobanner-5.jpg')}}')">
+<div class="breadcrumbarea" style="background-image: url('{{asset('assets/img/infobanner/infobanner-3.jpg')}}')">
     <div class="dark-overlay"></div>
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
                 <div class="breadcrumb__content__wraper" data-aos="fade-up">
                     <div class="breadcrumb__title">
-                        <h2 class="heading text-white">GNM. Nursing</h2>
+                        <h2 class="heading text-white">Sri Shantidhama School Of Nursing</h2>
                     </div>
                     <div class="breadcrumb__inner">
                         <ul>
                             <li><a href="/">Home</a></li>
-                            <li>GNM. Nursing</li>
+                            <li>Sri Shantidhama School Of Nursing</li>
                         </ul>
                     </div>
                 </div>
@@ -26,13 +26,6 @@
             </div>
         </div>
     </div>
-
-    {{-- <div class="shape__icon__2">
-        <img loading="lazy" class=" shape__icon__img shape__icon__img__1" src="{{ asset('assets/img/herobanner/herobanner__1.png')}}"
-            alt="photo">
-        <img loading="lazy" class=" shape__icon__img shape__icon__img__3" src="{{ asset('assets/img/herobanner/herobanner__3.png')}}"
-            alt="photo">
-    </div> --}}
 
 </div>
 <!-- breadcrumbarea__section__end-->
@@ -45,13 +38,13 @@
             <div class="col-xl-8 col-lg-8">
 
                 <div class="blogarae__img__2 course__details__img__2" data-aos="fade-up">
-                    <img loading="lazy" src="{{ asset('assets/img/courses/bsc-nursing.jpg')}}" alt="blog">
+                    <img loading="lazy" src="{{asset('assets/img/courses/bsc-nursing.jpg')}}" alt="blog">
                 </div>
 
                 <div class="blog__details__content__wraper">
                     <div class="course__button__wraper" data-aos="fade-up">
                         <div class="course__button">
-                            <a href="javascript:void(0);"><i class="icofont-file-document"></i> Download
+                        <a target="_blank" href="Sowrabha-Prospectus.pdf"><i class="icofont-file-document"></i> Download
                                 Prospectus</a>
                         </div>
                         <div class="course__date">
@@ -59,17 +52,14 @@
                         </div>
                     </div>
                     <div class="course__details__heading" data-aos="fade-up">
-                        <h3>About this course</h3>
+                        <h3>About this Institute</h3>
                     </div>
                     <div class="course__details__paragraph" data-aos="fade-up">
-                        <p>GNM referred to as General Nursing and Midwifery deals with the education of nurses in general health care, nursing, and midwifery. It is a 3-year-long Diploma program. The academic program is 3 years long and 6 months are dedicated towards internship. The internship is mandatory. This program will boost your career prospects. After completing this course, successful candidates may register themselves as a registered nurse or midwife with the state nurse registration council.
+                        <p>Welcome to Shantidhama College of Nursing In an era of stiff competition, success can only be achieved if one makes the right kind of endeavor at the right time and in the right direction. Shantidhama College of Nursing have been established with a view to produce qualified, and efficient nurses for a new tomorrow in the ever changing competitive world of today. Given the paradigm shift which the health care sector is experiencing, nursing science probably represents the most ideal field for heath care to innovate for it is a domain where there is a constant need to change with the times and continuously review, analyze and upgrade competencies in the profession. Our primary goal is to offer the best EDUCATION AND CLINICAL TRAINING possible in Nursing. We are offering professional diploma, bachelor’s degree, and post graduate degree in Nursing. Affiliated to RGUHS and approved by KNC, INC New Delhi & Govt.of Karnataka.
                         </p>
                     </div>
 
-                    <h4 class="sidebar__title" data-aos="fade-up">Eligibility</h4>
-                    <p>Candidate has to be 10+2 Science from a recognized board
-                    </p>
-                    <div class="row">
+                    <div class="row align-items-center">
                         <div class="col-sm-12 col-md-6">
                             <div class="course__details__wraper" data-aos="fade-up">
 
@@ -86,57 +76,11 @@
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-4">
-                            <div class="course__details__wraper" data-aos="fade-up">
-
-                                <div class="d-flex align-items-center gap-3">
-                                    <div class="icon-badge">
-                                        <i class="icofont-clock-time"></i>
-                                    </div>
-                                    <div>
-                                        <h5 class="text-primary mb-0">Duration</h5>
-                                        <p class="mb-0">4 Years</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12">
-                            <div class="mb-3" data-aos="fade-up">
+                            <div data-aos="fade-up">
                                 <a class="default__button" target="_blank"
                                     href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions">Apply
                                     Now</a>
                             </div>
-                        </div>
-                    </div>
-                    
-                    <div class="course__list__wraper" data-aos="fade-up">
-                        <div class="blog__details__heading__2">
-                            <h5>Documents Required For Admission</h5>
-                        </div>
-                        <div class="aboutarea__list__2 blog__details__list__2" data-aos="fade-up">
-                            <ul>
-                                <li>
-                                    <i class="icofont-check"></i>
-                                    <p>10th / 12th Marksheet</p>
-                                </li>
-                                <li>
-                                    <i class="icofont-check"></i>
-                                    <p>10th / 12th Admit Card</p>
-                                </li>
-                                <li>
-                                    <i class="icofont-check"></i>
-                                    <p>Aadhhar Copy</p>
-                                </li>
-                                <li>
-                                    <i class="icofont-check"></i>
-                                    <p>Migration</p>
-                                </li>
-                                <li>
-                                    <i class="icofont-check"></i>
-                                    <p>12 Pic Colour Passport size Photo</p>
-                                </li>
-
-                            </ul>
                         </div>
                     </div>
 
@@ -151,12 +95,12 @@
 
                     <div class="blogsidebar__content__wraper__2" data-aos="fade-up">
 
-                        <h4 class="sidebar__title">Other Courses</h4>
+                        <h4 class="sidebar__title">Popular Course</h4>
                         <ul class="course__details__populer__list">
                             <li>
 
                                 <div class="course__details__populer__img">
-                                    <img loading="lazy" src="{{ asset('assets/img/courses/msc-nursing.jpg')}}" alt="courses"
+                                    <img loading="lazy" src="{{asset('assets/img/courses/msc-nursing.jpg')}}" alt="courses"
                                         width="90" height="70">
                                 </div>
                                 <div class="course__details__populer__content">
@@ -168,24 +112,36 @@
                             <li>
 
                                 <div class="course__details__populer__img">
-                                    <img loading="lazy" src="{{ asset('assets/img/courses/msc-nursing.jpg')}}" alt="courses"
+                                    <img loading="lazy" src="{{asset('assets/img/courses/msc-nursing.jpg')}}" alt="courses"
                                         width="90" height="70">
                                 </div>
                                 <div class="course__details__populer__content">
                                     <h6>
-                                        <a href="/PbbscNursing">PBBSc Nursing</a>
+                                        <a href="msc-nursing.html">M.Sc. Nursing</a>
                                     </h6>
                                 </div>
                             </li>
                             <li>
 
                                 <div class="course__details__populer__img">
-                                    <img loading="lazy" src="{{ asset('assets/img/courses/msc-nursing.jpg')}}" alt="courses"
+                                    <img loading="lazy" src="{{asset('assets/img/courses/msc-nursing.jpg')}}" alt="courses"
                                         width="90" height="70">
                                 </div>
                                 <div class="course__details__populer__content">
                                     <h6>
-                                        <a href="/MSCNursing">MSc. Nursing</a>
+                                        <a href="pbbsc-nursing.html">PBBSc Nursing</a>
+                                    </h6>
+                                </div>
+                            </li>
+                            <li>
+
+                                <div class="course__details__populer__img">
+                                    <img loading="lazy" src="{{asset('assets/img/courses/msc-nursing.jpg')}}" alt="courses"
+                                        width="90" height="70">
+                                </div>
+                                <div class="course__details__populer__content">
+                                    <h6>
+                                        <a href="gnm-nursing.html">GNM Nursing</a>
                                     </h6>
                                 </div>
                             </li>
@@ -193,7 +149,7 @@
 
                         <div class="course__summery__button">
                             <p>Need any help in Admission ?</p>
-                             <a class="default__button default__button--3" href="tel:+91 9916073632"><i class="icofont-phone"></i> +91 9916073632</a>
+                            <a class="default__button default__button--3" href="tel:+91 9916073632"><i class="icofont-phone"></i> +91 9916073632</a>
                         </div>
 
                     </div>
@@ -216,8 +172,12 @@
         </div>
     </div>
 </div>
+<!-- <script>
+   document.getElementById('downloadBtn').addEventListener('click', function() {
+            window.location.href = "{{ route('download.pdf') }}";
+        });
+</script> -->
 <!-- bsc-nursing__end -->
-
 
 
 @endsection

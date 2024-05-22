@@ -338,15 +338,15 @@ li {
 }
 
 .sp_top_90 {
-  padding-top: 90px;
+  padding-top: 90px !important;
 }
 
 .sp_top_80 {
-  padding-top: 80px;
+  padding-top: 80px !important;
 }
 
 .sp_top_70 {
-  padding-top: 70px;
+  padding-top: 70px !important;
 }
 
 .sp_top_60 {
@@ -382,15 +382,15 @@ li {
 }
 
 .sp_bottom_90 {
-  padding-bottom: 90px;
+  padding-bottom: 90px !important;
 }
 
 .sp_bottom_80 {
-  padding-bottom: 80px;
+  padding-bottom: 80px !important;
 }
 
 .sp_bottom_70 {
-  padding-bottom: 70px;
+  padding-bottom: 70px !important;
 }
 
 .sp_bottom_60 {
@@ -2976,20 +2976,48 @@ Hero Banner Area
     padding-bottom: 200px;
   }
 
-  .swiper-button-next, .swiper-rtl .swiper-button-prev {
-    --swiper-navigation-sides-offset:1rem;
+  .swiper-button-next, .swiper-button-prev {
+    --swiper-navigation-top-offset: 20px;
+    top: var(--swiper-navigation-top-offset, 50%) !important;
+  }
+
+  .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    --swiper-navigation-sides-offset: 8rem;
     right: var(--swiper-navigation-sides-offset, 10px);
     left: auto;
   }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .swiper-button-next, .swiper-button-prev {
+    --swiper-navigation-top-offset: 20px;
+    top: var(--swiper-navigation-top-offset, 50%) !important;
+  }
+
   .swiper-button-prev, .swiper-rtl .swiper-button-next {
-    --swiper-navigation-sides-offset:1rem;
-    left: var(--swiper-navigation-sides-offset, 10px);
-    right: auto;
+    --swiper-navigation-sides-offset: 8rem;
+    right: var(--swiper-navigation-sides-offset, 10px);
+    left: auto;
   }
 }
 @media (max-width: 767px) {
   .herobannerarea.herobannerarea__marketplace {
     padding-bottom: 50px;
+  }
+
+  .swiper-button-next, .swiper-button-prev {
+    --swiper-navigation-top-offset: 20px;
+    top: unset;
+    bottom: var(--swiper-navigation-top-offset, 50%) !important;
+  }
+
+  .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    --swiper-navigation-sides-offset: 8rem;
+    right: var(--swiper-navigation-sides-offset, 10px);
+  }
+
+  .swiper-button-next, .swiper-rtl .swiper-button-prev {
+    --swiper-navigation-sides-offset: 9rem;
   }
 }
 .herobannerarea.herobannerarea__marketplace .herobannerarea__content__wraper {
@@ -3804,7 +3832,7 @@ About Area
 }
 .aboutarea__content__wraper .aboutarea__para.aboutarea__para__2 {
   /* border-left: 2px solid var(--primaryColor); */
-  padding-left: 13px;
+  /* padding-left: 13px; */
 }
 .aboutarea__content__wraper .aboutarea__para p {
   line-height: 29px;
@@ -3863,15 +3891,35 @@ About Area
   font-weight: 500;
   display: block;
 }
+
+.aboutarea__list__3 ul li {
+  margin-bottom: 8px;
+  color: var(--blackColor);
+  font-weight: 500;
+  display: flex;
+  gap: 5px;
+}
+
+.new-gif-size {
+  width: 25%;
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
   .aboutarea__list__2 ul li {
     margin-bottom: 12px;
+  }
+  .new-gif-size {
+    width: 15%;
   }
 }
 @media (max-width: 767px) {
   .aboutarea__list__2 ul li {
     margin-bottom: 8px;
     font-size: 13px;
+  }
+
+  .new-gif-size {
+    width: 100%;
   }
 }
 .aboutarea__list__2 ul li:hover i {
@@ -3891,6 +3939,21 @@ About Area
   justify-content: center;
   margin-right: 15px;
   font-size: 1.8rem;
+}
+.aboutarea__list__3 ul li:hover i {
+  color: var(--whiteColor);
+  background: var(--primaryColor);
+}
+.aboutarea__list__3 ul li i {
+  width: 31px;
+  height: 33px;
+  line-height: 31px;
+  text-align: center;
+  background: rgba(95, 45, 237, 0.04);
+  color: var(--primaryColor);
+  transition: var(--transition);
+  display: inline-block;
+  margin-right: 15px;
 }
 
 .about__right__wraper__2 {
@@ -4759,11 +4822,22 @@ Grid Area
   }
 }
 
-@media (min-width: 992px) and (max-width: 1365px) {
+@media (min-width: 1025px) and (max-width: 1365px) {
   .gridarea {
     padding-top: 80px;
     padding-bottom: 50px;
   }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .gridarea {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+
+  .gridarea__content .card-info-height {
+    height: 190px;
+  }
+
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .gridarea {
@@ -4868,9 +4942,9 @@ Grid Area
   display: flex;
 }
 @media (max-width: 767px) {
-  .gridarea__wraper .gridarea__content .gridarea__list ul {
+  /* .gridarea__wraper .gridarea__content .gridarea__list ul {
     flex-wrap: wrap;
-  }
+  } */
 }
 .gridarea__wraper .gridarea__content .gridarea__list ul li {
   font-size: 14px;
@@ -7320,7 +7394,7 @@ Blog
   .blogarea__content__wraper .blogarea__img .blogarea__date {
     line-height: 20px;
     font-size: 16px;
-    padding: 5px 15px;
+    padding: 5px 4px;
   }
 }
 .blogarea__content__wraper .blogarea__img .blogarea__date.small__date {
@@ -7507,10 +7581,24 @@ Blog
     line-height: 25px;
   }
 }
-@media (min-width: 992px) and (max-width: 1365px) {
+@media (max-width: 1399px) {
+  .single__blog__content h4 a {
+    font-size: 22px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1365px) {
   .single__blog__content h4 a {
     font-size: 20px;
     line-height: 27px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .single__blog__content h4 a {
+    font-size: 17px;
+    line-height: 18px;
+  }
+  .single__blog__content p {
+    font-size: 14px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -7518,12 +7606,6 @@ Blog
     font-size: 20px;
     line-height: 23px;
   }
-}
-
-@media (max-width: 1399px) {
-  .single__blog__content h4 a {
-    font-size: 22px;
-}
 }
 .single__blog__content h4 a:hover {
   color: var(--primaryColor);
@@ -9771,6 +9853,15 @@ Breadcrumb Area
   background: var(--primaryColorLight);
   position: relative;
 }
+
+.breadcrumbarea .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #26262699;
+}
 @media (min-width: 992px) and (max-width: 1365px) {
   .breadcrumbarea {
     padding-top: 100px;
@@ -9914,7 +10005,7 @@ Breadcrumb Area
 .breadcrumb__inner ul li {
   font-size: 18px;
   line-height: 22px;
-  color: var(--blackColor2);
+  color: var(--whiteColor);
   font-weight: 400;
 }
 .breadcrumb__inner ul li a {
@@ -9923,10 +10014,10 @@ Breadcrumb Area
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  color: var(--blackColor2);
+  color: var(--secondaryColor2);
 }
 .breadcrumb__inner ul li a:hover {
-  color: var(--primaryColor);
+  color: var(--secondaryColor3);
 }
 .breadcrumb__inner ul li a:after {
   position: absolute;
