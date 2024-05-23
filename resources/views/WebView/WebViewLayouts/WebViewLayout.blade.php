@@ -61,8 +61,8 @@
                                 <div class="row justify-content-end">
                                     <div class="col-sm-auto">
                                         <div class="login-buttons">
-                                            <a href="javascript:void(0);" class="default__small__button__pink mb-0 rounded py-1"><i class="icofont-user-alt-1"></i>Student Login</a>
-                                            <a href="javascript:void(0);" class="default__small__button__pink mb-0 rounded py-1"><i class="icofont-file-document me-1"></i>Online Admission</a>
+                                            <a target="_blank" href="https://enlight.eduwego.in/student-login" class="default__small__button__pink mb-0 rounded py-1"><i class="icofont-user-alt-1"></i>Student Login</a>
+                                            <a target="_blank" href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions" class="default__small__button__pink mb-0 rounded py-1"><i class="icofont-file-document me-1"></i>Online Admission</a>
                                             <a href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions" target="_blank" class="default__small__button__pink mb-0 rounded py-1">Enquiry Now</a>
                                         </div>
                                     </div>
@@ -382,12 +382,12 @@
                                     <ul>
                                         <li>
                                             <i class="icofont-ui-user"></i>
-                                            <a href="javascript:void(0);"> Student
+                                            <a target="_blank" href="https://enlight.eduwego.in/student-login"> Student
                                                 Login</a>
                                         </li><br>
                                         <li>
                                             <i class="icofont-ui-user"></i>
-                                            <a href="javascript:void(0);"> Employee
+                                            <a target="_blank" href="javascript:void(0);"> Employee
                                                 Login</a>
                                         </li>
                                     </ul>

@@ -36,7 +36,7 @@
         <div class="row">
             <div class="col-xl-6 col-lg-6" data-aos="fade-up">
                 <div class="aboutarea__5__img" data-tilt="" style="will-change: transform; transform: perspective(2000px) rotateX(0deg) rotateY(0deg);">
-                    <img loading="lazy" src="{{asset('assets/img/about/hostel.jpg')}}" alt="about">
+                    <img loading="lazy" src="{{asset('assets/img/about/about-4.jpg')}}" alt="about">
                 </div>
             </div>
 

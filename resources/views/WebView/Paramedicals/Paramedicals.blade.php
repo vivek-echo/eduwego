@@ -27,11 +27,6 @@
         </div>
     </div>
 
-    {{-- <div class="shape__icon__2">
-        <img loading="lazy"  class=" shape__icon__img shape__icon__img__1" src="{{asset('assets/img/herobanner/herobanner__1.png')}}" alt="photo">
-        <img loading="lazy"  class=" shape__icon__img shape__icon__img__3" src="{{asset('assets/img/herobanner/herobanner__3.png')}}" alt="photo">
-    </div> --}}
-
 </div>
 <!-- breadcrumbarea__section__end-->
 
@@ -121,7 +116,7 @@
 
                             <a href="/diploma-in-medical-imaging-x-ray-technology-dmxt">
                                 <div class="gridarea__small__img">
-                                    <div class="gridarea__small__content">
+                                    <div class="gridarea__small__content ms-0">
                                         <h6>Apply Now <i class="icofont-long-arrow-right"></i></h6>
                                     </div>
                                 </div>
@@ -165,7 +160,7 @@
 
                             <a href="/diploma-in-medical-operation-technology-dmot">
                                 <div class="gridarea__small__img">
-                                    <div class="gridarea__small__content">
+                                    <div class="gridarea__small__content ms-0">
                                         <h6>Apply Now <i class="icofont-long-arrow-right"></i></h6>
                                     </div>
                                 </div>
@@ -208,7 +203,7 @@
 
                             <a href="/diploma-in-medical-anesthesia-technology-dot-dat">
                                 <div class="gridarea__small__img">
-                                    <div class="gridarea__small__content">
+                                    <div class="gridarea__small__content ms-0">
                                         <h6>Apply Now <i class="icofont-long-arrow-right"></i></h6>
                                     </div>
                                 </div>

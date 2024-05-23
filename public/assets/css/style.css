@@ -9852,6 +9852,8 @@ Breadcrumb Area
   padding-bottom: 50px;
   background: var(--primaryColorLight);
   position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .breadcrumbarea .dark-overlay {

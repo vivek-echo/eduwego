@@ -415,7 +415,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item column__custom__class swiper-slide">
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
-                                    <a href="course-details.html"><img loading="lazy" src="{{asset('assets/img/courses/course-1.jpg')}}" alt="grid"></a>
+                                    <a href="/bScNursing"><img loading="lazy" src="{{asset('assets/img/courses/course-1.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button gridarea__small__button__1">
                                         <div class="grid__badge">Nursing</div>
                                     </div>
@@ -435,7 +435,7 @@
                                     </div>
                                     <div class="card-info-height">
                                         <div class="gridarea__heading">
-                                            <h3><a href="course-details.html">B.Sc.Nursing</a></h3>
+                                            <h3><a href="/bScNursing">B.Sc.Nursing</a></h3>
                                         </div>
                                         <div>
                                             <p>The course of study shall extend over 4 academic years from the date of
@@ -444,7 +444,7 @@
                                     </div>
                                     <div class="gridarea__bottom">
 
-                                        <a href="javascript:void(0);">
+                                        <a href="/bScNursing">
                                             <div class="gridarea__small__img">
                                                 <div class="gridarea__small__content ms-0">
                                                     <h6>Apply Now <i class="icofont-long-arrow-right"></i></h6>
@@ -459,7 +459,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item column__custom__class swiper-slide">
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
-                                    <a href="course-details.html"><img loading="lazy" src="{{asset('assets/img/courses/course-2.jpg')}}" alt="grid"></a>
+                                    <a href="/MSCNursing"><img loading="lazy" src="{{asset('assets/img/courses/course-2.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button">
                                         <div class="grid__badge">Nursing</div>
                                     </div>
@@ -479,7 +479,7 @@
                                     </div>
                                     <div class="card-info-height">
                                         <div class="gridarea__heading">
-                                            <h3><a href="course-details.html">M.Sc.Nursing</a></h3>
+                                            <h3><a href="/MSCNursing">M.Sc.Nursing</a></h3>
                                         </div>
                                         <div>
                                             <p>MSc Nursing will prepare Nurses, to improve the quality of nursing
@@ -488,7 +488,7 @@
                                     </div>
                                     <div class="gridarea__bottom">
 
-                                        <a href="javascript:void(0);">
+                                        <a href="/MSCNursing">
                                             <div class="gridarea__small__img">
                                                 <div class="gridarea__small__content ms-0">
                                                     <h6>Apply Now <i class="icofont-long-arrow-right"></i></h6>
@@ -503,7 +503,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item column__custom__class swiper-slide">
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
-                                    <a href="course-details.html"><img loading="lazy" src="{{asset('assets/img/courses/course-3.jpg')}}" alt="grid"></a>
+                                    <a href="/diploma-in-medical-laboratory-technology-dmlt"><img loading="lazy" src="{{asset('assets/img/courses/course-3.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button">
                                         <div class="grid__badge blue__color">Paramedical</div>
                                     </div>
@@ -523,7 +523,7 @@
                                     </div>
                                     <div class="card-info-height">
                                         <div class="gridarea__heading">
-                                            <h3><a href="course-details.html">Diploma in Medical Laboratory Technology
+                                            <h3><a href="/diploma-in-medical-laboratory-technology-dmlt">Diploma in Medical Laboratory Technology
                                                     (DMLT)</a></h3>
                                         </div>
                                         <div>
@@ -533,7 +533,7 @@
                                     </div>
                                     <div class="gridarea__bottom">
 
-                                        <a href="javascript:void(0);">
+                                        <a href="/diploma-in-medical-laboratory-technology-dmlt">
                                             <div class="gridarea__small__img">
                                                 <div class="gridarea__small__content ms-0">
                                                     <h6>Apply Now <i class="icofont-long-arrow-right"></i></h6>
@@ -548,7 +548,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item column__custom__class swiper-slide">
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
-                                    <a href="course-details.html"><img loading="lazy" src="{{asset('assets/img/courses/course-4.jpg')}}" alt="grid"></a>
+                                    <a href="/diploma-in-medical-imaging-x-ray-technology-dmxt"><img loading="lazy" src="{{asset('assets/img/courses/course-4.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button gridarea__small__button__1">
                                         <div class="grid__badge blue__color">Paramedical</div>
                                     </div>
@@ -568,7 +568,7 @@
                                     </div>
                                     <div class="card-info-height">
                                         <div class="gridarea__heading">
-                                            <h3><a href="course-details.html">Diploma in Medical Imaging/X-Ray
+                                            <h3><a href="/diploma-in-medical-imaging-x-ray-technology-dmxt">Diploma in Medical Imaging/X-Ray
                                                     Technology (DMXT)</a></h3>
                                         </div>
                                         <div>
@@ -578,9 +578,9 @@
                                     </div>
                                     <div class="gridarea__bottom">
 
-                                        <a href="javascript:void(0);">
+                                        <a href="/diploma-in-medical-imaging-x-ray-technology-dmxt">
                                             <div class="gridarea__small__img">
-                                                <div class="gridarea__small__content">
+                                                <div class="gridarea__small__content ms-0">
                                                     <h6>Apply Now <i class="icofont-long-arrow-right"></i></h6>
                                                 </div>
                                             </div>
@@ -593,7 +593,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item column__custom__class swiper-slide">
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
-                                    <a href="course-details.html"><img loading="lazy" src="{{asset('assets/img/courses/course-5.jpg')}}" alt="grid"></a>
+                                    <a href="/PbbscNursing"><img loading="lazy" src="{{asset('assets/img/courses/course-5.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button gridarea__small__button__1">
                                         <div class="grid__badge">Nursing</div>
                                     </div>
@@ -613,7 +613,7 @@
                                     </div>
                                     <div class="card-info-height">
                                         <div class="gridarea__heading">
-                                            <h3><a href="course-details.html">PBBSc Nursing</a></h3>
+                                            <h3><a href="/PbbscNursing">PBBSc Nursing</a></h3>
                                         </div>
                                         <div>
                                             <p>The B.Sc Nursing (Post certificate) course of study shall extend over a
@@ -622,7 +622,7 @@
                                     </div>
                                     <div class="gridarea__bottom">
 
-                                        <a href="javascript:void(0);">
+                                        <a href="/PbbscNursing">
                                             <div class="gridarea__small__img">
                                                 <div class="gridarea__small__content ms-0">
                                                     <h6>Apply Now <i class="icofont-long-arrow-right"></i></h6>
@@ -637,7 +637,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item column__custom__class swiper-slide">
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
-                                    <a href="course-details.html"><img loading="lazy" src="{{asset('assets/img/courses/course-6.jpg')}}" alt="grid"></a>
+                                    <a href="/GnmNursing"><img loading="lazy" src="{{asset('assets/img/courses/course-6.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button gridarea__small__button__1">
                                         <div class="grid__badge">Nursing</div>
                                     </div>
@@ -657,7 +657,7 @@
                                     </div>
                                     <div class="card-info-height">
                                         <div class="gridarea__heading">
-                                            <h3><a href="course-details.html">GNM Nursing</a></h3>
+                                            <h3><a href="/GnmNursing">GNM Nursing</a></h3>
                                         </div>
                                         <div>
                                             <p>GNM referred to as General Nursing and Midwifery deals with the education
@@ -666,7 +666,7 @@
                                     </div>
                                     <div class="gridarea__bottom">
 
-                                        <a href="javascript:void(0);">
+                                        <a href="/GnmNursing">
                                             <div class="gridarea__small__img">
                                                 <div class="gridarea__small__content ms-0">
                                                     <h6>Apply Now <i class="icofont-long-arrow-right"></i></h6>
@@ -681,7 +681,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item column__custom__class swiper-slide">
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
-                                    <a href="course-details.html"><img loading="lazy" src="{{asset('assets/img/courses/course-7.jpg')}}" alt="grid"></a>
+                                    <a href="/diploma-in-medical-operation-technology-dmot"><img loading="lazy" src="{{asset('assets/img/courses/course-7.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button gridarea__small__button__1">
                                         <div class="grid__badge blue__color">Paramedical</div>
                                     </div>
@@ -701,7 +701,7 @@
                                     </div>
                                     <div class="card-info-height">
                                         <div class="gridarea__heading">
-                                            <h3><a href="course-details.html">Diploma in Medical Operation Technology
+                                            <h3><a href="/diploma-in-medical-operation-technology-dmot">Diploma in Medical Operation Technology
                                                     (DMOT)</a></h3>
                                         </div>
                                         <div>
@@ -711,9 +711,9 @@
                                     </div>
                                     <div class="gridarea__bottom">
 
-                                        <a href="javascript:void(0);">
+                                        <a href="/diploma-in-medical-operation-technology-dmot">
                                             <div class="gridarea__small__img">
-                                                <div class="gridarea__small__content">
+                                                <div class="gridarea__small__content ms-0">
                                                     <h6>Apply Now <i class="icofont-long-arrow-right"></i></h6>
                                                 </div>
                                             </div>
@@ -726,7 +726,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item column__custom__class swiper-slide">
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
-                                    <a href="course-details.html"><img loading="lazy" src="{{asset('assets/img/courses/course-8.jpg')}}" alt="grid"></a>
+                                    <a href="/diploma-in-medical-anesthesia-technology-dot-dat"><img loading="lazy" src="{{asset('assets/img/courses/course-8.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button gridarea__small__button__1">
                                         <div class="grid__badge blue__color">Paramedical</div>
                                     </div>
@@ -746,7 +746,7 @@
                                     </div>
                                     <div class="card-info-height">
                                         <div class="gridarea__heading">
-                                            <h3><a href="course-details.html">Diploma in Medical Anesthesia Technology
+                                            <h3><a href="/diploma-in-medical-anesthesia-technology-dot-dat">Diploma in Medical Anesthesia Technology
                                                     (DOT/DAT)</a></h3>
                                         </div>
                                         <div>
@@ -756,9 +756,9 @@
                                     </div>
                                     <div class="gridarea__bottom">
 
-                                        <a href="javascript:void(0);">
+                                        <a href="/diploma-in-medical-anesthesia-technology-dot-dat">
                                             <div class="gridarea__small__img">
-                                                <div class="gridarea__small__content">
+                                                <div class="gridarea__small__content ms-0">
                                                     <h6>Apply Now <i class="icofont-long-arrow-right"></i></h6>
                                                 </div>
                                             </div>

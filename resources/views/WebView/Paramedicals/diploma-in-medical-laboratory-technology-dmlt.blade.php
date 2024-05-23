@@ -37,7 +37,7 @@
                 <div class="col-xl-8 col-lg-8">
 
                     <div class="blogarae__img__2 course__details__img__2" data-aos="fade-up">
-                        <img loading="lazy" src="{{ asset('assets/img/courses/bsc-nursing.jpg') }}" alt="blog">
+                        <img loading="lazy" src="{{ asset('assets/img/courses/course-3.jpg') }}" alt="blog">
                     </div>
 
                     <div class="blog__details__content__wraper">
@@ -149,36 +149,36 @@
                                 <li>
 
                                     <div class="course__details__populer__img">
-                                        <img loading="lazy" src="{{ asset('assets/img/courses/msc-nursing.jpg') }}"
+                                        <img loading="lazy" src="{{ asset('assets/img/courses/course-4.jpg') }}"
                                             alt="courses" width="90" height="70">
                                     </div>
                                     <div class="course__details__populer__content">
                                         <h6>
-                                            <a href="/bScNursing">B.Sc. Nursing</a>
+                                            <a href="/diploma-in-medical-imaging-x-ray-technology-dmxt">DMXT</a>
                                         </h6>
                                     </div>
                                 </li>
                                 <li>
 
                                     <div class="course__details__populer__img">
-                                        <img loading="lazy" src="{{ asset('assets/img/courses/msc-nursing.jpg') }}"
+                                        <img loading="lazy" src="{{ asset('assets/img/courses/course-7.jpg') }}"
                                             alt="courses" width="90" height="70">
                                     </div>
                                     <div class="course__details__populer__content">
                                         <h6>
-                                            <a href="/PbbscNursing">PBBSc Nursing</a>
+                                            <a href="/diploma-in-medical-operation-technology-dmot">DMOT</a>
                                         </h6>
                                     </div>
                                 </li>
                                 <li>
 
                                     <div class="course__details__populer__img">
-                                        <img loading="lazy" src="{{ asset('assets/img/courses/msc-nursing.jpg') }}"
+                                        <img loading="lazy" src="{{ asset('assets/img/courses/course-8.jpg') }}"
                                             alt="courses" width="90" height="70">
                                     </div>
                                     <div class="course__details__populer__content">
                                         <h6>
-                                            <a href="/GnmNursing">GNM Nursing</a>
+                                            <a href="/diploma-in-medical-anesthesia-technology-dot-dat">DOT/DAT</a>
                                         </h6>
                                     </div>
                                 </li>
