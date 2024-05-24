@@ -63,7 +63,7 @@
                                         <div class="login-buttons">
                                             <a target="_blank" href="https://enlight.eduwego.in/student-login" class="default__small__button__pink mb-0 rounded py-1"><i class="icofont-user-alt-1"></i>Student Login</a>
                                             <a target="_blank" href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions" class="default__small__button__pink mb-0 rounded py-1"><i class="icofont-file-document me-1"></i>Online Admission</a>
-                                            <a href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions" target="_blank" class="default__small__button__pink mb-0 rounded py-1">Enquiry Now</a>
+                                            <a href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions" target="_blank" class="default__small__button__pink mb-0 rounded py-1">Enquiry Now</a>
                                         </div>
                                     </div>
                                 </div>
