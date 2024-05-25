@@ -283,9 +283,9 @@
                         <a class="mobile-account-active" href="#">Logins <i class="icofont-thin-down"></i></a>
                         <div class="lang-curr-dropdown account-dropdown-active">
                             <ul>
-                                <li><a href="javascript:void(0);">Student Login</a></li>
-                                <li><a href="javascript:void(0);">Online Admission</li>
-                                <li><a href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions" target="_blank">Enquiry Now</a></li>
+                                <li><a href="https://enlight.eduwego.in/student-login">Student Login</a></li>
+                                <li><a href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Online Admission</li>
+                                <li><a href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions" target="_blank">Enquiry Now</a></li>
                             </ul>
                         </div>
                     </div>
@@ -330,7 +330,7 @@
                                 <div class="footerarea__newsletter__input">
                                     <form action="#">
                                         <div class="footerarea__newsletter__button text-sm-end text-start">
-                                            <a target="_blank" href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions" type="submit" class="subscribe__btn">Apply
+                                            <a target="_blank" href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions" type="submit" class="subscribe__btn">Apply
                                                 Now</a>
                                         </div>
                                     </form>

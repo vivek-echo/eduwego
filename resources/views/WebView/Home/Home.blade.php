@@ -30,7 +30,7 @@
                                         <p>Lorem Ipsum is simply dummy text of the printing typesetting.</p>
                                     </div> -->
                                     <div class="hreobannerarea__button__2">
-                                        <a class="default__button" target="_blank" href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions">Apply Now</a>
+                                        <a class="default__button" target="_blank" href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Apply Now</a>
                                     </div>
 
                                 </div>
@@ -58,7 +58,7 @@
                                     </div>
 
                                     <div class="hreobannerarea__button__2">
-                                        <a class="default__button" target="_blank" href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions">Apply Now</a>
+                                        <a class="default__button" target="_blank" href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Apply Now</a>
                                     </div>
 
                                 </div>
@@ -88,7 +88,7 @@
                                         <p>Lorem Ipsum is simply dummy text of the printing typesetting.</p>
                                     </div> -->
                                     <div class="hreobannerarea__button__2">
-                                        <a class="default__button" target="_blank" href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions">Apply Now</a>
+                                        <a class="default__button" target="_blank" href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Apply Now</a>
                                     </div>
 
                                 </div>

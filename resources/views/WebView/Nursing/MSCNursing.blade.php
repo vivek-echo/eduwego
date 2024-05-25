@@ -98,7 +98,7 @@
                             <div class="col-sm-12 col-md-12">
                                 <div class="mb-3" data-aos="fade-up">
                                     <a class="default__button" target="_blank"
-                                        href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions">Apply
+                                        href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Apply
                                         Now</a>
                                 </div>
                             </div>
