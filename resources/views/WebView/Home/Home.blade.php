@@ -203,7 +203,7 @@
                                 Tagline Of Enlight Group Of Institutions – Explore, Enrich And Evolve...</p>
                         </div>
                         <div>
-                            <a title="Know more about us" class="default__button" href="about.html">Know More</a>
+                            <a title="Know more about us" class="default__button" href="/AboutElgi">Know More</a>
                         </div>
                         <!-- <div class="aboutarea__para aboutarea__para__2">
                                 <p>Honourable Chairman Of Enlight Group Of Institutions Driven With A Philanthropic Vision And Mission And Believes That Education Should Make Human-Beings Self-Reliant, Selfless And Liberated. Enlight Group Of Institutions Is Driven By Values Like Innovation, Commitment, Passion And Integrity. The Institution Boasts Of Internal Quality Delivery Monitoring Mechanism To Ensure Top-Notch Outcome And Highly Qualified, Committed And Experienced Teaching-Staff, Who Ensure That Every Student Will Go Through The Journey Of Exploring, Enriching And Evolving As Enlightened Human Beings.</p>
