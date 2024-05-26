@@ -53,9 +53,9 @@
                         </div>
                     </div>
                     <div class="course__details__heading" data-aos="fade-up">
-                        <h3>About this Institute</h3>
+                        <h3>About Enlight Institute of Para Medical Sciences</h3>
                     </div>
-                    <div class="course__details__paragraph" data-aos="fade-up">
+                    <div class="course__details__paragraph text-justify" data-aos="fade-up">
                         <p>The Enlight Education Trust started in the year of Nov 2015 by keeping a broad objective of imparting high-quality education through improving oneself and the nation at large. Through well-organized packages, we are successful in providing standard education to the students. Providing trustworthy services with minimum expense was always our trademark … We worked to enlighten our students’ lives by making valuable contributions to their academic, and non-academic side by providing assistance in their studies, getting better placements, and allover bringing them as useful citizens to the nation. All this we made real only by the coordinated practices, having experienced faculties, and putting 100% loyalty into work.. that’s why we believe together we can succeed
                         </p>
                     </div>
@@ -77,9 +77,7 @@
                         </div>
                         <div class="col-sm-12 col-md-4">
                             <div data-aos="fade-up">
-                                <a class="default__button" target="_blank"
-                                    href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions">Apply
-                                    Now</a>
+                                <a class="default__button" target="_blank" href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry Now</a>
                             </div>
                         </div>
                     </div>
@@ -95,7 +93,7 @@
 
                     <div class="blogsidebar__content__wraper__2" data-aos="fade-up">
 
-                        <h4 class="sidebar__title">Other Course</h4>
+                        <h4 class="sidebar__title">Courses Offered</h4>
                         <ul class="course__details__populer__list">
                             <li>
 

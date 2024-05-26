@@ -53,7 +53,7 @@
                         <div class="course__details__heading" data-aos="fade-up">
                             <h3>About this course</h3>
                         </div>
-                        <div class="course__details__paragraph" data-aos="fade-up">
+                        <div class="course__details__paragraph text-justify" data-aos="fade-up">
                             <p>DOT/DAT leads the students to a comprehensive study of the field of anesthetics and its importance in the medical field. The dose of anesthesia depends on age, type of ailment, and severity of illness. Through this course, the students become trained professionals with in-depth knowledge of subjects that open up a wide range of career opportunities in India and abroad.
                             </p>
                         </div>
@@ -95,8 +95,11 @@
                             </div>
                             <div class="col-sm-12 col-md-12">
                                 <div class="mb-3" data-aos="fade-up">
-                                    <a class="default__button" target="_blank"
+                                    <a class="default__button me-2" target="_blank"
                                         href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Apply
+                                        Now</a>
+                                    <a class="default__button" target="_blank"
+                                        href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry
                                         Now</a>
                                 </div>
                             </div>

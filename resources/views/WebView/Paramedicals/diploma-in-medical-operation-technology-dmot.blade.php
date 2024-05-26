@@ -53,7 +53,7 @@
                         <div class="course__details__heading" data-aos="fade-up">
                             <h3>About this course</h3>
                         </div>
-                        <div class="course__details__paragraph" data-aos="fade-up">
+                        <div class="course__details__paragraph text-justify" data-aos="fade-up">
                             <p>DMOT is a two-year diploma program designed to create trained and qualified professionals who could assist medical professionals in the operation theatres of hospitals, nursing homes, intensive care units as well as emergency departments. The success of operation/surgical procedures and the safety of patients thus depend largely on the reliability of these operation theatre technicians.
                             </p>
                         </div>
@@ -95,8 +95,11 @@
                             </div>
                             <div class="col-sm-12 col-md-12">
                                 <div class="mb-3" data-aos="fade-up">
-                                    <a class="default__button" target="_blank"
+                                    <a class="default__button me-2" target="_blank"
                                         href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Apply
+                                        Now</a>
+                                    <a class="default__button" target="_blank"
+                                        href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry
                                         Now</a>
                                 </div>
                             </div>

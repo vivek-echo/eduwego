@@ -64,7 +64,7 @@
                             <h3><a href="/diploma-in-medical-laboratory-technology-dmlt">Diploma in Medical Laboratory Technology
                                     (DMLT)</a></h3>
                         </div>
-                        <div>
+                        <div class="text-justify">
                             <p>DMLT is a two years course. A professional with DMLT examines and
                                 analyzes different body....</p>
                         </div>
@@ -108,7 +108,7 @@
                             <h3><a href="/diploma-in-medical-imaging-x-ray-technology-dmxt">Diploma in Medical Imaging/X-Ray
                                     Technology (DMXT)</a></h3>
                         </div>
-                        <div>
+                        <div class="text-justify">
                             <p>DMXT is an undergraduate radiology course and is all about how
                                 electromagnetic....</p>
                         </div>
@@ -152,7 +152,7 @@
                             <h3><a href="/diploma-in-medical-operation-technology-dmot">Diploma in Medical Operation Technology
                                     (DMOT)</a></h3>
                         </div>
-                        <div>
+                        <div class="text-justify">
                             <p>DMOT is a two-year diploma program designed to create trained and
                                 qualified professionals ....</p>
                         </div>
@@ -196,7 +196,7 @@
                             <h3><a href="/diploma-in-medical-anesthesia-technology-dot-dat">Diploma in Medical Anesthesia Technology
                                     (DOT/DAT)</a></h3>
                         </div>
-                        <div>
+                        <div class="text-justify">
                             <p>DOT/DAT leads the students to a comprehensive study of the field of....</p>
                         </div>
                         <div class="gridarea__bottom">

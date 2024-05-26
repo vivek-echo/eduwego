@@ -53,7 +53,7 @@
                         <div class="course__details__heading" data-aos="fade-up">
                             <h3>About this course</h3>
                         </div>
-                        <div class="course__details__paragraph" data-aos="fade-up">
+                        <div class="course__details__paragraph text-justify" data-aos="fade-up">
                             <p>DMXT is an undergraduate radiology course and is all about how electromagnetic radiation penetrates the human body and helps in creating an image on a photographic film. DMXT professionals become X-ray experts and help in scanning through X-ray machines.
                             </p>
                         </div>
@@ -95,8 +95,11 @@
                             </div>
                             <div class="col-sm-12 col-md-12">
                                 <div class="mb-3" data-aos="fade-up">
-                                    <a class="default__button" target="_blank"
+                                    <a class="default__button me-2" target="_blank"
                                         href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Apply
+                                        Now</a>
+                                    <a class="default__button" target="_blank"
+                                        href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry
                                         Now</a>
                                 </div>
                             </div>

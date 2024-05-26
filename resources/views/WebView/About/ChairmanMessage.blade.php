@@ -52,6 +52,8 @@
                         <p>Greeting from ENLIGHT GROUP OF INSTITUTIONS. The Courses offered at EGI not only enable the students to gain knowledge but also develop their overall skills and personal attitude that shall empower them to achiever glob recognition their respective professional specialization. In keeping with our mission centered on academic excellence our programs are designed with a good blend of class room and Clinical learning, through our comprehensive suite professional resources and wide range of clinical exposure.</p>
 
                         <p>It is a challenge to the society to provide a sound foundation to student’s community by comprehensive technical education in our Modern society.</p>
+
+                        <p> <strong>Mr. Sijo PC</strong><br><i>Chairman, Enlight Group Of Institutions</i></p>
                     </div>
                 </div>
             </div>

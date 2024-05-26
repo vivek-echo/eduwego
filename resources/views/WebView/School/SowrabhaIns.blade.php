@@ -53,9 +53,9 @@
                         </div>
                     </div>
                     <div class="course__details__heading" data-aos="fade-up">
-                        <h3>About this Institute</h3>
+                        <h3>About Sowrabha Institute of Nursing Sciences</h3>
                     </div>
-                    <div class="course__details__paragraph" data-aos="fade-up">
+                    <div class="course__details__paragraph text-justify" data-aos="fade-up">
                         <p>Sowrabha Institute of Nursing Sciences was established in the year 2019. The College is Affiliated to RGUHS, Recognized by Govt of Karnataka and approved by Karnataka Nursing Council and Indian Nursing Council.The Institution has set new standards of excellence in Nursing Education and practice by offering GNM Course under School of Nursing & by offering B.Sc, P.B.B.Sc under College of Nursing
                         </p>
                     </div>
@@ -77,9 +77,7 @@
                         </div>
                         <div class="col-sm-12 col-md-4">
                             <div data-aos="fade-up">
-                                <a class="default__button" target="_blank"
-                                    href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions">Apply
-                                    Now</a>
+                                <a class="default__button" target="_blank" href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry Now</a>
                             </div>
                         </div>
                     </div>
@@ -95,7 +93,7 @@
 
                     <div class="blogsidebar__content__wraper__2" data-aos="fade-up">
 
-                        <h4 class="sidebar__title">Popular Course</h4>
+                        <h4 class="sidebar__title">Courses Offered</h4>
                         <ul class="course__details__populer__list">
                             <li>
 

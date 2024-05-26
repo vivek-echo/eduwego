@@ -3836,6 +3836,7 @@ About Area
 }
 .aboutarea__content__wraper .aboutarea__para p {
   line-height: 29px;
+  text-align: justify;
 }
 @media (max-width: 767px) {
   .aboutarea__content__wraper .aboutarea__para p {
@@ -3890,6 +3891,7 @@ About Area
   color: var(--blackColor);
   font-weight: 500;
   display: block;
+  text-align: justify;
 }
 
 .aboutarea__list__3 ul li {
@@ -4090,8 +4092,13 @@ About Area
   border-radius: 10px;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .aboutarea__content__wraper__5 {
   margin-left: 65px;
+  text-align: justify;
 }
 @media (min-width: 992px) and (max-width: 1365px) {
   .aboutarea__content__wraper__5 {
@@ -6593,6 +6600,7 @@ Testimonial Area
 .single__testimonial__wraper .testimonial__content p {
   line-height: 32px;
   margin-bottom: 0;
+  text-align: justify;
 }
 
 .default__arrow .slick-arrow {

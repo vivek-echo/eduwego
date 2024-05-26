@@ -54,7 +54,7 @@
                     <div class="course__details__heading" data-aos="fade-up">
                         <h3>About this course</h3>
                     </div>
-                    <div class="course__details__paragraph" data-aos="fade-up">
+                    <div class="course__details__paragraph text-justify" data-aos="fade-up">
                         <p>GNM referred to as General Nursing and Midwifery deals with the education of nurses in general health care, nursing, and midwifery. It is a 3-year-long Diploma program. The academic program is 3 years long and 6 months are dedicated towards internship. The internship is mandatory. This program will boost your career prospects. After completing this course, successful candidates may register themselves as a registered nurse or midwife with the state nurse registration council.
                         </p>
                     </div>
@@ -95,8 +95,11 @@
                         </div>
                         <div class="col-sm-12 col-md-12">
                             <div class="mb-3" data-aos="fade-up">
-                                <a class="default__button" target="_blank"
+                                <a class="default__button me-2" target="_blank"
                                     href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Apply
+                                    Now</a>
+                                <a class="default__button" target="_blank"
+                                    href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry
                                     Now</a>
                             </div>
                         </div>

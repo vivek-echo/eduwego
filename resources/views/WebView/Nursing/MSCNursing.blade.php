@@ -53,13 +53,13 @@
                         <div class="course__details__heading" data-aos="fade-up">
                             <h3>About this course</h3>
                         </div>
-                        <div class="course__details__paragraph" data-aos="fade-up">
+                        <div class="course__details__paragraph text-justify" data-aos="fade-up">
                             <p>MSc Nursing will prepare Nurses, to improve the quality of nursing education and practice, in India. It will build upon and extend, competence acquired at the graduate level, emphasize application of relevant theories into nursing practice, education, administration and development of research skills. It will prepare nurses, for leadership position in nursing and health care fields, who can function as nurse specialists, consultants, educators, administrators and researchers in a wide variety of professional settings in meeting the National priorities and the changing needs of the society.
                             </p>
                         </div>
 
                         <h4 class="sidebar__title" data-aos="fade-up">Eligibility</h4>
-                        <p>The Minimum education requirement shall be the passing of a B.Sc. Nursing/Post Basic B.Sc. Nursing with a minimum of 55% aggregate marks.
+                        <p class="text-justify">The Minimum education requirement shall be the passing of a B.Sc. Nursing/Post Basic B.Sc. Nursing with a minimum of 55% aggregate marks.
                             <br>
                             Minimum one year of work experience after Basic B.Sc. Nursing. Minimum one year of work experience before or after Post Basic B.Sc. Nursing
                         </p>
@@ -97,8 +97,11 @@
                             </div>
                             <div class="col-sm-12 col-md-12">
                                 <div class="mb-3" data-aos="fade-up">
-                                    <a class="default__button" target="_blank"
+                                    <a class="default__button me-2" target="_blank"
                                         href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Apply
+                                        Now</a>
+                                    <a class="default__button" target="_blank"
+                                        href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry
                                         Now</a>
                                 </div>
                             </div>

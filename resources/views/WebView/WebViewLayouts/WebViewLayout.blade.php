@@ -135,7 +135,15 @@
                                         </li>
 
                                         <li>
-                                            <a href="javascript:void(0);">Admission</a>
+                                            <a class="headerarea__has__dropdown" href="javascript:void(0);">Admission
+                                                <i class="icofont-rounded-down"></i>
+                                            </a>
+                                            <ul class="headerarea__submenu">
+                                                <li><a target="_blank" href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry Now</a></li>
+                                                <li><a target="_blank" href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Online Admission</a></li>
+                                                {{-- <li><a target="_blank" href="">Prospestus Download</a></li>
+                                                <li><a target="_blank" href="">Application Form</a></li> --}}
+                                            </ul>
                                         </li>
 
                                         <li>
@@ -417,23 +425,23 @@
                                         </li>
                                         <li>
                                             <i class="icofont-dotted-right"></i>
-                                            <a href="javascript:void(0);">Login to Student Portal</a>
+                                            <a href="javascript:void(0);">Login Student Portal</a>
                                         </li>
                                         <li>
                                             <i class="icofont-dotted-right"></i>
-                                            <a href="javascript:void(0);">Login For Partners</a>
+                                            <a href="javascript:void(0);">Login Partners</a>
                                         </li>
                                         <li>
                                             <i class="icofont-dotted-right"></i>
-                                            <a href="javascript:void(0);">Login For College Admin</a>
+                                            <a href="javascript:void(0);">Login College Admin</a>
                                         </li>
                                         <li>
                                             <i class="icofont-dotted-right"></i>
-                                            <a href="javascript:void(0);">Login for Employee</a>
+                                            <a href="javascript:void(0);">Login Employee</a>
                                         </li>
                                         <li>
                                             <i class="icofont-dotted-right"></i>
-                                            <a href="javascript:void(0);">College WEBMAIL login</a>
+                                            <a href="javascript:void(0);">WEBMAIL login</a>
                                         </li>
                                     </ul>
                                 </div>

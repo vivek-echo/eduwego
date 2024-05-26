@@ -52,9 +52,9 @@
                         </div>
                     </div>
                     <div class="course__details__heading" data-aos="fade-up">
-                        <h3>About this Institute</h3>
+                        <h3>About Sri Shantidhama School Of Nursing</h3>
                     </div>
-                    <div class="course__details__paragraph" data-aos="fade-up">
+                    <div class="course__details__paragraph text-justify" data-aos="fade-up">
                         <p>Welcome to Shantidhama College of Nursing In an era of stiff competition, success can only be achieved if one makes the right kind of endeavor at the right time and in the right direction. Shantidhama College of Nursing have been established with a view to produce qualified, and efficient nurses for a new tomorrow in the ever changing competitive world of today. Given the paradigm shift which the health care sector is experiencing, nursing science probably represents the most ideal field for heath care to innovate for it is a domain where there is a constant need to change with the times and continuously review, analyze and upgrade competencies in the profession. Our primary goal is to offer the best EDUCATION AND CLINICAL TRAINING possible in Nursing. We are offering professional diploma, bachelor’s degree, and post graduate degree in Nursing. Affiliated to RGUHS and approved by KNC, INC New Delhi & Govt.of Karnataka.
                         </p>
                     </div>
@@ -77,9 +77,7 @@
                         </div>
                         <div class="col-sm-12 col-md-4">
                             <div data-aos="fade-up">
-                                <a class="default__button" target="_blank"
-                                    href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions">Apply
-                                    Now</a>
+                                <a class="default__button" target="_blank" href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry Now</a>
                             </div>
                         </div>
                     </div>
@@ -95,7 +93,7 @@
 
                     <div class="blogsidebar__content__wraper__2" data-aos="fade-up">
 
-                        <h4 class="sidebar__title">Popular Course</h4>
+                        <h4 class="sidebar__title">Courses Offered</h4>
                         <ul class="course__details__populer__list">
                             <li>
 

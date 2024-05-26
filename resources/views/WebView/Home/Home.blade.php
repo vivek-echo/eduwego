@@ -30,7 +30,7 @@
                                         <p>Lorem Ipsum is simply dummy text of the printing typesetting.</p>
                                     </div> -->
                                     <div class="hreobannerarea__button__2">
-                                        <a class="default__button" target="_blank" href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Apply Now</a>
+                                        <a class="default__button" target="_blank" href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry Now</a>
                                     </div>
 
                                 </div>
@@ -58,7 +58,7 @@
                                     </div>
 
                                     <div class="hreobannerarea__button__2">
-                                        <a class="default__button" target="_blank" href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Apply Now</a>
+                                        <a class="default__button" target="_blank" href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry Now</a>
                                     </div>
 
                                 </div>
@@ -88,7 +88,7 @@
                                         <p>Lorem Ipsum is simply dummy text of the printing typesetting.</p>
                                     </div> -->
                                     <div class="hreobannerarea__button__2">
-                                        <a class="default__button" target="_blank" href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Apply Now</a>
+                                        <a class="default__button" target="_blank" href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry Now</a>
                                     </div>
 
                                 </div>
@@ -123,13 +123,11 @@
             <div class="swiper-pagination"></div>
         </div>
 
-        <div class="herobannerarea__icon__2">
-            {{-- <img loading="lazy" class="herobanner__common__img herobanner__img__1" src="{{asset('assets/img/herobanner/herobanner__1.png')}}" alt="photo"> --}}
+        {{-- <div class="herobannerarea__icon__2">
             <img loading="lazy" class="herobanner__common__img herobanner__img__2" src="{{asset('assets/img/herobanner/herobanner__2.png')}}" alt="photo">
             <img loading="lazy" class="herobanner__common__img herobanner__img__3" src="{{asset('assets/img/herobanner/herobanner__3.png')}}" alt="photo">
-            <!--<img loading="lazy"  class="herobanner__common__img herobanner__img__4" src="{{asset('assets/img/herobanner/herobanner__4.png')}}" alt="photo">-->
             <img loading="lazy" class="herobanner__common__img herobanner__img__5" src="{{asset('assets/img/herobanner/herobanner__5.png')}}" alt="photo">
-        </div>
+        </div> --}}
 
     </div>
     <!-- herobannerarea__section__end-->
@@ -144,28 +142,28 @@
                         academic and professional careers.</span>
                 </div>
                 <div class="animate__content__single animate__content__single--2">
-                    <span> <a href="javascript:void(0);">Apply Online</a></span>
+                    <span> <a target="_blank" href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Apply Online</a></span>
                 </div>
-                <div class="animate__content__single animate__content__single--2">
+                {{-- <div class="animate__content__single animate__content__single--2">
                     <span> <a href="javascript:void(0);">Download Brochure</a></span>
                 </div>
                 <div class="animate__content__single animate__content__single--2">
                     <span> <a href="javascript:void(0);">Courses</a></span>
-                </div>
+                </div> --}}
                 <div class="animate__content__single">
                     <span>ADMISSION OPEN FOR SESSION 2024 - 2025 - Enlight Educational Trust is committed to
                         excellence in education that meets the expectations of the students aspiring for enriching
                         academic and professional careers.</span>
                 </div>
                 <div class="animate__content__single animate__content__single--2">
-                    <span> <a href="javascript:void(0);">Apply Online</a></span>
+                    <span> <a target="_blank" href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Apply Online</a></span>
                 </div>
-                <div class="animate__content__single animate__content__single--2">
+                {{-- <div class="animate__content__single animate__content__single--2">
                     <span> <a href="javascript:void(0);">Download Brochure</a></span>
                 </div>
                 <div class="animate__content__single animate__content__single--2">
                     <span> <a href="javascript:void(0);">Courses</a></span>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
@@ -437,7 +435,7 @@
                                         <div class="gridarea__heading">
                                             <h3><a href="/bScNursing">B.Sc.Nursing</a></h3>
                                         </div>
-                                        <div>
+                                        <div class="text-justify">
                                             <p>The course of study shall extend over 4 academic years from the date of
                                                 commencement of his/ her study of....</p>
                                         </div>
@@ -481,7 +479,7 @@
                                         <div class="gridarea__heading">
                                             <h3><a href="/MSCNursing">M.Sc.Nursing</a></h3>
                                         </div>
-                                        <div>
+                                        <div class="text-justify">
                                             <p>MSc Nursing will prepare Nurses, to improve the quality of nursing
                                                 education and practice, in India. It will build upon....</p>
                                         </div>
@@ -526,7 +524,7 @@
                                             <h3><a href="/diploma-in-medical-laboratory-technology-dmlt">Diploma in Medical Laboratory Technology
                                                     (DMLT)</a></h3>
                                         </div>
-                                        <div>
+                                        <div class="text-justify">
                                             <p>DMLT is a two years course. A professional with DMLT examines and
                                                 analyzes different body....</p>
                                         </div>
@@ -571,7 +569,7 @@
                                             <h3><a href="/diploma-in-medical-imaging-x-ray-technology-dmxt">Diploma in Medical Imaging/X-Ray
                                                     Technology (DMXT)</a></h3>
                                         </div>
-                                        <div>
+                                        <div class="text-justify">
                                             <p>DMXT is an undergraduate radiology course and is all about how
                                                 electromagnetic radiation....</p>
                                         </div>
@@ -615,7 +613,7 @@
                                         <div class="gridarea__heading">
                                             <h3><a href="/PbbscNursing">PBBSc Nursing</a></h3>
                                         </div>
-                                        <div>
+                                        <div class="text-justify">
                                             <p>The B.Sc Nursing (Post certificate) course of study shall extend over a
                                                 period of 2 academic years from the date....</p>
                                         </div>
@@ -659,7 +657,7 @@
                                         <div class="gridarea__heading">
                                             <h3><a href="/GnmNursing">GNM Nursing</a></h3>
                                         </div>
-                                        <div>
+                                        <div class="text-justify">
                                             <p>GNM referred to as General Nursing and Midwifery deals with the education
                                                 of nurses in general health care, nursing, and....</p>
                                         </div>
@@ -704,7 +702,7 @@
                                             <h3><a href="/diploma-in-medical-operation-technology-dmot">Diploma in Medical Operation Technology
                                                     (DMOT)</a></h3>
                                         </div>
-                                        <div>
+                                        <div class="text-justify">
                                             <p>DMOT is a two-year diploma program designed to create trained and
                                                 qualified professionals ....</p>
                                         </div>
@@ -749,7 +747,7 @@
                                             <h3><a href="/diploma-in-medical-anesthesia-technology-dot-dat">Diploma in Medical Anesthesia Technology
                                                     (DOT/DAT)</a></h3>
                                         </div>
-                                        <div>
+                                        <div class="text-justify">
                                             <p>DOT/DAT leads the students to a comprehensive study of the field of
                                                 anesthetics and its .....</p>
                                         </div>

@@ -55,7 +55,7 @@
                     <div class="course__details__heading" data-aos="fade-up">
                         <h3>About this course</h3>
                     </div>
-                    <div class="course__details__paragraph" data-aos="fade-up">
+                    <div class="course__details__paragraph text-justify" data-aos="fade-up">
                         <p>The course of study shall extend over 4 academic years from the date of commencement
                             of his/ her study of the subjects comprising the nursing curriculum to the date of
                             completion of the examination. Terms and vacations shall be as notified by the
@@ -64,7 +64,7 @@
                     </div>
 
                     <h4 class="sidebar__title" data-aos="fade-up">Eligibility</h4>
-                    <p>The Minimum education requirement shall be the passing of a B.Sc. Nursing/Post Basic
+                    <p class="text-justify">The Minimum education requirement shall be the passing of a B.Sc. Nursing/Post Basic
                         B.Sc. Nursing with a minimum of 55% aggregate marks.
                         <br>
                         Minimum one year of work experience after Basic B.Sc. Nursing. Minimum one year of work
@@ -103,8 +103,11 @@
                         </div>
                         <div class="col-sm-12 col-md-12">
                             <div class="mb-3" data-aos="fade-up">
-                                <a class="default__button" target="_blank"
+                                <a class="default__button me-2" target="_blank"
                                     href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Apply
+                                    Now</a>
+                                <a class="default__button" target="_blank"
+                                    href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry
                                     Now</a>
                             </div>
                         </div>

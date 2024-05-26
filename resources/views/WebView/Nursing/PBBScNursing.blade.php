@@ -55,7 +55,7 @@
                     <div class="course__details__heading" data-aos="fade-up">
                         <h3>About this Institute</h3>
                     </div>
-                    <div class="course__details__paragraph" data-aos="fade-up">
+                    <div class="course__details__paragraph text-justify" data-aos="fade-up">
                         <p>The B.Sc Nursing (Post certificate) course of study shall extend over a period of 2 academic years from the date of commencement of his/ her study of the subjects. Terms and vacations shall be as notified by the university from time to time.
                         </p>
                     </div>
@@ -96,8 +96,11 @@
                         </div>
                         <div class="col-sm-12 col-md-12">
                             <div class="mb-3" data-aos="fade-up">
-                                <a class="default__button" target="_blank"
+                                <a class="default__button me-2" target="_blank"
                                     href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Apply
+                                    Now</a>
+                                <a class="default__button" target="_blank"
+                                    href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry
                                     Now</a>
                             </div>
                         </div>
