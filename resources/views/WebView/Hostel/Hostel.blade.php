@@ -83,6 +83,21 @@
 
                             </div>
                         </div>
+                        <div class="col-sm-12 col-md-12">
+                            <div class="course__details__wraper aos-init aos-animate" data-aos="fade-up">
+
+                                <div class="d-flex align-items-center gap-3">
+                                    <div class="icon-badge">
+                                        <i class="icofont-wifi"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="text-primary mb-0">24x7 Wifi Available</h5>
+                                        <p class="lh-1-5 mb-0">Free Wifi available</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

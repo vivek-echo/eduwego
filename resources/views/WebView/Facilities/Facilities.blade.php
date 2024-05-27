@@ -53,9 +53,7 @@
                         <div class="gridarea__heading">
                             <h3>Food Available With Good<br> Hygiene </h3>
                         </div>
-                        <div>
-                            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima velit consequuntur architecto accusamus provident.</p> -->
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -73,9 +71,7 @@
                         <div class="gridarea__heading">
                             <h3>Complete Loan Facility <br>Available </h3>
                         </div>
-                        <div>
-                            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima velit consequuntur architecto accusamus provident.</p> -->
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -92,9 +88,6 @@
                     <div class="gridarea__content">
                         <div class="gridarea__heading">
                             <h3>High Qualified & Experienced Teaching Staff </h3>
-                        </div>
-                        <div>
-                            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima velit consequuntur.</p> -->
                         </div>
                     </div>
                 </div>
@@ -113,9 +106,7 @@
                         <div class="gridarea__heading">
                             <h3>College Bus and Convenient Transport Facility </h3>
                         </div>
-                        <div>
-                            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima velit consequuntur architecto accusamus provident.</p> -->
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -133,9 +124,7 @@
                         <div class="gridarea__heading">
                             <h3>Separate and Pollution Free <br>Campus </h3>
                         </div>
-                        <div>
-                            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima velit consequuntur architecto accusamus provident.</p> -->
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -143,7 +132,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="gridarea__wraper">
                     <div class="gridarea__img">
-                        <img loading="lazy" src="{{asset('assets/img/service/facility-6.webp')}}" alt="image-facility">
+                        <img loading="lazy" src="{{asset('assets/img/service/facility-7.jpg')}}" alt="image-facility">
                         <div class="gridarea__small__button">
                             <div class="grid__badge green__color">Facilities</div>
                         </div>
@@ -151,11 +140,196 @@
                     </div>
                     <div class="gridarea__content">
                         <div class="gridarea__heading">
-                            <h3>Well Equipped Laboratory & Enriched Library </h3>
+                            <h3>Library and Information <br>Center</h3>
                         </div>
-                        <div>
-                            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima velit consequuntur architecto accusamus provident.</p> -->
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="gridarea__wraper">
+                    <div class="gridarea__img">
+                        <img loading="lazy" src="{{asset('assets/img/service/facility-6.jpg')}}" alt="image-facility">
+                        <div class="gridarea__small__button">
+                            <div class="grid__badge green__color">Facilities</div>
                         </div>
+
+                    </div>
+                    <div class="gridarea__content">
+                        <div class="gridarea__heading">
+                            <h3>Well Equipped Laboratory (Anatomy & Physiology Lab) </h3>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="gridarea__wraper">
+                    <div class="gridarea__img">
+                        <img loading="lazy" src="{{asset('assets/img/service/facility-8.jpg')}}" alt="image-facility">
+                        <div class="gridarea__small__button">
+                            <div class="grid__badge green__color">Facilities</div>
+                        </div>
+
+                    </div>
+                    <div class="gridarea__content">
+                        <div class="gridarea__heading">
+                            <h3>Well Equipped Laboratory (Nursing Foundation Lab) </h3>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="gridarea__wraper">
+                    <div class="gridarea__img">
+                        <img loading="lazy" src="{{asset('assets/img/service/facility-9.jpg')}}" alt="image-facility">
+                        <div class="gridarea__small__button">
+                            <div class="grid__badge green__color">Facilities</div>
+                        </div>
+
+                    </div>
+                    <div class="gridarea__content">
+                        <div class="gridarea__heading">
+                            <h3>Well Equipped Laboratory <br>(MCH Lab) </h3>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="gridarea__wraper">
+                    <div class="gridarea__img">
+                        <img loading="lazy" src="{{asset('assets/img/service/facility-10.jpg')}}" alt="image-facility">
+                        <div class="gridarea__small__button">
+                            <div class="grid__badge green__color">Facilities</div>
+                        </div>
+
+                    </div>
+                    <div class="gridarea__content">
+                        <div class="gridarea__heading">
+                            <h3>Well Equipped Laboratory (Nutrition Lab) </h3>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="gridarea__wraper">
+                    <div class="gridarea__img">
+                        <img loading="lazy" src="{{asset('assets/img/service/facility-11.jpg')}}" alt="image-facility">
+                        <div class="gridarea__small__button">
+                            <div class="grid__badge green__color">Facilities</div>
+                        </div>
+
+                    </div>
+                    <div class="gridarea__content">
+                        <div class="gridarea__heading">
+                            <h3>Well Equipped Laboratory (Community Health Nursing Lab) </h3>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="gridarea__wraper">
+                    <div class="gridarea__img">
+                        <img loading="lazy" src="{{asset('assets/img/service/facility-12.jpg')}}" alt="image-facility">
+                        <div class="gridarea__small__button">
+                            <div class="grid__badge green__color">Facilities</div>
+                        </div>
+
+                    </div>
+                    <div class="gridarea__content">
+                        <div class="gridarea__heading">
+                            <h3>Well Equipped Laboratory (Pharma Analysis Lab) </h3>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="gridarea__wraper">
+                    <div class="gridarea__img">
+                        <img loading="lazy" src="{{asset('assets/img/service/facility-13.jpg')}}" alt="image-facility">
+                        <div class="gridarea__small__button">
+                            <div class="grid__badge green__color">Facilities</div>
+                        </div>
+
+                    </div>
+                    <div class="gridarea__content">
+                        <div class="gridarea__heading">
+                            <h3>Well Equipped Laboratory (Pharma Chemistry Lab) </h3>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="gridarea__wraper">
+                    <div class="gridarea__img">
+                        <img loading="lazy" src="{{asset('assets/img/service/facility-14.jpg')}}" alt="image-facility">
+                        <div class="gridarea__small__button">
+                            <div class="grid__badge green__color">Facilities</div>
+                        </div>
+
+                    </div>
+                    <div class="gridarea__content">
+                        <div class="gridarea__heading">
+                            <h3>Well Equipped Laboratory (Pharma Ceutics Lab) </h3>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="gridarea__wraper">
+                    <div class="gridarea__img">
+                        <img loading="lazy" src="{{asset('assets/img/service/facility-15.jpg')}}" alt="image-facility">
+                        <div class="gridarea__small__button">
+                            <div class="grid__badge green__color">Facilities</div>
+                        </div>
+
+                    </div>
+                    <div class="gridarea__content">
+                        <div class="gridarea__heading">
+                            <h3>Well Equipped Laboratory (Pharmacology Lab) </h3>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="gridarea__wraper">
+                    <div class="gridarea__img">
+                        <img loading="lazy" src="{{asset('assets/img/service/facility-16.jpg')}}" alt="image-facility">
+                        <div class="gridarea__small__button">
+                            <div class="grid__badge green__color">Facilities</div>
+                        </div>
+
+                    </div>
+                    <div class="gridarea__content">
+                        <div class="gridarea__heading">
+                            <h3>Well Equipped Laboratory (Basic Engineering Lab) </h3>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="gridarea__wraper">
+                    <div class="gridarea__img">
+                        <img loading="lazy" src="{{asset('assets/img/service/facility-17.jpg')}}" alt="image-facility">
+                        <div class="gridarea__small__button">
+                            <div class="grid__badge green__color">Facilities</div>
+                        </div>
+
+                    </div>
+                    <div class="gridarea__content">
+                        <div class="gridarea__heading">
+                            <h3>Well Equipped Laboratory (Herbal Drug Technology Lab) </h3>
+                        </div>
+                        
                     </div>
                 </div>
             </div>

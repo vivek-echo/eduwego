@@ -1078,37 +1078,49 @@
             <div class="row">
                 <div class="brandarea__wraper" data-aos="fade-up">
                     <div class="brandarea__img">
-                        <a href="#"><img loading="lazy" src="{{asset('assets/img/brand/partner-1.png')}}" alt="brand" height="70"></a>
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-1.png')}}" alt="brand" height="90"></a>
                     </div>
                     <div class="brandarea__img">
-                        <a href="#"><img loading="lazy" src="{{asset('assets/img/brand/partner-2.png')}}" alt="brand" height="70"></a>
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-2.png')}}" alt="brand" height="90"></a>
                     </div>
                     <div class="brandarea__img">
-                        <a href="#"><img loading="lazy" src="{{asset('assets/img/brand/partner-3.png')}}" alt="brand" height="70"></a>
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-3.png')}}" alt="brand" height="90"></a>
                     </div>
                     <div class="brandarea__img">
-                        <a href="#"><img loading="lazy" src="{{asset('assets/img/brand/partner-4.png')}}" alt="brand" height="70"></a>
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-4.png')}}" alt="brand" height="90"></a>
                     </div>
                     <div class="brandarea__img">
-                        <a href="#"><img loading="lazy" src="{{asset('assets/img/brand/partner-5.png')}}" alt="brand" height="70"></a>
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-5.png')}}" alt="brand" height="90"></a>
                     </div>
                     <div class="brandarea__img">
-                        <a href="#"><img loading="lazy" src="{{asset('assets/img/brand/partner-6.png')}}" alt="brand" height="70"></a>
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-6.png')}}" alt="brand" height="90"></a>
                     </div>
                     <div class="brandarea__img">
-                        <a href="#"><img loading="lazy" src="{{asset('assets/img/brand/partner-7.png')}}" alt="brand" height="70"></a>
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-7.png')}}" alt="brand" height="90"></a>
                     </div>
                     <div class="brandarea__img">
-                        <a href="#"><img loading="lazy" src="{{asset('assets/img/brand/partner-8.png')}}" alt="brand" height="70"></a>
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-8.png')}}" alt="brand" height="90"></a>
                     </div>
                     <div class="brandarea__img">
-                        <a href="#"><img loading="lazy" src="{{asset('assets/img/brand/partner-9.png')}}" alt="brand" height="70"></a>
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-9.png')}}" alt="brand" height="90"></a>
                     </div>
                     <div class="brandarea__img">
-                        <a href="#"><img loading="lazy" src="{{asset('assets/img/brand/partner-10.png')}}" alt="brand" height="70"></a>
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-10.png')}}" alt="brand" height="90"></a>
                     </div>
                     <div class="brandarea__img">
-                        <a href="#"><img loading="lazy" src="{{asset('assets/img/brand/partner-11.png')}}" alt="brand" height="70"></a>
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-11.png')}}" alt="brand" height="90"></a>
+                    </div>
+                    <div class="brandarea__img">
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-12.png')}}" alt="brand" height="90"></a>
+                    </div>
+                    <div class="brandarea__img">
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-13.png')}}" alt="brand" height="90"></a>
+                    </div>
+                    <div class="brandarea__img">
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-14.png')}}" alt="brand" height="90"></a>
+                    </div>
+                    <div class="brandarea__img">
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-15.png')}}" alt="brand" height="90"></a>
                     </div>
                 </div>
             </div>

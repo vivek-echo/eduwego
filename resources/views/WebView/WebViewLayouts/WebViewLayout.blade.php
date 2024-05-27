@@ -9,20 +9,20 @@
     <title>Enlight Educational Trust – Together We To Lead</title>
 
     <!-- <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"> -->
-    <link rel="icon" href="{{asset('cropped-Logo-32x32.png')}}" sizes="32x32" />
-    <link rel="icon" href="{{asset('cropped-Logo-180x180.png')}}" sizes="192x192" />
-    <link rel="apple-touch-icon" href="{{asset('cropped-Logo-192x192')}}" />
+    <link rel="icon" href="{{ asset('cropped-Logo-32x32.png') }}" sizes="32x32" />
+    <link rel="icon" href="{{ asset('cropped-Logo-180x180.png') }}" sizes="192x192" />
+    <link rel="apple-touch-icon" href="{{ asset('cropped-Logo-192x192') }}" />
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/animate.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/aos.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/magnific-popup.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/icofont.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/slick.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/swiper-bundle.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/animate.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/aos.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/icofont.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/slick.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 </head>
 
 <body>
@@ -31,7 +31,7 @@
     <div id="back__preloader">
         <div id="back__circle_loader"></div>
         <div class="back__loader_logo">
-            <img loading="lazy" src="{{asset('cropped-Logo-180x180.png')}}" alt="Preload">
+            <img loading="lazy" src="{{ asset('cropped-Logo-180x180.png') }}" alt="Preload">
         </div>
     </div>
     <!-- pre loader area end -->
@@ -61,9 +61,19 @@
                                 <div class="row justify-content-end">
                                     <div class="col-sm-auto">
                                         <div class="login-buttons">
-                                            <a target="_blank" href="https://enlight.eduwego.in/student-login" class="default__small__button__pink mb-0 rounded py-1"><i class="icofont-user-alt-1"></i>Student Login</a>
-                                            <a target="_blank" href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions" class="default__small__button__pink mb-0 rounded py-1"><i class="icofont-file-document me-1"></i>Online Admission</a>
-                                            <a href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions" target="_blank" class="default__small__button__pink mb-0 rounded py-1">Enquiry Now</a>
+                                            <a target="_blank" title="Go to Student Login"
+                                                href="https://enlight.eduwego.in/student-login"
+                                                class="default__small__button__white mb-0 rounded p-1"><i
+                                                    class="icofont-user-alt-1"></i>Student Login</a><span
+                                                class="text-white ms-1">|</span>
+                                            <a target="_blank" title="Go for Online Admission"
+                                                href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions"
+                                                class="default__small__button__white mb-0 rounded p-1"><i
+                                                    class="icofont-file-document me-1"></i>Online Admission</a><span
+                                                class="text-white ms-1">|</span>
+                                            <a href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions"
+                                                title="Go to Enquiry Now" target="_blank"
+                                                class="default__small__button__white mb-0 rounded p-1">Enquiry Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -71,13 +81,19 @@
                             <div class="topbar__list">
                                 <ul>
                                     <li>
-                                        <a title="Facebook" target="_blank" href="https://www.facebook.com/enlightgroup2020"><i class="icofont-facebook"></i></a>
+                                        <a title="Facebook" target="_blank"
+                                            href="https://www.facebook.com/enlightgroup2020"><i
+                                                class="icofont-facebook"></i></a>
                                     </li>
                                     <li>
-                                        <a title="Twitter" target="_blank" href="https://x.com/of_enlight?t=IIT52UV_BZ1hzOkmeuhHGQ&s=08"><i class="icofont-twitter"></i></a>
+                                        <a title="Twitter" target="_blank"
+                                            href="https://x.com/of_enlight?t=IIT52UV_BZ1hzOkmeuhHGQ&s=08"><i
+                                                class="icofont-twitter"></i></a>
                                     </li>
                                     <li>
-                                        <a title="Instagram" target="_blank" href="https://www.instagram.com/enlight_group?igsh=Z2Foc3c4b2hhOTkz"><i class="icofont-instagram"></i></a>
+                                        <a title="Instagram" target="_blank"
+                                            href="https://www.instagram.com/enlight_group?igsh=Z2Foc3c4b2hhOTkz"><i
+                                                class="icofont-instagram"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -98,7 +114,9 @@
                             <div class="headerarea__left">
                                 <div class="headerarea__left__logo">
 
-                                    <a href="/"><img loading="lazy" src="{{asset('assets/img/logo/enlight-group-logo.png')}}" alt="logo" class="main-logo"></a>
+                                    <a href="/"><img loading="lazy"
+                                            src="{{ asset('assets/img/logo/enlight-group-logo.png') }}" alt="logo"
+                                            class="main-logo"></a>
                                 </div>
 
                             </div>
@@ -139,24 +157,35 @@
                                                 <i class="icofont-rounded-down"></i>
                                             </a>
                                             <ul class="headerarea__submenu">
-                                                <li><a target="_blank" href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry Now</a></li>
-                                                <li><a target="_blank" href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Online Admission</a></li>
-                                                {{-- <li><a target="_blank" href="">Prospestus Download</a></li>
-                                                <li><a target="_blank" href="">Application Form</a></li> --}}
+                                                <li><a target="_blank"
+                                                        href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry
+                                                        Now</a></li>
+                                                <li><a target="_blank"
+                                                        href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Online
+                                                        Admission</a></li>
+                                                <li><a onclick="downloadPdf()" href="#">Prospestus Download</a>
+                                                </li>
+                                                <li><a target="_blank" href="javascript:void(0);">Application Form</a>
+                                                </li>
                                             </ul>
                                         </li>
 
                                         <li>
-                                            <a class="headerarea__has__dropdown" href="javascript:void(0);">Institutions
+                                            <a class="headerarea__has__dropdown"
+                                                href="javascript:void(0);">Institutions
                                                 <i class="icofont-rounded-down"></i>
                                             </a>
                                             <ul class="headerarea__submenu">
-                                                <li><a href="/sowrabhaIns">Sowrabha Institute of Nursing Sciences</a>
+                                                <li><a href="/sowrabha-institute-of-nursing-sciences">Sowrabha
+                                                        Institute of Nursing Sciences</a>
                                                 </li>
-                                                <li><a href="/englightIns">Enlight Institute of Para Medical Sciences</a>
+                                                <li><a href="/enlight-institute-of-paramedical-sciences">Enlight
+                                                        Institute of Para Medical Sciences</a>
                                                 </li>
-                                                <li><a href="/enlightSchool">Enlight School of Nursing</a></li>
-                                                <li><a href="/shantidhamaschool">Sri Shantidhama School of Nursing</a></li>
+                                                <li><a href="/enlight-school-of-nursing">Enlight School of Nursing</a>
+                                                </li>
+                                                <li><a href="/sri-shantidhama-school-of-nursing">Sri Shantidhama School
+                                                        of Nursing</a></li>
                                             </ul>
                                         </li>
 
@@ -197,13 +226,16 @@
                     <div class="row align-items-center">
                         <div class="col-6">
                             <div class="mobile-logo">
-                                <a class="logo__dark" href="#"><img loading="lazy" src="{{asset('assets/img/logo/enlight-group-logo.png')}}" height="60" alt="logo"></a>
+                                <a class="logo__dark" href="#"><img loading="lazy"
+                                        src="{{ asset('assets/img/logo/enlight-group-logo.png') }}" height="60"
+                                        alt="logo"></a>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="header-right-wrap">
                                 <div class="mobile-off-canvas">
-                                    <a class="mobile-aside-button" href="#"><i class="icofont-navigation-menu"></i></a>
+                                    <a class="mobile-aside-button" href="#"><i
+                                            class="icofont-navigation-menu"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -246,18 +278,30 @@
                                     </ul>
                                 </li>
 
-                                <li>
-                                    <a href="javascript:void(0);">Admission</a>
+                                <li class="menu-item-has-children"><a href="javascript:void(0);">Admission</a>
+                                    <ul class="dropdown">
+                                        <li><a target="_blank"
+                                                href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry
+                                                Now</a></li>
+                                        <li><a target="_blank"
+                                                href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Online
+                                                Admission</a></li>
+                                        <li><a onclick="downloadPdf()" href="#">Prospestus Download</a></li>
+                                        <li><a target="_blank" href="javascript:void(0);">Application Form</a></li>
+                                    </ul>
                                 </li>
 
                                 <li class="menu-item-has-children"><a href="javascript:void(0);">Institutions</a>
                                     <ul class="dropdown">
-                                        <li><a href="/sowrabhaIns">Sowrabha Institute of Nursing Sciences</a>
+                                        <li><a href="/sowrabha-institute-of-nursing-sciences">Sowrabha Institute of
+                                                Nursing Sciences</a>
                                         </li>
-                                        <li><a href="/englightIns">Enlight Institute of Para Medical Sciences</a>
+                                        <li><a href="/enlight-institute-of-paramedical-sciences">Enlight Institute of
+                                                Para Medical Sciences</a>
                                         </li>
-                                        <li><a href="/enlightSchool">Enlight School of Nursing</a></li>
-                                        <li><a href="/shantidhamaschool">Sri Shantidhama School of Nursing</a></li>
+                                        <li><a href="/enlight-school-of-nursing">Enlight School of Nursing</a></li>
+                                        <li><a href="/sri-shantidhama-school-of-nursing">Sri Shantidhama School of
+                                                Nursing</a></li>
                                     </ul>
                                 </li>
 
@@ -292,8 +336,11 @@
                         <div class="lang-curr-dropdown account-dropdown-active">
                             <ul>
                                 <li><a href="https://enlight.eduwego.in/student-login">Student Login</a></li>
-                                <li><a href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Online Admission</li>
-                                <li><a href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions" target="_blank">Enquiry Now</a></li>
+                                <li><a
+                                        href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Online
+                                        Admission</li>
+                                <li><a href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions"
+                                        target="_blank">Enquiry Now</a></li>
                             </ul>
                         </div>
                     </div>
@@ -301,7 +348,8 @@
                 <div class="mobile-social-wrap">
                     <a class="facebook" target="_blank" href="https://www.facebook.com/enlightgroup2020"><i
                             class="icofont icofont-facebook"></i></a>
-                    <a class="twitter" target="_blank" href="https://x.com/of_enlight?t=IIT52UV_BZ1hzOkmeuhHGQ&s=08"><i
+                    <a class="twitter" target="_blank"
+                        href="https://x.com/of_enlight?t=IIT52UV_BZ1hzOkmeuhHGQ&s=08"><i
                             class="icofont icofont-twitter"></i></a>
                     <a class="instagram" target="_blank"
                         href="https://www.instagram.com/enlight_group?igsh=Z2Foc3c4b2hhOTkz"><i
@@ -338,7 +386,9 @@
                                 <div class="footerarea__newsletter__input">
                                     <form action="#">
                                         <div class="footerarea__newsletter__button text-sm-end text-start">
-                                            <a target="_blank" href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions" type="submit" class="subscribe__btn">Apply
+                                            <a target="_blank"
+                                                href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions"
+                                                type="submit" class="subscribe__btn">Apply
                                                 Now</a>
                                         </div>
                                     </form>
@@ -371,26 +421,30 @@
                                     <ul>
                                         <li>
                                             <i class="icofont-dotted-right"></i>
-                                            <a href="/sowrabhaIns">Sowrabha Institute of Nursing Sciencess</a>
+                                            <a href="/sowrabha-institute-of-nursing-sciences">Sowrabha Institute of
+                                                Nursing Sciencess</a>
                                         </li>
                                         <li>
                                             <i class="icofont-dotted-right"></i>
-                                            <a href="/englightIns">Enlight Institute of Para Medical Sciences</a>
+                                            <a href="/enlight-institute-of-paramedical-sciences">Enlight Institute of
+                                                Para Medical Sciences</a>
                                         </li>
                                         <li>
                                             <i class="icofont-dotted-right"></i>
-                                            <a href="/enlightSchool">Enlight school of Nursing </a>
+                                            <a href="/enlight-school-of-nursing">Enlight school of Nursing </a>
                                         </li>
                                         <li>
                                             <i class="icofont-dotted-right"></i>
-                                            <a href="/shantiDhamaSchool">Sri Shantidhama School of Nursing</a>
+                                            <a href="/sri-shantidhama-school-of-nursing">Sri Shantidhama School of
+                                                Nursing</a>
                                         </li>
                                     </ul>
                                     <hr class="hr-border">
                                     <ul>
                                         <li>
                                             <i class="icofont-ui-user"></i>
-                                            <a target="_blank" href="https://enlight.eduwego.in/student-login"> Student
+                                            <a target="_blank" href="https://enlight.eduwego.in/student-login">
+                                                Student
                                                 Login</a>
                                         </li><br>
                                         <li>
@@ -417,7 +471,9 @@
                                         </li>
                                         <li>
                                             <i class="icofont-dotted-right"></i>
-                                            <a target="_blank" href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions">Online Enquirey</a>
+                                            <a target="_blank"
+                                                href="https://apps.eduwego.in/student-enquiry/enlight-group-of-institutions">Online
+                                                Enquirey</a>
                                         </li>
                                         <li>
                                             <i class="icofont-dotted-right"></i>
@@ -510,15 +566,21 @@
                     <div class="row">
                         <div class="col-xl-9 col-lg-9">
                             <div class="footerarea__copyright__content footerarea__copyright__content__2">
-                                <p>Copyright © <span>2024</span> || All Right Reserved Enlight Group of Institutions | Design & Developed by EDUWEGO</p>
+                                <p>Copyright © <span>2024</span> || All Right Reserved Enlight Group of Institutions |
+                                    Design & Developed by EDUWEGO</p>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3">
                             <div class="footerarea__icon footerarea__icon__2">
                                 <ul>
-                                    <li><a title="Facebook" href="https://www.facebook.com/enlightgroup2020" target="_blank"><i class="icofont-facebook"></i></a></li>
-                                    <li><a title="Twitter" href="https://x.com/of_enlight?t=IIT52UV_BZ1hzOkmeuhHGQ&s=08"><i class="icofont-twitter"></i></a></li>
-                                    <li><a title="Instagram" href="https://www.instagram.com/enlight_group?igsh=Z2Foc3c4b2hhOTkz"><i class="icofont-instagram"></i></a></li>
+                                    <li><a title="Facebook" href="https://www.facebook.com/enlightgroup2020"
+                                            target="_blank"><i class="icofont-facebook"></i></a></li>
+                                    <li><a title="Twitter"
+                                            href="https://x.com/of_enlight?t=IIT52UV_BZ1hzOkmeuhHGQ&s=08"><i
+                                                class="icofont-twitter"></i></a></li>
+                                    <li><a title="Instagram"
+                                            href="https://www.instagram.com/enlight_group?igsh=Z2Foc3c4b2hhOTkz"><i
+                                                class="icofont-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -528,28 +590,38 @@
             </div>
         </div>
         <!-- footer__section__end -->
+
+
+        <div class="floating_btn">
+            <a target="_blank" href="https://wa.me/919916073632">
+                <div class="contact_icon">
+                    <i class="icofont-brand-whatsapp my-float"></i>
+                </div>
+            </a>
+            <p class="text_icon">Talk to us?</p>
+        </div>
     </main>
 
 
     <!-- JS here -->
     <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
-    <script src="{{asset('assets/js/vendor/modernizr-3.5.0.min.js')}}"></script>
-    <script src="{{asset('assets/js/vendor/jquery-3.6.0.min.js')}}"></script>
-    <script src="{{asset('assets/js/popper.min.js')}}"></script>
-    <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
-    <script src="{{asset('assets/js/isotope.pkgd.min.js')}}"></script>
-    <script src="{{asset('assets/js/slick.min.js')}}"></script>
-    <script src="{{asset('assets/js/jquery.meanmenu.min.js')}}"></script>
-    <script src="{{asset('assets/js/ajax-form.js')}}"></script>
-    <script src="{{asset('assets/js/wow.min.js')}}"></script>
-    <script src="{{asset('assets/js/jquery.scrollUp.min.js')}}"></script>
-    <script src="{{asset('assets/js/imagesloaded.pkgd.min.js')}}"></script>
-    <script src="{{asset('assets/js/jquery.magnific-popup.min.js')}}"></script>
-    <script src="{{asset('assets/js/waypoints.min.js')}}"></script>
-    <script src="{{asset('assets/js/jquery.counterup.min.js')}}"></script>
-    <script src="{{asset('assets/js/plugins.js')}}"></script>
-    <script src="{{asset('assets/js/swiper-bundle.min.js')}}"></script>
-    <script src="{{asset('assets/js/main.js')}}"></script>
+    <script src="{{ asset('assets/js/vendor/modernizr-3.5.0.min.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/jquery-3.6.0.min.js') }}"></script>
+    <script src="{{ asset('assets/js/popper.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/js/slick.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.meanmenu.min.js') }}"></script>
+    <script src="{{ asset('assets/js/ajax-form.js') }}"></script>
+    <script src="{{ asset('assets/js/wow.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.scrollUp.min.js') }}"></script>
+    <script src="{{ asset('assets/js/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('assets/js/waypoints.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.counterup.min.js') }}"></script>
+    <script src="{{ asset('assets/js/plugins.js') }}"></script>
+    <script src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 
     <script>
         // On page load or when changing themes, best to add inline in `head` to avoid FOUC

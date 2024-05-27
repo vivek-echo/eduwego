@@ -37,7 +37,7 @@
                 <div class="col-xl-8 col-lg-8">
 
                     <div class="blogarae__img__2 course__details__img__2" data-aos="fade-up">
-                        <img loading="lazy" src="{{ asset('assets/img/courses/course-7.jpg') }}" alt="blog">
+                        <img loading="lazy" src="{{ asset('assets/img/courses/dmot.jpg') }}" alt="blog">
                     </div>
 
                     <div class="blog__details__content__wraper">
@@ -152,7 +152,7 @@
                                 <li>
 
                                     <div class="course__details__populer__img">
-                                        <img loading="lazy" src="{{ asset('assets/img/courses/course-3.jpg') }}"
+                                        <img loading="lazy" src="{{ asset('assets/img/service/facility-16.jpg') }}"
                                             alt="courses" width="90" height="70">
                                     </div>
                                     <div class="course__details__populer__content">
@@ -164,7 +164,7 @@
                                 <li>
 
                                     <div class="course__details__populer__img">
-                                        <img loading="lazy" src="{{ asset('assets/img/courses/course-8.jpg') }}"
+                                        <img loading="lazy" src="{{ asset('assets/img/service/facility-9.jpg') }}"
                                             alt="courses" width="90" height="70">
                                     </div>
                                     <div class="course__details__populer__content">
@@ -176,7 +176,7 @@
                                 <li>
 
                                     <div class="course__details__populer__img">
-                                        <img loading="lazy" src="{{ asset('assets/img/courses/course-4.jpg') }}"
+                                        <img loading="lazy" src="{{ asset('assets/img/courses/dmxt.jpg') }}"
                                             alt="courses" width="90" height="70">
                                     </div>
                                     <div class="course__details__populer__content">

@@ -45,7 +45,7 @@
                 <div class="blog__details__content__wraper">
                     <div class="course__button__wraper" data-aos="fade-up">
                         <div class="course__button">
-                        <a target="_blank" href="Sowrabha-Prospectus.pdf"><i class="icofont-file-document"></i> Download
+                        <a onclick="downloadPdf()" href="#" title="Download Prospectus"><i class="icofont-file-document"></i> Download
                                 Prospectus</a>
                         </div>
                         <div class="course__date">
@@ -98,7 +98,7 @@
                             <li>
 
                                 <div class="course__details__populer__img">
-                                    <img loading="lazy" src="{{asset('assets/img/courses/msc-nursing.jpg')}}" alt="courses"
+                                    <img loading="lazy" src="{{asset('assets/img/courses/course-1.jpg')}}" alt="courses"
                                         width="90" height="70">
                                 </div>
                                 <div class="course__details__populer__content">
@@ -122,7 +122,7 @@
                             <li>
 
                                 <div class="course__details__populer__img">
-                                    <img loading="lazy" src="{{asset('assets/img/courses/msc-nursing.jpg')}}" alt="courses"
+                                    <img loading="lazy" src="{{asset('assets/img/courses/course-7.jpg')}}" alt="courses"
                                         width="90" height="70">
                                 </div>
                                 <div class="course__details__populer__content">
@@ -134,7 +134,7 @@
                             <li>
 
                                 <div class="course__details__populer__img">
-                                    <img loading="lazy" src="{{asset('assets/img/courses/msc-nursing.jpg')}}" alt="courses"
+                                    <img loading="lazy" src="{{asset('assets/img/courses/course-8.jpg')}}" alt="courses"
                                         width="90" height="70">
                                 </div>
                                 <div class="course__details__populer__content">

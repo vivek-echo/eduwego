@@ -97,7 +97,7 @@
                             <li>
 
                                 <div class="course__details__populer__img">
-                                    <img loading="lazy" src="{{asset('assets/img/courses/msc-nursing.jpg')}}" alt="courses" width="90" height="70">
+                                    <img loading="lazy" src="{{asset('assets/img/courses/bsc-nursing.jpg')}}" alt="courses" width="90" height="70">
                                 </div>
                                 <div class="course__details__populer__content">
                                     <h6>
@@ -119,7 +119,7 @@
                             <li>
 
                                 <div class="course__details__populer__img">
-                                    <img loading="lazy" src="{{asset('assets/img/courses/msc-nursing.jpg')}}" alt="courses" width="90" height="70">
+                                    <img loading="lazy" src="{{asset('assets/img/courses/course-7.jpg')}}" alt="courses" width="90" height="70">
                                 </div>
                                 <div class="course__details__populer__content">
                                     <h6>
@@ -130,7 +130,7 @@
                             <li>
 
                                 <div class="course__details__populer__img">
-                                    <img loading="lazy" src="{{asset('assets/img/courses/msc-nursing.jpg')}}" alt="courses" width="90" height="70">
+                                    <img loading="lazy" src="{{asset('assets/img/courses/course-8.jpg')}}" alt="courses" width="90" height="70">
                                 </div>
                                 <div class="course__details__populer__content">
                                     <h6>
