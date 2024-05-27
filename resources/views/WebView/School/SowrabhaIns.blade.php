@@ -45,7 +45,7 @@
                 <div class="blog__details__content__wraper">
                     <div class="course__button__wraper" data-aos="fade-up">
                         <div class="course__button">
-                        <a onclick="downloadPdf()" href="#" title="Download Prospectus"><i class="icofont-file-document"></i> Download
+                        <a href="/download-pdf" title="Download Prospectus"><i class="icofont-file-document"></i> Download
                                 Prospectus</a>
                         </div>
                         <div class="course__date">

@@ -163,7 +163,7 @@
                                                 <li><a target="_blank"
                                                         href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Online
                                                         Admission</a></li>
-                                                <li><a onclick="downloadPdf()" href="#">Prospestus Download</a>
+                                                <li><a href="/download-pdf">Prospestus Download</a>
                                                 </li>
                                                 <li><a target="_blank" href="javascript:void(0);">Application Form</a>
                                                 </li>
@@ -286,7 +286,7 @@
                                         <li><a target="_blank"
                                                 href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Online
                                                 Admission</a></li>
-                                        <li><a onclick="downloadPdf()" href="#">Prospestus Download</a></li>
+                                        <li><a href="/download-pdf">Prospestus Download</a></li>
                                         <li><a target="_blank" href="javascript:void(0);">Application Form</a></li>
                                     </ul>
                                 </li>
