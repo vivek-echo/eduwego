@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WebPipeLines\HomeController;
 use App\Http\Controllers\ApplicationPipeLines\NewsNoticeController;
+use App\Http\Controllers\WebPipeLines\ContactController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,13 +24,17 @@ Route::match(['get', 'post'], '/nursing', [HomeController::class,'nursingIndex']
 Route::match(['get', 'post'], '/bScNursing', [HomeController::class,'bscNursingIndex']);
 Route::match(['get', 'post'], '/paramedicals', [HomeController::class,'paramedicalsIndex']);
 Route::match(['get', 'post'], '/gallery', [HomeController::class,'galleryIndex']);
-Route::match(['get', 'post'], '/contacts', [HomeController::class,'contactsIndex']);
+
 Route::match(['get', 'post'], '/facilities', [HomeController::class,'facilitiesIndex']);
 Route::match(['get', 'post'], '/scholarship', [HomeController::class,'scholarshipIndex']);
 Route::match(['get', 'post'], '/sowrabha-institute-of-nursing-sciences', [HomeController::class,'sowrabhaInsIndex']);
 Route::match(['get', 'post'], '/enlight-institute-of-paramedical-sciences', [HomeController::class,'englightInsIndex']);
 Route::match(['get', 'post'], '/enlight-school-of-nursing', [HomeController::class,'enlightSchoolIndex']);
 Route::match(['get', 'post'], '/sri-shantidhama-school-of-nursing', [HomeController::class,'santidhamaschoolIndex']);
+
+/***contatct */
+Route::match(['get', 'post'], '/contacts', [ContactController::class,'contactsIndex']);
+Route::match(['get', 'post'], '/submitContact', [ContactController::class,'submitContact']);
 Route::middleware(['auth'])->group(function () {
     //Your routes here
     Route::match(['get', 'post'], '/ContentPageNewsNotice', [NewsNoticeController::class,'ContentPageNewsNoticeIndex']);
