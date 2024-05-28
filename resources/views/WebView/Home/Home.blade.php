@@ -405,7 +405,7 @@
                 </div>
             </div>
 
-            <div class="row row__custom__class">
+            <div class="row row__custom__class courses-slider">
 
                 <div class="swiper featured__course">
                     <div class="swiper-wrapper">
