@@ -2987,12 +2987,12 @@ Hero Banner Area
     padding-bottom: 200px;
   }
 
-  .swiper-button-next, .swiper-button-prev {
+  .courses-slider .swiper-button-next, .courses-slider .swiper-button-prev {
     --swiper-navigation-top-offset: 20px;
     top: var(--swiper-navigation-top-offset, 50%) !important;
   }
 
-  .swiper-button-prev, .swiper-rtl .swiper-button-next {
+  .courses-slider .swiper-button-prev, .courses-slider .swiper-rtl .swiper-button-next {
     --swiper-navigation-sides-offset: 8rem;
     right: var(--swiper-navigation-sides-offset, 10px);
     left: auto;
@@ -3000,12 +3000,12 @@ Hero Banner Area
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .swiper-button-next, .swiper-button-prev {
+  .courses-slider .swiper-button-next, .courses-slider .swiper-button-prev {
     --swiper-navigation-top-offset: 20px;
     top: var(--swiper-navigation-top-offset, 50%) !important;
   }
 
-  .swiper-button-prev, .swiper-rtl .swiper-button-next {
+  .courses-slider .swiper-button-prev, .courses-slider .swiper-rtl .swiper-button-next {
     --swiper-navigation-sides-offset: 8rem;
     right: var(--swiper-navigation-sides-offset, 10px);
     left: auto;
@@ -3016,18 +3016,18 @@ Hero Banner Area
     padding-bottom: 50px;
   }
 
-  .swiper-button-next, .swiper-button-prev {
+  .courses-slider .swiper-button-next, .courses-slider .swiper-button-prev {
     --swiper-navigation-top-offset: 20px;
     top: unset;
     bottom: var(--swiper-navigation-top-offset, 50%) !important;
   }
 
-  .swiper-button-prev, .swiper-rtl .swiper-button-next {
+  .courses-slider .swiper-button-prev, .courses-slider .swiper-rtl .swiper-button-next {
     --swiper-navigation-sides-offset: 8rem;
     right: var(--swiper-navigation-sides-offset, 10px);
   }
 
-  .swiper-button-next, .swiper-rtl .swiper-button-prev {
+  .courses-slider .swiper-button-next, .courses-slider .swiper-rtl .swiper-button-prev {
     --swiper-navigation-sides-offset: 9rem;
   }
 }
@@ -9956,6 +9956,7 @@ Breadcrumb Area
 @media (max-width: 767px) {
   .breadcrumb__content__wraper .breadcrumb__title h2 {
     font-size: 30px;
+    line-height: 40px;
   }
 }
 
