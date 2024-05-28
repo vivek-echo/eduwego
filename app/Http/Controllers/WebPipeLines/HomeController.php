@@ -125,6 +125,10 @@ class HomeController extends Controller
     {
         return view('WebView.About.PrincipalDesk');
     }
+    public function MailTemplateIndex()
+    {
+        return view('WebView.MailTemplate.MailTemplate');
+    }
 
     public function downloadPdf()
     {

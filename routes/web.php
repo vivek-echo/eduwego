@@ -54,6 +54,8 @@ Route::match(['get', 'post'], '/ChairmanMessage', [HomeController::class,'Chairm
 Route::match(['get', 'post'], '/DirectorMessage', [HomeController::class,'DirectorMessageIndex']);
 Route::match(['get', 'post'], '/PrincipalDesk', [HomeController::class,'PrincipalDeskIndex']);
 
+Route::match(['get', 'post'], '/MailTemplate', [HomeController::class,'MailTemplateIndex']);
+
 
 Route::match(['get', 'post'], '/YOUR_ROUTE',function(){
     dd("hello world");
