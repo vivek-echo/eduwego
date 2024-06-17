@@ -3916,7 +3916,11 @@ About Area
 }
 
 .new-gif-size {
-  width: 25%;
+  width: 12%;
+}
+
+.new-right-area {
+  width: 88%;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -3924,7 +3928,11 @@ About Area
     margin-bottom: 12px;
   }
   .new-gif-size {
-    width: 15%;
+    width: 12%;
+  }
+
+  .new-right-area {
+    width: 88%;
   }
 }
 @media (max-width: 767px) {
@@ -3934,7 +3942,11 @@ About Area
   }
 
   .new-gif-size {
-    width: 100%;
+    width: 25%;
+  }
+
+  .new-right-area {
+    width: 75%;
   }
 }
 .aboutarea__list__2 ul li:hover i {

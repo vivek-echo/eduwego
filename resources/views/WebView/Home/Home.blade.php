@@ -288,7 +288,7 @@
                                         <img src="{{asset('assets/img/newgif.gif')}}" alt="new-notice-image">
                                     </div>
                                 </div>
-                                <div class="blogarea__para">
+                                <div class="blogarea__para new-right-area">
                                     <p>{{$noticeVal->notice}}</p>
                                     <p class="align-items-center d-flex gap-2"><span><i class="icofont-calendar text-primary"></i></span>{{$noticeVal->publishDate}}</p>
                                 </div>
